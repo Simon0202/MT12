@@ -9,6 +9,7 @@
 \usepackage[frenchb]{babel}
 \usepackage{textcomp}
 \usepackage{graphicx}
+\usepackage{amsmath}
 
 
 %Début du rapport
@@ -36,7 +37,49 @@
 %Exercice 2
 \chapter{Classe de fonctions}
 	\begin{enumerate}
-	\item $f(x)=(sin  x)^{1/3}$
+	\item $f(x)=(sin\,x)^{1/3}$ \\ \\
+	La fonction f est définie sur l'intervalle ($-\pi;\pi$). Elle est compos\'ee d'une fonction sinus, ce qui la rend impaire. Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt{0}=0$. Elle est donc continue.
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.6]{ex2_fig1.png}
+		\caption{\label{figure1}Courbe de la fonction $f$.}
+		\end{figure}
+		\\
+	Sa d\'eriv\'ee est $f'(x)=\frac{1}{3} cos x (sin\,x)^{-2/3}$. Elle admet une asymptote verticale en $0$ et n'est donc pas continue.
+	Donc la fonction $f$ est continue, non d\'erivable en $0$.\\ \\
+	% Faut-il ajouter le programme Scilab ? Que veux dire "Commenter" ?
+	\item $f(x)=(sin\,x)^{4/3}$ \\ \\
+	La fonction f est définie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt[3]{0}=0$. Elle est donc continue.
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.6]{ex2_fig2.png}
+		\caption{\label{figure2}Courbe de la fonction $f$.}
+		\end{figure}
+		\\
+	Sa d\'eriv\'ee est $f'(x)=\frac{4}{3} cos\,x (sin\,x)^{1/3}$. Elle n'admet pas d'asymptote et est donc continue.
+	Donc la fonction $f$ est continue et d\'erivable, donc r\'eguli\`ere.\\ \\
+	\item $f(x)=
+  \left\{
+      \begin{aligned}
+        cos\,x\quad , si\quad\theta > 0\\
+        -cos\,x\quad ,si\quad\theta \le 0\\
+      \end{aligned}
+    \right.$ \\
+	La fonction f est définie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=1$ et $f(0^-)=-1$. Elle n'est donc pas continue en 0.
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.6]{ex2_fig3.png}
+		\caption{\label{figure2}Courbe de la fonction $f$.}
+		\end{figure}
+		\\
+	Elle est d\'erivable par morceaux et sa d\'eriv\'ee est $f'(x)=
+  \left\{
+      \begin{aligned}
+        -sin\,x\quad , si\quad\theta > 0\\
+        sin\,x\quad ,si\quad\theta \le 0\\
+      \end{aligned}
+    \right.$ \\
+	La fonction $f$ est continue par morceaux et d\'erivable par morceaux, donc r\'eguli\`ere par morceaux.\\ \\
 	\end{enumerate}
 %Exercice 3
 \chapter{Phénomène de Gibbs}
