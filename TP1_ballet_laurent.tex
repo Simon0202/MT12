@@ -221,7 +221,7 @@ b(10) = -0.000000\\$
 		\end{figure}
 		\\
 	Sa d\'eriv\'ee est $f'(x)=\frac{1}{3} cos x (sin\,x)^{-2/3}$. Elle admet une asymptote verticale en $0$ et n'est donc pas continue.
-	Donc la fonction $f$ est continue, non d\'erivable en $0$.\\ \\
+	La fonction $f$ est continue mais non d\'erivable sur ($-\pi;\pi$).\\ \\
 	% Faut-il ajouter le programme Scilab ? Que veux dire "Commenter" ?
 	\item $f(x)=(sin\,x)^{4/3}$ \\ \\
 	La fonction f est dŽfinie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt[3]{0}=0$. Elle est donc continue.
@@ -232,26 +232,70 @@ b(10) = -0.000000\\$
 		\end{figure}
 		\\
 	Sa d\'eriv\'ee est $f'(x)=\frac{4}{3} cos\,x (sin\,x)^{1/3}$. Elle n'admet pas d'asymptote et est donc continue.
-	Donc la fonction $f$ est continue et d\'erivable, donc r\'eguli\`ere.\\ \\
+	La fonction $f$ est continue et d\'erivable, donc r\'eguli\`ere.\\ \\
 	\item $f(x)=
   \left\{
       \begin{aligned}
-        cos\,x\quad , si\quad\theta > 0\\
-        -cos\,x\quad ,si\quad\theta \le 0\\
+        cos\,x\quad , si\quad x > 0\\
+        -cos\,x\quad ,si\quad x \le 0\\
       \end{aligned}
     \right.$ \\
 	La fonction f est dŽfinie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=1$ et $f(0^-)=-1$. Elle n'est donc pas continue en 0.
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[scale=0.6]{ex2_fig3.png}
-		\caption{\label{figure2}Courbe de la fonction $f$.}
+		\caption{\label{figure3}Courbe de la fonction $f$.}
 		\end{figure}
 		\\
 	Elle est d\'erivable par morceaux et sa d\'eriv\'ee est $f'(x)=
   \left\{
       \begin{aligned}
-        -sin\,x\quad , si\quad\theta > 0\\
-        sin\,x\quad ,si\quad\theta \le 0\\
+        -sin\,x\quad , si\quad x > 0\\
+        sin\,x\quad ,si\quad x \le 0\\
+      \end{aligned}
+    \right.$ \\
+	La fonction $f$ est continue par morceaux et d\'erivable par morceaux, donc r\'eguli\`ere par morceaux.\\ \\
+	\item $f(x)=
+  \left\{
+      \begin{aligned}
+        sin\,x\quad , si\quad x > 0\\
+        -sin\,2x\quad ,si\quad x \le 0\\
+      \end{aligned}
+    \right.$ \\ \\
+	La fonction f est dŽfinie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=0$. Elle est donc continue.
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.6]{ex2_fig4.png}
+		\caption{\label{figure4}Courbe de la fonction $f$.}
+		\end{figure}
+		\\
+	Elle est d\'erivable par morceaux et sa d\'eriv\'ee est $f'(x)=
+  \left\{
+      \begin{aligned}
+        cos\,x\quad , si\quad x > 0\\
+        -2cos\,2x\quad ,si\quad x \le 0\\
+      \end{aligned}
+    \right.$ \\
+	La fonction $f$ est continue et d\'erivable par morceaux, donc r\'eguli\`ere par morceaux.\\ \\
+	\item $f(x)=
+  \left\{
+      \begin{aligned}
+        (sin\,x)^{1/5}\quad , si\quad x < \pi/2\\
+        -cos\,x\quad ,si\quad x \ge \pi/2\\
+      \end{aligned}
+    \right.$ \\ \\
+	La fonction f est dŽfinie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt{0}=0$ et $f(\pi/2)=0$ et $\lim\limits_{\substack{x \rightarrow \pi/2 \\ x>\pi/2}} f(x)$. Elle est continue en 0 mais pas en $\pi/2$, elle est donc continue par morceaux.
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.6]{ex2_fig5.png}
+		\caption{\label{figure5}Courbe de la fonction $f$.}
+		\end{figure}
+		\\
+	Elle est d\'erivable par morceaux et sa d\'eriv\'ee est $f'(x)=
+  \left\{
+      \begin{aligned}
+        \frac{1}{5}cos\,x\,(sin\,x)^{1/5}\quad , si\quad x < \pi/2\\
+        sin\,x\quad ,si\quad x \ge \pi/2\\
       \end{aligned}
     \right.$ \\
 	La fonction $f$ est continue par morceaux et d\'erivable par morceaux, donc r\'eguli\`ere par morceaux.\\ \\
