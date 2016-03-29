@@ -37,19 +37,17 @@
 		\item $f$ est $2\pi$ périodique, impaire et vaut $f(x)=1, x \in [0,\pi]$ \\ \\
 		\begin{enumerate}
 			\item Coefficients de Fourier \\ \\
-			Les $b(i)$ étant nuls. On obtient ainsi les coefficients suivants pour les $a(i)$ : \\ \\
-			$a(1) = 1.273240$\\
-			$a(2) = 0.000000$ \\
-			$a(3) = 0.141471$\\
-			$a(4) = 0.000000$\\
-			$a(5) = 0.050930$\\
-			$a(6) = -0.000000$\\
-			$a(7) = 0.025984$\\
-			$a(8) = 0.000000$\\
-			$a(9) = 0.015719$\\
-			$a(10) = 0.000000$\\
-
-			avec $a(0) = 3.141593$\\
+			Les $a(i)$ étant nuls. On obtient ainsi les coefficients suivants pour les $b(i)$ : \\ \\
+			$b(1) = 1.273240$\\
+			$b(2) = 0.000000$ \\
+			$b(3) = 0.424413$\\
+			$b(4) = 0.000000$\\
+			$b(5) = 0.254648$\\
+			$b(6) = -0.000000$\\
+			$b(7) = 0.181891$\\
+			$b(8) = 0.000000$\\
+			$b(9) = 0.141471$\\
+			$b(10) = 0.000000$\\
 			\item Série de Fourier \\ \\
 
 			\item Graphe original et ses dix premières approximations \\ \\
@@ -170,7 +168,7 @@ avec $a(0) = 6.579736$\\
 		\newpage
 		
 		%5.
-		\item $f$ est $2\pi$ périodique, paire et vaut $f(x)=x^{2}, x \in [0,\pi]$ \\ \\
+		\item $f$ est $2\pi$ périodique, impaire et vaut $f(x)=x(\pi + |x|), x \in [-\pi,\pi]$ \\ \\
 		\begin{enumerate}
 			\item Coefficients de Fourier \\ \\
 			Les $a(i)$ étant nuls. On obtient ainsi les coefficients suivants pour les $b(i)$ : \\ \\
@@ -302,6 +300,31 @@ b(10) = -0.000000\\$
 	\end{enumerate}
 %Exercice 3
 \chapter{Phénomène de Gibbs}
+\section{D\'emonstration}
+Soit f la fonction 2$\pi$-p\'eriodique et impaire telle que $f(x) = 1$ sur $[0; \pi]$.\\
+
+Nous allons montrer que $S_{f(x)}=\frac{4}{\pi}\sum\limits_{n=0}^{\infty}\frac{sin(2k-1)}{2k-1}$\\\\
+
+Nous savons que $S_{f(x)}=\sum\limits_{n=0}^{\infty} b_{n}sin(nx)$, car f est impaire.\\
+Or, \begin{large}
+$b_{n}=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)sin(nx)$\\
+		 $=\frac{1}{\pi}\int_{-\pi}^{0}f(x)sin(nx)\,+\,\frac{1}{\pi}\int_{0}^{\pi}f(x)sin(nx)$\\
+		 $=-\frac{1}{\pi}\int_{-\pi}^{0}sin(nx)\,+\,\frac{1}{\pi}\int_{0}^{\pi}sin(nx)$\\
+		 $=\frac{1}{\pi}\int_{0}^{\pi}sin(nx)\,+\,\frac{1}{\pi}\int_{0}^{\pi}sin(nx)$\\
+		 $=\frac{2}{\pi}\int_{0}^{\pi}sin(nx)$\\
+		 $=\frac{2}{\pi}\lbrack\frac{-cosnx}{k}\rbrack_0^\pi$\\
+		 $=\frac{2}{\pi}(-\frac{cosn\pi}{n}+\frac{1}{n})$\\
+		 $=\frac{2}{\pi}(-\frac{cosn\pi}{n}+\frac{1}{n})$\\
+	\end{large}
+D'o˘ \begin{large}
+$S_{f(x)}=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)sin(nx)$\\
+		$=\frac{2}{\pi}\sum\limits_{n=0}^{\infty}\frac{1-cosnx}{n}sinnx$\\
+		$=\frac{2}{\pi}\sum\limits_{n=0}^{\infty}\frac{1-(-1)^{n}}{n}sinnx$\\
+		$=\frac{2}{\pi}\sum\limits_{n\,pair}^{\infty}\frac{1-(-1)^{n}}{n}sinnx\,+\,\frac{2}{\pi}\sum\limits_{n\,impair}^{\infty}\frac{1-(-1)^{n}}{n}sinnx$\\
+		$=\frac{4}{\pi}\sum\limits_{n\,impair}^{\infty}\frac{sinnx}{n}$\\
+		$=\frac{4}{\pi}\sum\limits_{n=1}^{\infty}\frac{sin(2k-1)x}{2k-1}$, o˘ $n=2k-1$\\
+	\end{large}
+
 
 %Exercice 4
 \chapter{Application des série de Fourier}
