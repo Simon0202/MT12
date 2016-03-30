@@ -3,62 +3,61 @@
 \documentclass[a4paper,12pt]{report}
 
 %Paquets
-\usepackage[applemac]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern,textcomp}
 \usepackage[frenchb]{babel}
 \usepackage{textcomp}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{float}
+\usepackage{here}
 
-
-%Début du rapport
+%D√©but du rapport
 \begin{document}
 
 %Page de garde
-\title{Rapport n°1 MT12}
+\title{Rapport \no MT12}
 \author{Alexandre Ballet et Simon LAURENT}
 \date{Printemps 2016}
    
   %  \begin{minipage}{0.4\textwidth}
      % \begin{flushleft} \large
         %\emph{Enseignant :} M. Dajlil Kateb\\
-        %\emph{Etablissement : } Université de Technologie de Compiègne
+        %\emph{Etablissement : } Universit√© de Technologie de Compi¬ègne
       %\end{flushright}
     %\end{minipage}
 \maketitle
 
-%Table des matières
+%Table des mati¬ères
 \tableofcontents
 
 %Exercice 1
-\chapter{Série de Fourier}
+\chapter{S√©rie de Fourier}
 	\begin{enumerate}
-		\item $f$ est $2\pi$ périodique, impaire et vaut $f(x)=1, x \in [0,\pi]$ \\ \\
+		\item $f$ est $2\pi$ p√©riodique, impaire et vaut $f(x)=1, x \in [0,\pi]$ \\ \\
 		\begin{enumerate}
 			\item Coefficients de Fourier \\ \\
-			Les $a(i)$ étant nuls. On obtient ainsi les coefficients suivants pour les $b(i)$ : \\ \\
-			$b(1) = 1.273240$\\
-			$b(2) = 0.000000$ \\
-			$b(3) = 0.424413$\\
-			$b(4) = 0.000000$\\
-			$b(5) = 0.254648$\\
-			$b(6) = -0.000000$\\
-			$b(7) = 0.181891$\\
-			$b(8) = 0.000000$\\
-			$b(9) = 0.141471$\\
-			$b(10) = 0.000000$\\
-			\item Série de Fourier \\ \\
+			Les $a(i)$ √©tant nuls. On obtient ainsi les coefficients suivants pour les $b(i)$ : \\ \\
+			\begin{tabular}{l l}
+				$b(1) = 1.273240$ & \hspace*{2cm}$b(6) = -0.000000$\\
+				$b(2) = 0.000000$ & \hspace*{2cm}$b(7) = 0.181891$\\
+				$b(3) = 0.424413$ & \hspace*{2cm}$b(8) = 0.000000$\\
+				$b(4) = 0.000000$ & \hspace*{2cm}$b(9) = 0.141471$\\
+				$b(5) = 0.254648$ & \hspace*{2cm}$b(10) = 0.000000$\\
+			\end{tabular}
+			\item S√©rie de Fourier \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
 
-			\item Graphe original et ses dix premières approximations \\ \\
-			\begin{figure}[h]
+			\item Graphe original et ses dix premi¬è√®res approximations\\
+			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig1_1.png}\\*
 				\caption{\label{ex1_figure1_1}Courbe de la fonction $f$.}
 			\end{figure}\\
 		
-			\item Richesse fréquentielle du signal \\ \\
-			\begin{figure}[h]
+			\item Richesse fr√©quentielle du signal\\
+			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig1_2.png}\\*
 				\caption{\label{ex1_figure1_2}Richesse du signal $f$.}
@@ -67,10 +66,10 @@
 		\newpage
 	
 	%2.
-		\item $f$ est $2\pi$ périodique, impaire et vaut $f(x)=x, x \in [0,\pi]$ \\ \\
+		\item $f$ est $2\pi$ p√©riodique, impaire et vaut $f(x)=x, x \in [0,\pi]$ \\ \\
 		\begin{enumerate}
 			\item Coefficients de Fourier \\ \\
-			Les $a(i)$ étant nuls. On obtient ainsi les coefficients suivants pour les $b(i)$ : \\ \\
+			Les $a(i)$ √©tant nuls. On obtient ainsi les coefficients suivants pour les $b(i)$ : \\ \\
 			$b(1) = 2.000000\\
 			b(2) = -1.000000\\
 			b(3) = 0.666667\\
@@ -81,17 +80,17 @@
 			b(8) = -0.250000\\
 			b(9) = 0.222222\\
 			b(10) = -0.200000$\\
-			\item Série de Fourier \\ \\
+			\item S√©rie de Fourier \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
 
-			\item Graphe original et ses dix premières approximations \\ \\
-			\begin{figure}[h]
+			\item Graphe original et ses dix premi¬è√®res approximations \\ \\
+			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig2_1.png}\\*
 				\caption{\label{ex1_figure2_1}Courbe de la fonction $f$.}
 			\end{figure}\\
 		
-			\item Richesse fréquentielle du signal \\ \\
-			\begin{figure}[h]
+			\item Richesse fr√©quentielle du signal \\ \\
+			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig2_2.png}\\*
 				\caption{\label{ex1_figure2_2}Richesse du signal $f$.}
@@ -100,10 +99,10 @@
 				\newpage
 		
 		%3.
-		\item $f$ est $2\pi$ périodique, paire et vaut $f(x)=x, x \in [0,\pi]$ \\ \\
+		\item $f$ est $2\pi$ p√©riodique, paire et vaut $f(x)=x, x \in [0,\pi]$ \\ \\
 		\begin{enumerate}
 			\item Coefficients de Fourier \\ \\
-			Les $b(i)$ étant nuls. On obtient ainsi les coefficients suivants pour les $a(i)$ : \\ \\
+			Les $b(i)$ √©tant nuls. On obtient ainsi les coefficients suivants pour les $a(i)$ : \\ \\
 			$a(1) = 1.273240
 a(2) = 0.000000\\
 a(3) = 0.141471\\
@@ -115,17 +114,17 @@ a(8) = 0.000000\\
 a(9) = 0.015719\\
 a(10) = 0.000000$\\ \\
 avec $a(0) = 3.141593$\\
-			\item Série de Fourier \\ \\
+			\item S√©rie de Fourier \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
 
-			\item Graphe original et ses dix premières approximations \\ \\
-			\begin{figure}[h]
+			\item Graphe original et ses dix premi¬è√®res approximations \\ \\
+			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig3_1.png}\\*
 				\caption{\label{ex1_figure3_1}Courbe de la fonction $f$.}
 			\end{figure}\\
 		
-			\item Richesse fréquentielle du signal \\ \\
-			\begin{figure}[h]
+			\item Richesse fr√©quentielle du signal \\ \\
+			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig3_2.png}\\*
 				\caption{\label{ex1_figure3_2}Richesse du signal $f$.}
@@ -134,10 +133,10 @@ avec $a(0) = 3.141593$\\
 				\newpage
 		
 		%4.
-		\item $f$ est $2\pi$ périodique, paire et vaut $f(x)=x^{2}, x \in [0,\pi]$ \\ \\
+		\item $f$ est $2\pi$ p√©riodique, paire et vaut $f(x)=x^{2}, x \in [0,\pi]$ \\ \\
 		\begin{enumerate}
 			\item Coefficients de Fourier \\ \\
-			Les $b(i)$ étant nuls. On obtient ainsi les coefficients suivants pour les $a(i)$ : \\ \\
+			Les $b(i)$ √©tant nuls. On obtient ainsi les coefficients suivants pour les $a(i)$ : \\ \\
 			$a(1) = -4.000000\\
 a(2) = 1.000000\\
 a(3) = -0.444444\\
@@ -149,17 +148,17 @@ a(8) = 0.062500\\
 a(9) = -0.049383\\
 a(10) = 0.040000$\\ \\
 avec $a(0) = 6.579736$\\
-			\item Série de Fourier \\ \\
+			\item S√©rie de Fourier \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
 
-			\item Graphe original et ses dix premières approximations \\ \\
-			\begin{figure}[h]
+			\item Graphe original et ses dix premi¬è√®res approximations \\ \\
+			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig4_1.png}\\*
 				\caption{\label{ex1_figure4_1}Courbe de la fonction $f$.}
 			\end{figure}\\
 		
-			\item Richesse fréquentielle du signal \\ \\
-			\begin{figure}[h]
+			\item Richesse fr√©quentielle du signal \\ \\
+			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig4_2.png}\\*
 				\caption{\label{ex1_figure4_2}Richesse du signal $f$.}
@@ -168,10 +167,10 @@ avec $a(0) = 6.579736$\\
 		\newpage
 		
 		%5.
-		\item $f$ est $2\pi$ périodique, impaire et vaut $f(x)=x(\pi + |x|), x \in [-\pi,\pi]$ \\ \\
+		\item $f$ est $2\pi$ p√©riodique, impaire et vaut $f(x)=x(\pi + |x|), x \in [-\pi,\pi]$ \\ \\
 		\begin{enumerate}
 			\item Coefficients de Fourier \\ \\
-			Les $a(i)$ étant nuls. On obtient ainsi les coefficients suivants pour les $b(i)$ : \\ \\
+			Les $a(i)$ √©tant nuls. On obtient ainsi les coefficients suivants pour les $b(i)$ : \\ \\
 			$b(1) = 2.546479\\
 b(2) = 0.000000\\
 b(3) = 0.094314\\
@@ -182,17 +181,17 @@ b(7) = 0.007424\\
 b(8) = -0.000000\\
 b(9) = 0.003493\\
 b(10) = -0.000000\\$
-			\item Série de Fourier \\ \\
+			\item S√©rie de Fourier \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
 
-			\item Graphe original et ses dix premières approximations \\ \\
-			\begin{figure}[h]
+			\item Graphe original et ses dix premi¬è√®res approximations \\ \\
+			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig5_1.png}\\*
 				\caption{\label{ex1_figure5_1}Courbe de la fonction $f$.}
 			\end{figure}\\
 		
-			\item Richesse fréquentielle du signal \\ \\
-			\begin{figure}[h]
+			\item Richesse fr√©quentielle du signal \\ \\
+			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig5_2.png}\\*
 				\caption{\label{ex1_figure5_2}Richesse du signal $f$.}
@@ -208,11 +207,11 @@ b(10) = -0.000000\\$
 	
 
 %Exercice 2
-\chapter{Classe de fonctions}
+\chapter{Etude de fonctions}
 	\begin{enumerate}
 	\item $f(x)=(sin\,x)^{1/3}$ \\ \\
-	La fonction f est définie sur l'intervalle ($-\pi;\pi$). Elle est compos\'ee d'une fonction sinus, ce qui la rend impaire. Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt{0}=0$. Elle est donc continue.
-	\begin{figure}[ht]
+	La fonction f est d√©finie sur l'intervalle ($-\pi;\pi$). Elle est compos\'ee d'une fonction sinus, ce qui la rend impaire. Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt{0}=0$. Elle est donc continue.
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex2_fig1.png}
 		\caption{\label{figure1}Courbe de la fonction $f$.}
@@ -222,8 +221,8 @@ b(10) = -0.000000\\$
 	La fonction $f$ est continue mais non d\'erivable sur ($-\pi;\pi$).\\ \\
 	% Faut-il ajouter le programme Scilab ? Que veux dire "Commenter" ?
 	\item $f(x)=(sin\,x)^{4/3}$ \\ \\
-	La fonction f est définie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt[3]{0}=0$. Elle est donc continue.
-	\begin{figure}[ht]
+	La fonction f est d√©finie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt[3]{0}=0$. Elle est donc continue.
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex2_fig2.png}
 		\caption{\label{figure2}Courbe de la fonction $f$.}
@@ -238,8 +237,8 @@ b(10) = -0.000000\\$
         -cos\,x\quad ,si\quad x \le 0\\
       \end{aligned}
     \right.$ \\
-	La fonction f est définie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=1$ et $f(0^-)=-1$. Elle n'est donc pas continue en 0.
-	\begin{figure}[ht]
+	La fonction f est d√©finie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=1$ et $f(0^-)=-1$. Elle n'est donc pas continue en 0.
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex2_fig3.png}
 		\caption{\label{figure3}Courbe de la fonction $f$.}
@@ -260,8 +259,8 @@ b(10) = -0.000000\\$
         -sin\,2x\quad ,si\quad x \le 0\\
       \end{aligned}
     \right.$ \\ \\
-	La fonction f est définie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=0$. Elle est donc continue.
-	\begin{figure}[ht]
+	La fonction f est d√©finie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=0$. Elle est donc continue.
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex2_fig4.png}
 		\caption{\label{figure4}Courbe de la fonction $f$.}
@@ -282,8 +281,8 @@ b(10) = -0.000000\\$
         -cos\,x\quad ,si\quad x \ge \pi/2\\
       \end{aligned}
     \right.$ \\ \\
-	La fonction f est définie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt{0}=0$ et $f(\pi/2)=0$ et $\lim\limits_{\substack{x \rightarrow \pi/2 \\ x>\pi/2}} f(x)$. Elle est continue en 0 mais pas en $\pi/2$, elle est donc continue par morceaux.
-	\begin{figure}[ht]
+	La fonction f est d√©finie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt{0}=0$ et $f(\pi/2)=0$ et $\lim\limits_{\substack{x \rightarrow \pi/2 \\ x>\pi/2}} f(x)$. Elle est continue en 0 mais pas en $\pi/2$, elle est donc continue par morceaux.
+	\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex2_fig5.png}
 		\caption{\label{figure5}Courbe de la fonction $f$.}
@@ -296,53 +295,54 @@ b(10) = -0.000000\\$
         sin\,x\quad ,si\quad x \ge \pi/2\\
       \end{aligned}
     \right.$ \\
-	La fonction $f$ est continue par morceaux et d\'erivable par morceaux, donc r\'eguli\`ere par morceaux.\\ \\
+	La fonction $f$ est continue par morceaux et d√©rivable par morceaux, donc r√©guli√®re par morceaux.\\ \\
 	\end{enumerate}
 %Exercice 3
-\chapter{Phénomène de Gibbs}
-\section{D\'emonstration}
-Soit f la fonction 2$\pi$-p\'eriodique et impaire telle que $f(x) = 1$ sur $[0; \pi]$.\\
+\chapter{Ph√©nom√®ne de Gibbs}
+\section{D√©monstration}
+Soit f la fonction 2$\pi$-p√©riodique et impaire telle que $f(x) = 1$ sur $[0; \pi]$.\\
 
-Nous allons montrer que $S_{f(x)}=\frac{4}{\pi}\sum\limits_{n=0}^{\infty}\frac{sin(2k-1)}{2k-1}$\\\\
+Nous allons montrer que \[S_{f(x)}=\frac{4}{\pi}\sum\limits_{n=0}^{\infty}\frac{sin(2k-1)}{2k-1}\]
 
-Nous savons que $S_{f(x)}=\sum\limits_{n=0}^{\infty} b_{n}sin(nx)$, car f est impaire.\\
-Or, \begin{large}
-$b_{n}=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)sin(nx)$\\
-		 $=\frac{1}{\pi}\int_{-\pi}^{0}f(x)sin(nx)\,+\,\frac{1}{\pi}\int_{0}^{\pi}f(x)sin(nx)$\\
-		 $=-\frac{1}{\pi}\int_{-\pi}^{0}sin(nx)\,+\,\frac{1}{\pi}\int_{0}^{\pi}sin(nx)$\\
-		 $=\frac{1}{\pi}\int_{0}^{\pi}sin(nx)\,+\,\frac{1}{\pi}\int_{0}^{\pi}sin(nx)$\\
-		 $=\frac{2}{\pi}\int_{0}^{\pi}sin(nx)$\\
-		 $=\frac{2}{\pi}\lbrack\frac{-cosnx}{k}\rbrack_0^\pi$\\
-		 $=\frac{2}{\pi}(-\frac{cosn\pi}{n}+\frac{1}{n})$\\
-		 $=\frac{2}{\pi}(-\frac{cosn\pi}{n}+\frac{1}{n})$\\
-	\end{large}
-D'o˘ \begin{large}
-$S_{f(x)}=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)sin(nx)$\\
-		$=\frac{2}{\pi}\sum\limits_{n=0}^{\infty}\frac{1-cosnx}{n}sinnx$\\
-		$=\frac{2}{\pi}\sum\limits_{n=0}^{\infty}\frac{1-(-1)^{n}}{n}sinnx$\\
-		$=\frac{2}{\pi}\sum\limits_{n\,pair}^{\infty}\frac{1-(-1)^{n}}{n}sinnx\,+\,\frac{2}{\pi}\sum\limits_{n\,impair}^{\infty}\frac{1-(-1)^{n}}{n}sinnx$\\
-		$=\frac{4}{\pi}\sum\limits_{n\,impair}^{\infty}\frac{sinnx}{n}$\\
-		$=\frac{4}{\pi}\sum\limits_{n=1}^{\infty}\frac{sin(2k-1)x}{2k-1}$, o˘ $n=2k-1$\\
-	\end{large}
+Nous savons que $S_{f(x)}=\displaystyle\sum\limits_{n=0}^{\infty} b_{n}sinnx$, car f est impaire.\\
+Or, \begin{eqnarray*}
+b_{n}&=&\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)sinnx\\
+		 &=&\frac{1}{\pi}\int_{-\pi}^{0}f(x)sinnx\,+\,\frac{1}{\pi}\int_{0}^{\pi}f(x)sinnx\\
+		 &=&-\frac{1}{\pi}\int_{-\pi}^{0}sinnx\,+\,\frac{1}{\pi}\int_{0}^{\pi}sinnx\\
+		 &=&\frac{1}{\pi}\int_{0}^{\pi}sinnx\,+\,\frac{1}{\pi}\int_{0}^{\pi}sinnx\\
+		 &=&\frac{2}{\pi}\int_{0}^{\pi}sinnx\\
+		&=&\frac{2}{\pi}\left[\frac{-cosnx}{k}\right]_0^\pi\\
+		 &=&\frac{2}{\pi}\left(-\frac{cosn\pi}{n}+\frac{1}{n}\right)\\
+		 &=&\frac{2}{\pi}\left(-\frac{cosn\pi}{n}+\frac{1}{n}\right)\\
+	\end{eqnarray*}
+D'o\`u \begin{eqnarray*}
+S_{f(x)}&=&\frac{2}{\pi}\displaystyle\sum\limits_{n=0}^{\infty}\frac{1-cosnx}{n}sinnx\\
+		&=&\frac{2}{\pi}\displaystyle\sum\limits_{n=0}^{\infty}\frac{1-(-1)^{n}}{n}sinnx\\
+		&=&\frac{2}{\pi}\sum\limits_{n\,pair}^{\infty}\frac{1-(-1)^{n}}{n}sinnx\,+\,\frac{2}{\pi}\sum\limits_{n\,impair}^{\infty}\frac{1-(-1)^{n}}{n}sinnx\\
+		&=&\frac{4}{\pi}\sum\limits_{n\,impair}^{\infty}\frac{sinnx}{n}\\
+		&=&\frac{4}{\pi}\sum\limits_{n=1}^{\infty}\frac{sin(2k-1)x}{2k-1}\qquad,\;\text{o\`u}\;n=2k-1\;,\;k\,\in\,\pmb{\mathbb{R}}\\
+	\end{eqnarray*}
+\section{Approximations de Fourier}
 
+\section{Explication du ph\'enom\`ene}
 
 %Exercice 4
-\chapter{Application des série de Fourier}
-\section{La corde pincé}
-\section{La corde frappée}
+\chapter{Application des s√©rie de Fourier}
+\section{La corde pinc√©e}
+\section{La corde frapp√©e}
 
 %Exercice 5
 \chapter{Equation de la chaleur}
 
-%Complément au TP
-\chapter{Compléments}
+%Compl√©ment au TP
+\chapter{Compl√©ments}
 \section{Finance}
 \section{Informatique}
 
 %Test de texte
 Comme le disait Jean de la Fontaine dans sa fable :
 \begin{quote}
-Rien de sert de courir, il faut partir à point.
+Rien de sert de courir, il faut partir √† point.
 \end{quote}
 
 
