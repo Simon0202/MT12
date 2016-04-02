@@ -15,7 +15,7 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amsfonts}
-%Pour faire un tableau de dŽrivŽ
+%Pour faire un tableau de d\'eriv\'e
 \usepackage{tikz,tkz-tab}
 \usepackage{float}
 \usepackage{here}
@@ -23,6 +23,28 @@
 
 
 \renewcommand{\baselinestretch}{1.5}
+\makeatletter
+\def\@makechapterhead#1{%
+  \vspace*{25\p@}%
+  {\parindent \z@ \raggedright \normalfont
+    \interlinepenalty\@M
+    \ifnum \c@secnumdepth >\m@ne
+        \Huge\bfseries \thechapter\quad
+    \fi
+    \Huge \bfseries #1\par\nobreak
+    \vskip 20\p@
+  }}
+
+\def\@makeschapterhead#1{%
+  \vspace*{20\p@}%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \Huge \bfseries  #1\par\nobreak
+    \vskip 20\p@
+  }}
+\makeatother
+
 %D\'ebut du rapport
 \begin{document}
 
@@ -45,7 +67,7 @@
 %Exercice 1
 \chapter{S\'erie de Fourier}
 	\begin{enumerate}
-		\item $f$ est $2\pi$ p\'eriodique, impaire et vaut $f(x)=1, x \in [0,\pi]$ \\ \\
+		\item $f$ est $2\pi$ p\'eriodique, impaire et vaut $f(x)=1, x \in [0,\pi]$\\
 		\begin{enumerate}
 			\item Coefficients de Fourier \\ \\
 			Les $a(i)$ \'etant nuls. On obtient ainsi les coefficients suivants pour les $b(i)$ : \\ \\
@@ -58,12 +80,13 @@
 					$b(5) = 0.254648$ & \hspace*{2cm}$b(10) = 0.000000$\\
 				\end{tabular}
 			\end{centering}\\ \\
-			\item S\'erie de Fourier \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
+			\item S\'erie de Fourier
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig1_0.png}\\*
 				\caption{\label{ex1_figure1_0}Courbe de la fonction $f$.}
 			\end{figure}\\
+			\newpage
 			\item Graphe original et ses dix premi\`eres approximations
 			\begin{figure}[h!]
 				\centering
@@ -81,7 +104,7 @@
 		\newpage
 	
 	%2.
-		\item $f$ est $2\pi$ p\'eriodique, impaire et vaut $f(x)=x, x \in [0,\pi]$ \\ \\
+		\item $f$ est $2\pi$ p\'eriodique, impaire et vaut $f(x)=x, x \in [0,\pi]$ \\
 		\begin{enumerate}
 			\item Coefficients de Fourier \\ \\
 			Les $a(i)$ \'etant nuls. On obtient ainsi les coefficients suivants pour les $b(i)$ : \\ \\
@@ -92,12 +115,13 @@
 				$b(4) = -0.500000$ & \hspace*{2cm}$b(9) = 0.222222$\\
 				$b(5) = 0.400000$ & \hspace*{2cm}$b(10) = -0.200000$\\
 			\end{tabular}\\ \\
-			\item S\'erie de Fourier \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
+			\item S\'erie de Fourier
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig2_0.png}\\*
 				\caption{\label{ex1_figure2_0}Courbe de la fonction $f$.}
-			\end{figure}\\
+			\end{figure}\\ 
+			\newpage
 			\item Graphe original et ses dix premi\`eres approximations
 			\begin{figure}[h!]
 				\centering
@@ -115,7 +139,7 @@
 				\newpage
 		
 		%3.
-		\item $f$ est $2\pi$ p\'eriodique, paire et vaut $f(x)=x, x \in [0,\pi]$ \\ \\
+		\item $f$ est $2\pi$ p\'eriodique, paire et vaut $f(x)=x, x \in [0,\pi]$ \\
 		\begin{enumerate}
 			\item Coefficients de Fourier \\ \\
 			Les $b(i)$ \'etant nuls. On obtient ainsi les coefficients suivants pour les $a(i)$ : \\ \\
@@ -127,12 +151,13 @@
 				$a(5) = 0.050930$ & \hspace*{2cm}$a(10) = 0.000000$\\
 			\end{tabular}\\
 			avec $a(0) = 3.141593$\\ \\
-			\item S\'erie de Fourier \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
+			\item S\'erie de Fourier
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig3_0.png}\\*
 				\caption{\label{ex1_figure3_0}Courbe de la fonction $f$.}
 			\end{figure}\\
+			\newpage
 			\item Graphe original et ses dix premi\`eres approximations
 			\begin{figure}[h!]
 				\centering
@@ -150,7 +175,7 @@
 				\newpage
 		
 		%4.
-		\item $f$ est $2\pi$ p\'eriodique, paire et vaut $f(x)=x^{2}, x \in [0,\pi]$ \\ \\
+		\item $f$ est $2\pi$ p\'eriodique, paire et vaut $f(x)=x^{2}, x \in [0,\pi]$ \\
 		\begin{enumerate}
 			\item Coefficients de Fourier \\ \\
 			Les $b(i)$ \'etant nuls. On obtient ainsi les coefficients suivants pour les $a(i)$ : \\ \\
@@ -162,12 +187,13 @@
 				$a(5) = -0.160000$ & \hspace*{2cm}$a(10) = 0.040000$\\
 			\end{tabular}\\
 			avec $a(0) = 6.579736$\\ \\
-			\item S\'erie de Fourier \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
+			\item S\'erie de Fourier
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig4_0.png}\\*
 				\caption{\label{ex1_figure4_0}Courbe de la fonction $f$.}
 			\end{figure}\\
+			\newpage
 			\item Graphe original et ses dix premi\`eres approximations
 			\begin{figure}[h!]
 				\centering
@@ -185,7 +211,7 @@
 		\newpage
 		
 		%5.
-		\item $f$ est $2\pi$ p\'eriodique, impaire et vaut $f(x)=x(\pi + |x|), x \in [-\pi,\pi]$ \\ \\
+		\item $f$ est $2\pi$ p\'eriodique, impaire et vaut $f(x)=x(\pi + |x|), x \in [-\pi,\pi]$ \\
 		\begin{enumerate}
 			\item Coefficients de Fourier \\ \\
 			Les $a(i)$ \'etant nuls. On obtient ainsi les coefficients suivants pour les $b(i)$ : \\ \\
@@ -196,12 +222,13 @@
 				$b(4) = -0.000000$ & \hspace*{2cm}$b(9) = 0.003493$\\
 				$b(5) = 0.020372$ & \hspace*{2cm}$b(10) = -0.000000$\\
 			\end{tabular}\\ \\
-			\item S\'erie de Fourier \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\
+			\item S\'erie de Fourier
 			\begin{figure}[h!]
 				\centering
 				\includegraphics[scale=0.6]{ex1_fig5_0.png}\\*
 				\caption{\label{ex1_figure5_0}Courbe de la fonction $f$.}
 			\end{figure}\\
+			\newpage
 			\item Graphe original et ses dix premi\`eres approximations
 			\begin{figure}[h!]
 				\centering
@@ -295,7 +322,7 @@
 	Elle est d\'erivable par morceaux et sa d\'eriv\'ee est \[f'(x)=
   \left\{
       \begin{aligned}
-        cos\,x\quad , si\quad x > 0\\
+        cos\,x\quad \;, si\quad x > 0\\
         -2cos\,2x\quad ,si\quad x \le 0\\
       \end{aligned}
     \right.\]
@@ -305,11 +332,11 @@
 	\item \[f(x)=
   \left\{
       \begin{aligned}
-        (sin\,x)^{1/5}\quad , si\quad x < \pi/2\\
-        -cos\,x\quad ,si\quad x \ge \pi/2\\
+        (sin\,x)^{1/5}\;\; , si\quad x < \pi/2\\
+        -cos\,x\quad \;,si\quad x \ge \pi/2\\
       \end{aligned}
     \right.\]
-	La fonction f est d\'efinie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt{0}=0$ et $f(\pi/2)=0$ et $\lim\limits_{\substack{x \rightarrow \pi/2 \\ x>\pi/2}} f(x)$. Elle est continue en 0 mais pas en $\pi/2$, elle est donc continue par morceaux.
+	La fonction f est d\'efinie sur l'intervalle ($-\pi;\pi$). Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt{0}=0$ et $f(\pi/2)=0$ et $\lim\limits_{\substack{x \rightarrow \pi/2 \\ x<\pi/2}} f(x) = 1$. Elle est continue en 0 mais pas en $\pi/2$, elle est donc continue par morceaux.
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex2_fig5.png}
@@ -320,10 +347,10 @@
   \left\{
       \begin{aligned}
         \frac{1}{5}cos\,x\,(sin\,x)^{1/5}\quad , si\quad x < \pi/2\\
-        sin\,x\quad ,si\quad x \ge \pi/2\\
+        sin\,x\qquad \qquad ,si\quad x \ge \pi/2\\
       \end{aligned}
     \right.\]
-	La fonction $f$ est continue par morceaux et d\'erivable par morceaux, donc r\'eguli\'ere par morceaux.
+	La fonction $f$ est continue par morceaux et d\'erivable par morceaux, donc r\'eguli\`ere par morceaux.
 	\end{enumerate}
 %Exercice 3
 \chapter{Ph\'enom\`ene de Gibbs}
@@ -333,7 +360,8 @@ Soit f la fonction 2$\pi$-p\'eriodique et impaire telle que $f(x) = 1$ sur $[0; 
 Nous allons montrer que \[S_{f(x)}=\frac{4}{\pi}\sum\limits_{n=0}^{\infty}\frac{sin(2k-1)}{2k-1}\]
 
 Nous savons que $S_{f(x)}=\displaystyle\sum\limits_{n=0}^{\infty} b_{n}sinnx$, car f est impaire.\\
-Or, \begin{eqnarray*}
+Or, 
+\begin{eqnarray*}
 b_{n}&=&\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)sinnx\\
 		 &=&\frac{1}{\pi}\int_{-\pi}^{0}f(x)sinnx\,+\,\frac{1}{\pi}\int_{0}^{\pi}f(x)sinnx\\
 		 &=&-\frac{1}{\pi}\int_{-\pi}^{0}sinnx\,+\,\frac{1}{\pi}\int_{0}^{\pi}sinnx\\
@@ -343,7 +371,8 @@ b_{n}&=&\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)sinnx\\
 		 &=&\frac{2}{\pi}\left(-\frac{cosn\pi}{n}+\frac{1}{n}\right)\\
 		 &=&\frac{2}{\pi}\left(-\frac{cosn\pi}{n}+\frac{1}{n}\right)\\
 	\end{eqnarray*}
-D'o\`u \begin{eqnarray*}
+D'o\`u 
+\begin{eqnarray*}
 S_{f(x)}&=&\frac{2}{\pi}\displaystyle\sum\limits_{n=0}^{\infty}\frac{1-cosn\pi}{n}sinnx\\
 		&=&\frac{2}{\pi}\displaystyle\sum\limits_{n=0}^{\infty}\frac{1-(-1)^{n}}{n}sinnx\\
 		&=&\frac{2}{\pi}\sum\limits_{n\,pair}^{\infty}\frac{1-(-1)^{n}}{n}sinnx\,+\,\frac{2}{\pi}\sum\limits_{n\,impair}^{\infty}\frac{1-(-1)^{n}}{n}sinnx\\
@@ -357,94 +386,88 @@ S_{f(x)}&=&\frac{2}{\pi}\displaystyle\sum\limits_{n=0}^{\infty}\frac{1-cosn\pi}{
 		\centering
 		\includegraphics[scale=0.6]{ex3_figN2.png}
 		\caption{\label{ex3figN2}Courbe de la fonction $f$ pour n = 2.}
-		\end{figure}\\ \\
+		\end{figure}
+		\newpage
 
 	\item Approximation pour n = 5
 		\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex3_figN5.png}
 		\caption{\label{ex3figN5}Courbe de la fonction $f$ pour n = 5.}
-		\end{figure}\\ \\
+		\end{figure}
 		
 	\item Approximation pour n = 10
 		\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex3_figN10.png}
 		\caption{\label{ex3figN10}Courbe de la fonction $f$ pour n = 10.}
-		\end{figure}\\ \\
-		
+		\end{figure}
+		\newpage
+
 	\item Approximation pour n = 20
 		\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex3_figN20.png}
 		\caption{\label{ex3figN20}Courbe de la fonction $f$ pour n = 20.}
-		\end{figure}\\ \\
+		\end{figure}
 		
 	\item Approximation pour n = 60
 		\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex3_figN60.png}
 		\caption{\label{ex3figN60}Courbe de la fonction $f$ pour n = 60.}
-		\end{figure}\\ \\
+		\end{figure}\\
 
-On remarque donc qu'au voisinage d'une discontinuit\'e une bosse apparait. Or quand $n$ augmente cette derni\`ere subsiste de part et d'autre de d'une discontinuit\'e. Pla\c cons nous alors ˆ droite du point de discontinuit\'e $0$ par exemple. On note que lorsque $n$ augment, le point ou il y a un pic s'approche de $0$ mais la hauteur reste constante. Nous allons essayer d'expliquer ce ph\'enom\`ene dans la partie suivante.
+On remarque donc qu'au voisinage d'une discontinuit\'e une bosse apparait. Or quand $n$ augmente cette derni\`ere subsiste de part et d'autre d'une discontinuit\'e. Pla\c cons nous alors \`a droite du point de discontinuit\'e $0$ par exemple. On note que lorsque $n$ augmente, le point en lequel il y a un pic s'approche de $0$, mais la hauteur reste constante. Nous allons essayer d'expliquer ce ph\'enom\`ene dans la partie suivante.
 \end{enumerate}
 \newpage
 \section{Explication du ph\'enom\`ene}
 	\subsection{Contexte}
 Soit $f$ la fonction $2\pi$-p\'eriodique et impaire telle que $f(x) = 1$ sur $[0; \pi]$.\\
 
-On note que la fonction pr\'esente une discontinuit\'e en tout point multiple de pi. La limite ˆ droite et la limite ˆ gauche en ces points vaut +1 et -1. De plus en dehors de ces points la fonctions est continue. Nous avons donc une fonction continue par morceau et sa d\'eriv\'e l'est \'egalement. Ainsi on peut dire que $f$ est $C^{1}$ par morceaux
+On note que la fonction pr\'esente une discontinuit\'e en tout point multiple de $\pi$. La limite \`a droite et la limite \`a gauche en ces points vaut +1 et -1. De plus en dehors de ces points la fonctions est continue. Nous avons donc une fonction continue par morceau et sa d\'eriv\'ee l'est \'egalement. Ainsi on peut dire que $f$ est $C^{1}$ par morceaux
 	\subsection{Analyse Math\'ematique}
-		\subsubsection{Application du Th\'eor\`eme de Dirichel}
-Comme f impaire on a donc :
+		\subsubsection{Application du Th\'eor\`eme de Dirichlet}
+Comme f est impaire on a donc :
 
-$$S_{f(x)}&=&\frac{4}{\pi}\sum\limits_{k=1}^{\infty}\frac{sin(2k-1)x}{2k-1}\qquad,\;\text{o\`u}\;k\,\in\,\pmb{\mathbb{R}}$$\\
-
-
-Pour une fonction C1 par morceaux, le th\'eor\`eme de dirichlet nous indique quel est la limite de ces sommes partielles. Si on consid\`ere un point de continuit\'e de la fonction, ces sommes partielles vont converger vers f(x).  Ainsi au point de discontinuit\'e ($x=0$), la limite de ces sommes partielles va \^etre la demi somme limite \`a droite, limite \`a gauche de la valeur de la fonction en le point consid\'erer\'e. NŽanmoins ici la demi somme vaut $0$ :\\
+\[S_{f(x)}=\frac{4}{\pi}\sum\limits_{k=1}^{\infty}\frac{sin(2k-1)x}{2k-1}\qquad,\;\text{o\`u}\;k\,\in\,\pmb{\mathbb{R}}\]
 
 
-$$S_{f(x)}&=&\frac{4}{\pi}\sum\limits_{k=1}^{\infty}\frac{sin(2k-1)x}{2k-1} \vert{_{x=0}} = \frac{1}{2}[+1+(-1)] = 0$$\\
+Pour une fonction $C^{1}$ par morceaux, le th\'eor\`eme de Dirichlet nous indique quel est la limite de ces sommes partielles. Si l'on consid\`ere un point de continuit\'e de la fonction, ces sommes partielles vont converger vers $f(x)$.  Ainsi au point de discontinuit\'e ($x=0$), la limite de ces sommes partielles va \^etre la demi-somme entre la limite \`a droite et la limite \`a gauche de la valeur de la fonction au point consid\'erer\'e. Ici, la demi-somme vaut $0$ :\\
 
-En particulier, sur un tel point la limite ne vaut pas la valeur du signal $f(0)=1$ alors que la demi somme vaut $0$
 
-On s'int\'eresse par la suite au comportement au voisinage du point
+\[S_{f(x)}=\frac{4}{\pi}\sum\limits_{k=1}^{\infty}\frac{sin(2k-1)x}{2k-1} \left\vert{_{x=0}}\right. = \frac{1}{2}[+1+(-1)] = 0\]\\
+
+En particulier, sur un tel point la limite ne vaut pas la valeur du signal $f(0)=1$, alors que la demi-somme vaut $0$
+
+On s'int\'eresse par la suite au comportement au voisinage du point de discontinuit\'e.
 
 		\subsubsection{Comportement au voisinage d'un point de discontinuit\'e}
 
 \'Etudions la somme partielle $S_{p}(x)$:\\
-Calculons donc sa d\'eriv\'ee afin d'\'etablir son tableaux de variations. \\
-Comme $\frac{d}{dt}sin((2k-1)x) = (2k-1)cos((2k-1)x)$ on d\'eduit que \\
+Calculons sa d\'eriv\'ee afin d'\'etablir son tableaux de variations. \\
+Comme $\displaystyle\frac{d}{dt}sin((2k-1)x) = (2k-1)cos((2k-1)x)$ on d\'eduit que \\
 $$\frac{d}{dt}S_{p}(x) = \frac{4}{\pi}\sum\limits_{k=1}^{\infty}cos((2k-1)x)$$\\
-Ensuite on pose : \\
-\begin{itemize}
-	\item $cos((2k-1)x) = Re [\exp(i(2k-1)x)]$\\
-	
-	\item $\sum\limits_{k=0}^{n}q^{k} = \frac{1-q^{n+1}}{1-q}$\\
-\end{itemize} 
+
+Ensuite on pose : \[cos((2k-1)x) = Re [e^{i(2k-1)x}] \quad \text{et} \quad \sum\limits_{k=0}^{n}q^{k} = \frac{1-q^{n+1}}{1-q}\]
 
 On d\'eduit l'expression suivante :
 \[ 
-\left \{
-  \begin{tabular}{c}
-  $\frac{d}{dt}S_{p}(x)= \frac{2}{\pi}\frac{sin(2kx)}{sin(x)}$ pour $t \neq 0$\\
-  $\frac{d}{dt}S_{p}(x)= \frac{4}{\pi}$ par calcul direct\\
-  \end{tabular}
-\]
+\left\{
+  \begin{aligned}
+  \frac{d}{dt}S_{p}(x)= \frac{2}{\pi}\frac{sin(2kx)}{sin(x)}\quad \text{, pour} \quad t \neq 0\\
+  \frac{d}{dt}S_{p}(x)= \frac{4}{\pi} \quad \text{, par calcul direct}\\
+  \end{aligned}
+\right.\]
 Par int\'egration on doit obtenir une expression explicite de $S_{p}(x)$. Or comme somme de sinus elle s'annule en $x=0$ on prend donc cette primitive qui s'annule en 0 :
-$$S_{p}(x)= \frac{2}{\pi}\int_{0}^{x}\frac{sin(2pu)}{sin(u)} \, \mathrm{d}u$$\\ 
+$$S_{p}(x)= \frac{2}{\pi}\int_{0}^{x}\frac{sin(2pu)}{sin(u)} \, \mathrm{d}u$$
 
 Afin d'\'etudier la fonction $S_{p}(x)= \frac{2}{\pi}\int_{0}^{x}\frac{sin(2pu)}{sin(u)} \, \mathrm{d}u$ on dresse son tableau de variation.\\
 Cherchons les valeurs qui annulent cette d\'eriv\'e.\\
-Soit $x \in [0,\pi]$ tels que $S_{p}^{'}(x) = \frac{d}{dt}S_{p}(x) = \frac{2}{\pi}\frac{sin(2pu)}{sin(u)} = 0$. On obtient les z\'eros de la d\'eriv\'e suivants : \\
-\left \{
-  \begin{tabular}{c}
-  $sin(2px)=0 \iff 2pt = 0$ modulo $\pi$\\
-  \end{tabular}
-\]\newpage
+Soit $x \in [0,\pi]$ tels que $S_{p}^{'}(x) = \frac{d}{dt}S_{p}(x) = \frac{2}{\pi}\frac{sin(2pu)}{sin(u)} = 0$. On obtient les z\'eros de la d\'eriv\'e suivants : \[sin(2px)=0 \iff 2px = 0[\pi]\]
+\newpage
 
-Donc pour $x \in ]0,\pi[  $S_{p}^{'}(x) = 0 \iff x \in \{\frac{\pi}{2p},\frac{2\pi}{2p},...,{\frac{(2p-1)\pi}{2p}\}$\\
+Donc pour $x \in ]0,\pi[$  \[S_{p}^{'}(x) = 0 \iff x \in \left\{\frac{\pi}{2p},\frac{2\pi}{2p},...,\frac{(2p-1)\pi}{2p}\right\}\]
 D'o\`u la racine la plus proche \`a droite de $x = 0$ est $x_{1} = \frac{\pi}{2p}$. On va par la suite \'etudier les variations de $S_{p}(x)$ au voisinage de ce point :\\
 
 
@@ -458,33 +481,34 @@ Ce qui correspond \`a la courbe \ref{ex3figN5}
 
 		\subsubsection{Valeur et amplitude de la bosse de Gibbs}
 Valeur du maximal local :
-$$m_{1,p} = S_{p}(\frac{\pi}{2p}) = \frac{2}{\pi}\int_{0}^{\frac{\pi}{2p}}\frac{sin(2pu)}{sin(u)} \, \mathrm{d}u$$\\
+\[m_{1,p} = S_{p}(\frac{\pi}{2p}) = \frac{2}{\pi}\int_{0}^{\frac{\pi}{2p}}\frac{sin(2pu)}{sin(u)} \, \mathrm{d}u\]
 On effectue le changement de variable suivant : $v = 2pu$, ce qui donne :
-$$m_{1,p} = \frac{2}{\pi}\int_{0}^{\pi}\frac{sin(v)}{sin(\frac{v}{2p})} \frac{dv}{2p}$$\\
+\[m_{1,p} = \frac{2}{\pi}\int_{0}^{\pi}\frac{sin(v)}{sin(\frac{v}{2p})} \frac{dv}{2p}\]
 Apr\`es transformation on obtient :
-$$m_{1,p} = \frac{2}{\pi}\int_{0}^{\pi}\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}} \frac{dv}{}$$\\
+\[m_{1,p} = \frac{2}{\pi}\int_{0}^{\pi}\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}} dv\]
 Par ailleurs on sait que :\\
 \[ 
-\left \{
-  \begin{tabular}{c}
-  $$\lim\limits_{p \rightarrow +\infty} \frac{v}{2p} \rightarrow 0$$\\
-  $$\lim\limits_{h \rightarrow 0} \frac{sin h}{h} = 1$$\\
-  \end{tabular}
-\]
+\left\{
+  \begin{aligned}
+  \lim\limits_{p \rightarrow +\infty} \frac{v}{2p} \rightarrow 0\\
+  \lim\limits_{h \rightarrow 0} \frac{sin h}{h} = 1\\
+  \end{aligned}
+\right.\]
 \newpage
-On cherche donc la limite suivante :\\
-$$\lim\limits_{p \rightarrow +\infty} m_{1,p} = \frac{2}{\pi} \lim\limits_{p \rightarrow +\infty} \int_{0}^{\pi}\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}} \frac{dv}{} $$\\
 
-On fait rentrer la limite ˆ l'intŽrieur de l'intŽgrale car $f$ est $C^{1}$ :\\
- $$\frac{2}{\pi} \lim\limits_{p \rightarrow +\infty} \int_{0}^{\pi}\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}} \frac{dv}{} = \frac{2}{\pi} \int_{0}^{\pi} \lim\limits_{p \rightarrow +\infty} \bigg[\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}}\bigg] \frac{dv}{} $$\\
- D'aprs les points \ref{}\ref{} on a le rŽsultat suivant :
- $$\frac{2}{\pi} \int_{0}^{\pi} \lim\limits_{p \rightarrow +\infty} \bigg[\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}}\bigg] \frac{dv}{} = \frac{2}{\pi} \int_{0}^{\pi}\frac{sin v}{v}dv $$
+On cherche donc la limite suivante :\\
+\[\lim\limits_{p \rightarrow +\infty} m_{1,p} = \frac{2}{\pi} \lim\limits_{p \rightarrow +\infty} \int_{0}^{\pi}\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}}dv\]
+
+On fait rentrer la limite \`a l'int\'erieur de l'int\'egrale car $f$ est $C^{1}$ :\\
+\[\frac{2}{\pi} \lim\limits_{p \rightarrow +\infty} \int_{0}^{\pi}\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}}dv = \frac{2}{\pi} \int_{0}^{\pi} \lim\limits_{p \rightarrow +\infty} \bigg[\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}}\bigg]dv\]
+ D'apr\`es les points \ref{}\ref{} on a le r\'esultat suivant :
+ \[\frac{2}{\pi} \int_{0}^{\pi} \lim\limits_{p \rightarrow +\infty} \bigg[\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}}\bigg]dv = \frac{2}{\pi} \int_{0}^{\pi}\frac{sin v}{v}dv\]
 
 		\subsubsection{Conclusion}
-A partir de ce point nous pouvons calculer numŽriquement le rŽsultat suivant :
+A partir de ce point nous pouvons calculer num\'eriquement le r\'esultat suivant :
 $$\frac{2}{\pi} \int_{0}^{\pi}\frac{sin v}{v}dv = 1.18 = 1 + 0.18$$\\
-La bosse dŽpasse donc toujours la valeur 1 de la fonction au voisinage de 0 d'une quantitŽ incompressible 0.18. L'amplitude de la bosse est donc toujours supŽrieur de 0.18. pour notre fonction.\\
-La gŽnŽralisation de notre fonction (non abordŽ ici) montre que la bosse de Gibbs ˆ une hauteur proportionnelle ˆ une amplitude du saut de discontinuitŽ. Avec un coefficient de proportionnalitŽ qui est universel. Il est appelŽ le coefficient de Wilbraham Gibbs est vaut 9\% du saut.
+La bosse d\'epasse donc toujours la valeur 1 de la fonction au voisinage de 0 d'une quantit\'e incompressible 0.18. L'amplitude de la bosse est donc toujours sup\'erieur \`a 0.18 pour notre fonction.\\
+La g\'en\'eralisation de notre fonction (non abord\'e ici) montre que la bosse de Gibbs a une hauteur proportionnelle \`a une amplitude du saut de discontinuit\'e. Ce coefficient de proportionnalit\'e universel est appel\'e coefficient de Wilbraham Gibbs est vaut 9\% du saut.
 
 
 %Exercice 4
