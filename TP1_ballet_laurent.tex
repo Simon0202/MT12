@@ -671,7 +671,17 @@ $$\frac{\pi c}{L}\sum_{n=1}^{\infty}nB_n sin\frac{n\pi x}{L}$$
 	\item Chronogramme et analyse fr\'equentielle du son \\
 	Afin de bien illustrer le son d'une guitare, nous importons un fichier .wav et le traitons de fa\c cons \`a le \og voir\fg\\
 		\begin{lstlisting}
-[son,fe] = wavread("noteguitare.wav");L=length(son); N=[1:L]; F=N*fe/L; T=N/fe;scf(0);clf();a=gcf();a.figure_size=[800,500];plot2d(T,son ,9);a=gca();a.title.text="Representation temporelle (chronogramme) du signal";a.title.font_size=4; a.x_label.text="Temps (s)"; a.x_label.font_size=4; a.y_label.text="Amplitude"; a.y_label.font_size=4;
+[son,fe] = wavread("noteguitare.wav");
+L=length(son); N=[1:L]; F=N*fe/L; T=N/fe;
+scf(0);
+clf();
+a=gcf();
+a.figure_size=[800,500];
+plot2d(T,son ,9);
+a=gca();
+a.title.text="Representation temporelle (chronogramme) du signal"
+;
+a.title.font_size=4; a.x_label.text="Temps (s)"; a.x_label.font_size=4; a.y_label.text="Amplitude"; a.y_label.font_size=4;
 		\end{lstlisting}
 		\begin{center}
 		\includegraphics[scale=0.5]{GuitareChronogramme.png}\\
@@ -680,13 +690,33 @@ $$\frac{\pi c}{L}\sum_{n=1}^{\infty}nB_n sin\frac{n\pi x}{L}$$
 	LÕŽtude ˆ proprement parler du son consiste ˆ en faire lÕanalyse frŽquentielle, dont la premire Žtape est dÕobtenir le spectre du signal sonore. Pour ce faire, nous rŽcupŽrons le module de la transformŽe de Fourier du signal. Le spectre est reprŽsentŽ dans le domaine des frŽquences et cÕest une combinaison de fonctions de Dirac. Nous observons trs clairement une symŽtrie, qui est une des propriŽtŽs de la transformŽe de Fourier. LÕobservation plus prŽcise de ce spectre (en zoomant notamment sur sa partie Ç intŽressante È) permet de dŽterminer les diffŽrentes harmoniques et la frŽquence fondamentale.\\	
 \begin{lstlisting}	
 [tfd,spectre,tfd_r,tfd_i] = analyse(son); 
-scf(1);clf();a=gcf();a.figure_size=[800,500];plot2d(F,spectre ,9);a=gca();a.title.text="Spectre dÕamplitude du signal";a.title.font_size=4;a.x_label.text="Frequence (Hz)";a.x_label.font_size=4;a.y_label.text="Puissance";a.y_label.font_size=4;
+scf(1);
+clf();
+a=gcf();
+a.figure_size=[800,500];
+plot2d(F,spectre ,9);
+a=gca();
+a.title.text="Spectre dÕamplitude du signal";
+a.title.font_size=4;
+a.x_label.text="Frequence (Hz)";
+a.x_label.font_size=4;
+a.y_label.text="Puissance";
+a.y_label.font_size=4;
 \end{lstlisting}
 	\begin{center}
 		\includegraphics[scale=0.5]{GuitareFreq1.png}\\
 	\end{center}
 \begin{lstlisting}	
-scf(2);clf();a=gcf();a.figure_size=[800,500];plot2d(F(1:3000),spectre(1:3000),9); 6 a=gca();Spectre dÕamplitude du signala.title.text="Partie interessante du spectre"; 8 a.title.font_size=4;a.x_label.text="Frequence (Hz)";a.x_label.font_size=4;a.y_label.text="Puissance"; 12 a.y_label.font_size=4;	
+scf(2);
+clf();
+a=gcf();
+a.figure_size=[800,500];
+plot2d(F(1:3000),spectre(1:3000),9); 6 a=gca();
+Spectre dÕamplitude du signal
+a.title.text="Partie interessante du spectre"; 8 a.title.font_size=4;
+a.x_label.text="Frequence (Hz)";
+a.x_label.font_size=4;
+a.y_label.text="Puissance"; 12 a.y_label.font_size=4;	
 \end{lstlisting}
 	\begin{center}
 		\includegraphics[scale=0.5]{GuitareFreq2.png}\\
@@ -750,6 +780,160 @@ paramfplot2d(u1,x,t)
 
 %Exercice 5
 \chapter{Equation de la chaleur}
+\section{Calcul de la s\'erie de Fourier}
+Nous sommes en pr\'esence d'une barre de longueur $L$, d'\'epaisseur n\'egligeable et de conductivit\'e $\kappa$. Nous faisons de plus l'hypoth\`ese que la chaleur ne peut quitter la barre que par ses extr\'emit\'es. La temp\'erature \`a ses extr\'emit\'es est nulle. La temp\'erature  $u(x,t)$ en point $x$ de la barre et \`a l'instant $t$ est mod\'elis\'ee par l'\'equation :
+\begin{equation}\label{chaleur}
+\frac{\partial u}{\partial t}(x,t)=\kappa  \frac{\partial^2 u}{\partial x^2}(x,t);
+\end{equation}
+avec les conditions 
+\begin{equation}\label{cond_heat}
+u(x,0)=f(x),~~u(0,t)=u(L,t)=0.
+\end{equation}
+Avec la m\'ethode des variables s\'epar\'ees, on va chercher une solution $u(x,t)$ telle que :
+\begin{equation}\label{sepvar}
+u_{n}(x,t)=U_{n}(x)V_{n}(t)
+\end{equation}
+\begin{eqnarray*}
+	\frac{\partial u}{\partial t}(x,t)&=&\kappa  \frac{\partial^2 u}{\partial x^2}(x,t)\\
+	\frac{\partial}{\partial t}(U_{n}(x)V_{n}(t))&=&\kappa  \frac{\partial^2}{\partial x^2}(U_{n}(x)V_{n}(t))\\
+	U_{n}(x)V'_{n}(t)&=&\kappa V_{n}(t)U''_{n}(x)\\
+	\frac{U''_{n}(x)}{U_{n}(x)}&=&\frac{V'_{t}(x)}{\kappa V_{n}(t)}=\lambda\text{, avec } \lambda\,\in\,\pmb{\mathbb{R}}\\
+\end{eqnarray*}
+D'o\`u on a,
+\[ 
+\left\{
+  \begin{array}{c c l}
+  U''_{n}(x)&=&\lambda U_{n}(x)\\
+  V'_{n}(t)&=&\kappa\lambda V_{n}(t)\\
+  \end{array}
+\right.\]
+\[ 
+\left\{
+  \begin{array}{c c l}
+  U''_{n}(x)-\lambda U_{n}(x)&=&0\\
+  V'_{n}(t)-\kappa\lambda V_{n}(t)&=&0\\
+  \end{array}
+\right.\]
+Nous avons alors trois cas possibles : $\lambda > 0$, $\lambda < 0$ et $\lambda = 0$. Nous \'ecartons le cas $\lambda \geq 0$ car il n'admet pas de solution trigonom\'etrique.
+En effet, \[U(x) = C_{1}e^{rx} + C_{2}e^{-rx}\text{ , } r=\sqrt{\frac{\lambda}{\kappa}}\]
+Pour $\lambda > 0$, si on tient compte de la condition $u(0,t)=u(L,t)=0$ :
+\[
+\left\{
+  \begin{array}{c c l}
+  U(0)&=&0\\
+  U(L)&=&0\\
+  \end{array}
+\right.\]
+\[
+\left\{
+  \begin{array}{c c l}
+  C_{1} + C_{2} &=& 0\\
+  C_{1}e^{rL} + C_{2}e^{-rL} &=& 0\\
+  \end{array}
+\right.\]
+\[
+\left\{
+  \begin{array}{c c l}
+  C_{1} &=& C_{2}\\
+  C_{1} &=& 0 \text{, si }\lambda \ne 0\\
+  \end{array}
+\right.\]
+Nous avons $U = 0$, ce qui est physiquement \`a rejeter.\\
+Pour ce qui est de $\lambda = 0$,
+\[U''(x)=0 \text{ nous donne } U(x)=ax+b\]
+et avec la condition $u(0) = u(L) = 0$ :
+\[ 
+\left\{
+  \begin{array}{c c l}
+  a&=&0\\
+  b&=&0\\
+  \end{array}
+\right.\]
+D'o\`u $U(x)=0 \text{ et } u(x,t)=0$, ce qui est \'egalement \`a rejeter.
+Pour la suite, nous avons alors $\lambda < 0$ et nous posons $\lambda = -\mu^{2}$.\\
+D'o\`u
+\[ 
+\left\{
+  \begin{array}{c c l}
+  U'' + \mu^{2}U &=& 0\\
+  V + \kappa \mu^{2}V &=& 0\\
+  \end{array}
+\right.\]
+\[ 
+\left\{
+  \begin{array}{c c l}
+  U(x) &=& C_{1}cos(\mu x) + C_{2}sin(\mu x)\\
+  V(t) &=& Ce^{-\kappa \mu^{2}t}\\
+  \end{array}
+\right.\]
+D'apr\`es les conditions aux extr\'emit\'es :
+\[ 
+\left\{
+  \begin{array}{c c l}
+  C_{1} &=& 0\\
+  C_{2}sin\mu L &=& 0 \Rightarrow \mu L = n\pi \Rightarrow \mu = \frac{n\pi}{L}\text{, avec }n\,\in\,\pmb{\mathbb{R}}\\
+  \end{array}
+\right.\]
+D'apr\`es l'\'equation \eqref{sepvar}, on a :
+\begin{equation}\label{sepvar2}
+u_{n}(x,t) = C_{n}e^{-\frac{\kappa n^{2}\pi^{2}}{L^{2}}t}(D_{n}cos(\frac{n\pi}{L}x) + E_{n}sin(\frac{n\pi}{L}x))
+\end{equation}
+Or, $u_{n}(x,t)$ est une fonction 2L-p\'eriodique impaire :
+\begin{equation}
+u_{n}(x,t) = C_{n}e^{-\frac{\kappa n^{2}\pi^{2}}{L^{2}}t}E_{n}sin(\frac{n\pi}{L}x)
+\end{equation}
+On note $b_{n} = C_{n}E_{n}$ et on a donc une solution de la forme :
+\begin{equation}
+u_{n}(x,t) = b_{n}e^{-\frac{\kappa n^{2}\pi^{2}}{L^{2}}t}sin(\frac{n\pi}{L}x)
+\end{equation}
+D'apr\`es le principe de superposition, $u(x,t) = \sum\limits_{n=1}^{\infty} u_{n}(x,t)$ est aussi une solution.\\
+Donc 
+\begin{equation}\label{*}
+u(x,t) = \sum_{n=1}^{\infty} b_{n}e^{-\frac{\kappa n^{2}\pi^{2}}{L^{2}}t}sin(\frac{n\pi}{L}x)
+\end{equation}
+est une solution de l'\'equation \eqref{chaleur}.
+On a alors 
+\begin{equation}
+u(x,t) = F(x)G(t)
+\end{equation}
+o\`u \[f(x)=\sum_{n=1}^{\infty} b_{n}sin(\frac{n\pi}{L}x)\]
+Calcul de $b_{n}$ :
+On a $u(x,0)=f(x)$, on remplace dans \eqref{*} :
+\begin{equation}
+f(x) = \sum b_{n}sin(\frac{n\pi x}{L})
+\end{equation}
+Les $(b_{n})$ sont les coefficients de Fourier de $f^{*}$ la fonction $2L$-p\'eriodique impaire telle que $f^{*}=f$ sur $[0,L]$.\\
+On a alors :
+\begin{equation}
+b_{n} = \frac{2}{T}\displaystyle{\int_{-T/2}^{T/2}}f^{*}(x)sin(n\omega x)dx\text{ , } \omega = \frac{2\pi}{T}
+\end{equation}
+Ici, $T = 2L$ :
+\begin{equation}
+b_{n} = \frac{2}{2L}\int_{-L}^{L}f^{*}(x)sin(n\omega x)dx = \frac{2}{L}\int_{0}^{L}f(x)sin(\frac{n\pi x}{L})dx
+\end{equation}
+\section{Impl\'ementation de la propagation de la chaleur}
+Nous prenons comme exemple une barre d'\'epaisseur n\'egligeable de longueur $L = \pi$, dont les extr\'emit\'es sont isol\'ees, soumise \`a une temp\'erature $T_{init}=0$\degre$C$, et ayant une conductivit\'e $\kappa = 1$. On plonge la barre dans un bain dont la temp\'erature est de $T_{bain}=100$\degre$C$\\
+On a $f(x)=100$. Calculons $b_{n}$ :
+\[ 
+  \begin{array}{l c l}
+  b_{n} &=& \frac{2}{\pi}\int_{0}^{\pi}100sin(nx)dx\\
+  &=& \frac{200}{\pi}\int_{0}^{\pi}sin(nx)dx\\
+  &=& -\frac{200}{n\pi}\left[cos(nx)\right]_{0}^{\pi}\\
+  &=& -\frac{200}{n\pi}\left[cos(nx)\right]_{0}^{\pi}\\
+  &=& \frac{200}{n\pi}(1-(-1)^{n})\\
+  &=& \left\{
+  \begin{array}{c c l}
+  \frac{400}{\pi(2p-1)} &,& n=2p-1\\
+  0 &,& n=2p\text{ , avec }p\,\in\,\pmb{\mathbb{N}}\\
+  \end{array}
+\right.
+  \end{array}
+\]
+On a donc :
+\begin{equation}
+u(x,t) = \frac{400}{\pi}\sum_{p=1}^{\infty}\frac{e^{-(2p-1)^{2}t}}{2p-1}sin((2p-1)x)
+\end{equation}
+\section{Cas de la barre radioactive}
 
 %Compl\'ement au TP
 \chapter{Compl\'ements}
