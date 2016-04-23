@@ -87,7 +87,8 @@ En 1822, il devient secr\'etaire de la section math\'ematique. A ce poste, il ai
 		L analyse de Fourier consiste en l'\'etude des vibrations \'el\'ementaires des signaux. Supposons que l'on souhaite analyser un signal quelconque, une quantit\'e qui varie \`a mesure que le temps passe : par exemple, le son est fait de l\'eg\`eres variations de pression atmosph\'erique. Au lieu de s'int\'eresser directement aux variations complexes de ce signal, Joseph Fourier eut l'id\'ee de le d\'ecomposer en une combinaison de signaux \'el\'ementaires, dont chacun varie de manière tr\`es simple et r\'ep\'etitive : les sinuso\"ides (et leurs fr\`eres jumeaux, les cosinuso\"ides). Chaque sinuso\"ide est caract\'eris\'ee par l'amplitude et la fr\'equence de ses variations. Dans la décomposition de Fourier, les amplitudes nous renseignent sur l'importance relative des fr\'equences correspondantes dans le signal \'etudi\'e.
 		
 Ainsi les sons qui nous entourent sont faits de la superposition d'une multitude de fr\'equences. La vibration \`a $440$ battements par seconde est un $la$, qui sera perçu avec d'autant plus de puissance que son amplitude est forte. \`A $880$ battements par seconde, on entendra un $la$ de l'octave au-dessus. Si l'on multiplie la fr\'equence par $3$, on passera à la quinte, c'est-\`a-dire au mi, et ainsi de suite. Mais en pratique les sons ne sont jamais purs, ils sont toujours faits de la concomitance de tr\`es nombreuses fr\'equences qui en d\'eterminent le timbre.
-Et l'analyse de Fourier sert à tout : \`a analyser les sons et \`a les graver sur un CD, mais aussi \`a analyser les images et \`a les transmettre par Internet, ou \`a analyser les variations du niveau de la mer et \`a pr\'edire les mar\'ees...
+
+Et l'analyse de Fourier sert à tout : \`a analyser les sons et \`a les graver sur un CD, mais aussi \`a analyser les images et \`a les transmettre par Internet, ou \`a analyser les variations du niveau de la mer et \`a pr\'edire les mar\'ees...
 Son «grand poème mathématique» (comme disait Lord Kelvin), enseign\'e dans tous les pays du monde, est utilis\'e chaque jour par des milliards d'humains qui ne s'en rendent même pas compte. \\
 
 \begin{center}
@@ -389,6 +390,15 @@ Son «grand poème mathématique» (comme disait Lord Kelvin), enseign\'e dans tous 
 %Exercice 3
 \chapter{Ph\'enom\`ene de Gibbs}
 \section{Historique}
+
+Lors de l'\'etude des s\'eries de Fourier et des transform\'ees de Fourier, il appara\^it parfois une d\'eformation du signal, connue sous le nom de ph\'enom\`ene de Gibbs. Ce ph\'enom\`ene est un effet de bord qui se produit \`a proximit\'e d'une discontinuit\'e, lors de l'analyse d'une fonction d\'erivable par morceaux.
+Le ph\'enom\`ene fut mis pour la premi\`ere fois en \'evidence en 1848 par Henry Wilbraham, mais cette d\'ecouverte ne connut gu\`ere d'\'echo.
+
+En 1898, Albert Michelson d\'eveloppa un syst\`eme m\'ecanique capable de calculer et sommer la s\'erie de Fourier d'un signal donn\'e en entr\'ee. Il observa alors un effet d'amplification des discontinuit\'es, qui persistait malgr\'e l'augmentation du nombre de coefficients calcul\'es.
+
+Alors que Michelson soupçonnait un d\'efaut dans la fabrication de son engin, Josiah Willard Gibbs montra que le ph\'enom\`ene \'etait d'origine math\'ematique et se produisait dans des conditions tr\`es g\'en\'erales. En 1906, Maxime B\^ocher donna la premi\`ere interpr\'etation satisfaisante du ph\'enom\`ene auquel il donna le nom de ph\'enom\`ene de Gibbs.
+
+Le ph\'enom\`ene de Gibbs est, en quelque sorte, un\og d\'efaut d'approximation \fg  pour une fonction continue de classe $C^1$ par morceaux. 
 
 \section{D\'emonstration}
 Soit f la fonction 2$\pi$-p\'eriodique et impaire telle que $f(x) = 1$ sur $[0; \pi]$.\\
