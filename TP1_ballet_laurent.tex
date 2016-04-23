@@ -21,6 +21,7 @@
 \usepackage{here}
 \usepackage[left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
 
+% \newcommand{\deg}{\ensuremath{^\circ}}
 
 \renewcommand{\baselinestretch}{1.5}
 \makeatletter
@@ -68,15 +69,15 @@
 \chapter{S\'erie de Fourier}
 	\section{Historique}
 		\subsection{Biographie}
-Jean-Baptiste Fourier (qu'on connait aussi sous le nom de Joseph Fourier) est n\'e le 21 mars 1768 \`a Auxerre et mort le 16 mai 1830 ˆ Paris. 
+Jean-Baptiste Fourier (qu'on connait aussi sous le nom de Joseph Fourier) est n\'e le 21 mars 1768 \`a Auxerre et mort le 16 mai 1830 \`a Paris. 
 
-En 1794, il est de la premi\`ere promotion de l'\'Ecole Normale Sup\'erieure, o\`u ses professeurs ont pour nom Lagrange, Laplace et Monge. \'El\`eve le plus brillant, il profite de cet excellent entourage pour s'investir beaucoup dans la recherche math\'ematique. En 1797, il remplace Lagrange \`a la chaire d'analyse et de m\'ecanique de l'\'Ecole Polytechnique, bien qu'il n'ait pas encore \`a son actif de d\'ecouverte majeure.
+En 1794, il est de la premi\`ere promotion de l'\'Ecole Normale Sup\'erieure, o\`u ses professeurs ont pour nom Lagrange, Laplace et Monge. \'El\`eve le plus brillant, il profite de cet excellent entourage pour beaucoup s'investir dans la recherche math\'ematique. En 1797, il remplace Lagrange \`a la chaire d'analyse et de m\'ecanique de l'\'Ecole Polytechnique, bien qu'il n'ait pas encore \`a son actif de d\'ecouverte majeure.
 
-En 1798, il rejoint les exp\'editions napol\'eoniennes en \'Egypte, o\`u de nombreux chercheurs fran\c cais m\`enent d'ambitieuses recherches. Quand Fourier regagne la France en 1801, Napol\'eon n'a pas oubli\'e ses excellents \'etats de service, et le nomme pr\'efet de l'Is\`ere. Il fut un excellent pr\'efet, qui mena \`a bien plusieurs projets d'importance, dont la construction d'une route menant de Lyon ˆ Turin. 
+En 1798, il rejoint les exp\'editions napol\'eoniennes en \'Egypte, o\`u de nombreux chercheurs fran\c cais m\`enent d'ambitieuses recherches. Quand Fourier regagne la France en 1801, Napol\'eon n'a pas oubli\'e ses excellents \'etats de service, et le nomme pr\'efet de l'Is\`ere. Il fut un excellent pr\'efet, qui mena \`a bien plusieurs projets d'importance, dont la construction d'une route menant de Lyon \`a Turin. 
 
 C'est \`a Grenoble que Fourier r\'ealise l'essentiel de ses travaux les plus importants. Son obsession est le probl\`eme de la chaleur, c'est-\`a-dire l'\'etude de l'\'evolution de la temp\'erature d'un corps au cours du temps. De 1802 \`a 1807, il trouve l'\'equation de la propagation de la chaleur dans les corps solides, puis trouve une m\'ethode pour la r\'esoudre, ce qui est maintenant l'analyse de Fourier.
 
-En 1812 Fourier est prim\'e par l'Institut pour son m\'emoire 
+En 1812 Fourier est prim\'e par l'Institut pour son m\'emoire.
 
 En 1817, il est \'elu \`a l'Acad\'emie des sciences r\'ehabilit\'ee. 
 
@@ -84,12 +85,12 @@ En 1822, il devient secr\'etaire de la section math\'ematique. A ce poste, il ai
 		
 		\subsection{Vulgarisation}
 		
-		L analyse de Fourier consiste en l'\'etude des vibrations \'el\'ementaires des signaux. Supposons que l'on souhaite analyser un signal quelconque, une quantit\'e qui varie \`a mesure que le temps passe : par exemple, le son est fait de l\'eg\`eres variations de pression atmosph\'erique. Au lieu de s'int\'eresser directement aux variations complexes de ce signal, Joseph Fourier eut l'id\'ee de le d\'ecomposer en une combinaison de signaux \'el\'ementaires, dont chacun varie de manire tr\`es simple et r\'ep\'etitive : les sinuso\"ides (et leurs fr\`eres jumeaux, les cosinuso\"ides). Chaque sinuso\"ide est caract\'eris\'ee par l'amplitude et la fr\'equence de ses variations. Dans la dŽcomposition de Fourier, les amplitudes nous renseignent sur l'importance relative des fr\'equences correspondantes dans le signal \'etudi\'e.
+		L'analyse de Fourier consiste en l'\'etude des vibrations \'el\'ementaires des signaux. Supposons que l'on souhaite analyser un signal quelconque, une quantit\'e qui varie \`a mesure que le temps passe : par exemple, le son est fait de l\'eg\`eres variations de pression atmosph\'erique. Au lieu de s'int\'eresser directement aux variations complexes de ce signal, Joseph Fourier eut l'id\'ee de le d\'ecomposer en une combinaison de signaux \'el\'ementaires, dont chacun varie de mani\`ere tr\`es simple et r\'ep\'etitive : les sinuso\"ides (et leurs fr\`eres jumeaux, les cosinuso\"ides). Chaque sinuso\"ide est caract\'eris\'ee par l'amplitude et la fr\'equence de ses variations. Dans la d\'ecomposition de Fourier, les amplitudes nous renseignent sur l'importance relative des fr\'equences correspondantes dans le signal \'etudi\'e.
 		
-Ainsi les sons qui nous entourent sont faits de la superposition d'une multitude de fr\'equences. La vibration \`a $440$ battements par seconde est un $la$, qui sera peru avec d'autant plus de puissance que son amplitude est forte. \`A $880$ battements par seconde, on entendra un $la$ de l'octave au-dessus. Si l'on multiplie la fr\'equence par $3$, on passera ˆ la quinte, c'est-\`a-dire au mi, et ainsi de suite. Mais en pratique les sons ne sont jamais purs, ils sont toujours faits de la concomitance de tr\`es nombreuses fr\'equences qui en d\'eterminent le timbre.
+Ainsi les sons qui nous entourent sont faits de la superposition d'une multitude de fr\'equences. La vibration \`a $440$ battements par seconde est un $la$, qui sera peru avec d'autant plus de puissance que son amplitude est forte. \`A $880$ battements par seconde, on entendra un $la$ de l'octave au-dessus. Si l'on multiplie la fr\'equence par $3$, on passera \`a la quinte, c'est-\`a-dire au $mi$, et ainsi de suite. Mais en pratique les sons ne sont jamais purs, ils sont toujours faits de la concomitance de tr\`es nombreuses fr\'equences qui en d\'eterminent le timbre.
 
-Et l'analyse de Fourier sert ˆ tout : \`a analyser les sons et \`a les graver sur un CD, mais aussi \`a analyser les images et \`a les transmettre par Internet, ou \`a analyser les variations du niveau de la mer et \`a pr\'edire les mar\'ees...
-Son Çgrand pome mathŽmatiqueÈ (comme disait Lord Kelvin), enseign\'e dans tous les pays du monde, est utilis\'e chaque jour par des milliards d'humains qui ne s'en rendent mme pas compte. \\
+Et l'analyse de Fourier sert \`a tout : \`a analyser les sons et \`a les graver sur un CD, mais aussi \`a analyser les images et \`a les transmettre par Internet, ou \`a analyser les variations du niveau de la mer et \`a pr\'edire les mar\'ees...
+Son "Grand po\`eme math\'ematique" (comme disait Lord Kelvin), enseign\'e dans tous les pays du monde, est utilis\'e chaque jour par des milliards d'humains qui ne s'en rendent m\^eme pas compte. \\
 
 \begin{center}
 \includegraphics[scale=0.25]{fourier.jpg}\\
@@ -396,7 +397,7 @@ Le ph\'enom\`ene fut mis pour la premi\`ere fois en \'evidence en 1848 par Henry
 
 En 1898, Albert Michelson d\'eveloppa un syst\`eme m\'ecanique capable de calculer et sommer la s\'erie de Fourier d'un signal donn\'e en entr\'ee. Il observa alors un effet d'amplification des discontinuit\'es, qui persistait malgr\'e l'augmentation du nombre de coefficients calcul\'es.
 
-Alors que Michelson souponnait un d\'efaut dans la fabrication de son engin, Josiah Willard Gibbs montra que le ph\'enom\`ene \'etait d'origine math\'ematique et se produisait dans des conditions tr\`es g\'en\'erales. En 1906, Maxime B\^ocher donna la premi\`ere interpr\'etation satisfaisante du ph\'enom\`ene auquel il donna le nom de ph\'enom\`ene de Gibbs.
+Alors que Michelson soup\c connait un d\'efaut dans la fabrication de son engin, Josiah Willard Gibbs montra que le ph\'enom\`ene \'etait d'origine math\'ematique et se produisait dans des conditions tr\`es g\'en\'erales. En 1906, Maxime B\^ocher donna la premi\`ere interpr\'etation satisfaisante du ph\'enom\`ene auquel il donna le nom de ph\'enom\`ene de Gibbs.
 
 Le ph\'enom\`ene de Gibbs est, en quelque sorte, un\og d\'efaut d'approximation \fg  pour une fonction continue de classe $C^1$ par morceaux. 
 
@@ -566,6 +567,160 @@ La g\'en\'eralisation de notre fonction (non abord\'e ici) montre que la bosse d
 
 %Exercice 5
 \chapter{Equation de la chaleur}
+\section{Calcul de la s\'erie de Fourier}
+Nous sommes en pr\'esence d'une barre de longueur $L$, d'\'epaisseur n\'egligeable et de conductivit\'e $\kappa$. Nous faisons de plus l'hypoth\`ese que la chaleur ne peut quitter la barre que par ses extr\'emit\'es. La temp\'erature \`a ses extr\'emit\'es est nulle. La temp\'erature  $u(x,t)$ en point $x$ de la barre et \`a l'instant $t$ est mod\'elis\'ee par l'\'equation :
+\begin{equation}\label{chaleur}
+\frac{\partial u}{\partial t}(x,t)=\kappa  \frac{\partial^2 u}{\partial x^2}(x,t);
+\end{equation}
+avec les conditions 
+\begin{equation}\label{cond_heat}
+u(x,0)=f(x),~~u(0,t)=u(L,t)=0.
+\end{equation}
+Avec la m\'ethode des variables s\'epar\'ees, on va chercher une solution $u(x,t)$ telle que :
+\begin{equation}\label{sepvar}
+u_{n}(x,t)=U_{n}(x)V_{n}(t)
+\end{equation}
+\begin{eqnarray*}
+	\frac{\partial u}{\partial t}(x,t)&=&\kappa  \frac{\partial^2 u}{\partial x^2}(x,t)\\
+	\frac{\partial}{\partial t}(U_{n}(x)V_{n}(t))&=&\kappa  \frac{\partial^2}{\partial x^2}(U_{n}(x)V_{n}(t))\\
+	U_{n}(x)V'_{n}(t)&=&\kappa V_{n}(t)U''_{n}(x)\\
+	\frac{U''_{n}(x)}{U_{n}(x)}&=&\frac{V'_{t}(x)}{\kappa V_{n}(t)}=\lambda\text{, avec } \lambda\,\in\,\pmb{\mathbb{R}}\\
+\end{eqnarray*}
+D'o\`u on a,
+\[ 
+\left\{
+  \begin{array}{c c l}
+  U''_{n}(x)&=&\lambda U_{n}(x)\\
+  V'_{n}(t)&=&\kappa\lambda V_{n}(t)\\
+  \end{array}
+\right.\]
+\[ 
+\left\{
+  \begin{array}{c c l}
+  U''_{n}(x)-\lambda U_{n}(x)&=&0\\
+  V'_{n}(t)-\kappa\lambda V_{n}(t)&=&0\\
+  \end{array}
+\right.\]
+Nous avons alors trois cas possibles : $\lambda > 0$, $\lambda < 0$ et $\lambda = 0$. Nous \'ecartons le cas $\lambda \geq 0$ car il n'admet pas de solution trigonom\'etrique.
+En effet, \[U(x) = C_{1}e^{rx} + C_{2}e^{-rx}\text{ , } r=\sqrt{\frac{\lambda}{\kappa}}\]
+Pour $\lambda > 0$, si on tient compte de la condition $u(0,t)=u(L,t)=0$ :
+\[
+\left\{
+  \begin{array}{c c l}
+  U(0)&=&0\\
+  U(L)&=&0\\
+  \end{array}
+\right.\]
+\[
+\left\{
+  \begin{array}{c c l}
+  C_{1} + C_{2} &=& 0\\
+  C_{1}e^{rL} + C_{2}e^{-rL} &=& 0\\
+  \end{array}
+\right.\]
+\[
+\left\{
+  \begin{array}{c c l}
+  C_{1} &=& C_{2}\\
+  C_{1} &=& 0 \text{, si }\lambda \ne 0\\
+  \end{array}
+\right.\]
+Nous avons $U = 0$, ce qui est physiquement \`a rejeter.\\
+Pour ce qui est de $\lambda = 0$,
+\[U''(x)=0 \text{ nous donne } U(x)=ax+b\]
+et avec la condition $u(0) = u(L) = 0$ :
+\[ 
+\left\{
+  \begin{array}{c c l}
+  a&=&0\\
+  b&=&0\\
+  \end{array}
+\right.\]
+D'o\`u $U(x)=0 \text{ et } u(x,t)=0$, ce qui est \'egalement \`a rejeter.
+Pour la suite, nous avons alors $\lambda < 0$ et nous posons $\lambda = -\mu^{2}$.\\
+D'o\`u
+\[ 
+\left\{
+  \begin{array}{c c l}
+  U'' + \mu^{2}U &=& 0\\
+  V + \kappa \mu^{2}V &=& 0\\
+  \end{array}
+\right.\]
+\[ 
+\left\{
+  \begin{array}{c c l}
+  U(x) &=& C_{1}cos(\mu x) + C_{2}sin(\mu x)\\
+  V(t) &=& Ce^{-\kappa \mu^{2}t}\\
+  \end{array}
+\right.\]
+D'apr\`es les conditions aux extr\'emit\'es :
+\[ 
+\left\{
+  \begin{array}{c c l}
+  C_{1} &=& 0\\
+  C_{2}sin\mu L &=& 0 \Rightarrow \mu L = n\pi \Rightarrow \mu = \frac{n\pi}{L}\text{, avec }n\,\in\,\pmb{\mathbb{R}}\\
+  \end{array}
+\right.\]
+D'apr\`es l'\'equation \eqref{sepvar}, on a :
+\begin{equation}\label{sepvar2}
+u_{n}(x,t) = C_{n}e^{-\frac{\kappa n^{2}\pi^{2}}{L^{2}}t}(D_{n}cos(\frac{n\pi}{L}x) + E_{n}sin(\frac{n\pi}{L}x))
+\end{equation}
+Or, $u_{n}(x,t)$ est une fonction 2L-p\'eriodique impaire :
+\begin{equation}
+u_{n}(x,t) = C_{n}e^{-\frac{\kappa n^{2}\pi^{2}}{L^{2}}t}E_{n}sin(\frac{n\pi}{L}x)
+\end{equation}
+On note $b_{n} = C_{n}E_{n}$ et on a donc une solution de la forme :
+\begin{equation}
+u_{n}(x,t) = b_{n}e^{-\frac{\kappa n^{2}\pi^{2}}{L^{2}}t}sin(\frac{n\pi}{L}x)
+\end{equation}
+D'apr\`es le principe de superposition, $u(x,t) = \sum\limits_{n=1}^{\infty} u_{n}(x,t)$ est aussi une solution.\\
+Donc 
+\begin{equation}\label{*}
+u(x,t) = \sum_{n=1}^{\infty} b_{n}e^{-\frac{\kappa n^{2}\pi^{2}}{L^{2}}t}sin(\frac{n\pi}{L}x)
+\end{equation}
+est une solution de l'\'equation \eqref{chaleur}.
+On a alors 
+\begin{equation}
+u(x,t) = F(x)G(t)
+\end{equation}
+o\`u \[f(x)=\sum_{n=1}^{\infty} b_{n}sin(\frac{n\pi}{L}x)\]
+Calcul de $b_{n}$ :
+On a $u(x,0)=f(x)$, on remplace dans \eqref{*} :
+\begin{equation}
+f(x) = \sum b_{n}sin(\frac{n\pi x}{L})
+\end{equation}
+Les $(b_{n})$ sont les coefficients de Fourier de $f^{*}$ la fonction $2L$-p\'eriodique impaire telle que $f^{*}=f$ sur $[0,L]$.\\
+On a alors :
+\begin{equation}
+b_{n} = \frac{2}{T}\displaystyle{\int_{-T/2}^{T/2}}f^{*}(x)sin(n\omega x)dx\text{ , } \omega = \frac{2\pi}{T}
+\end{equation}
+Ici, $T = 2L$ :
+\begin{equation}
+b_{n} = \frac{2}{2L}\int_{-L}^{L}f^{*}(x)sin(n\omega x)dx = \frac{2}{L}\int_{0}^{L}f(x)sin(\frac{n\pi x}{L})dx
+\end{equation}
+\section{Impl\'ementation de la propagation de la chaleur}
+Nous prenons comme exemple une barre d'\'epaisseur n\'egligeable de longueur $L = \pi$, dont les extr\'emit\'es sont isol\'ees, soumise \`a une temp\'erature $T_{init}=0$\degre$C$, et ayant une conductivit\'e $\kappa = 1$. On plonge la barre dans un bain dont la temp\'erature est de $T_{bain}=100$\degre$C$\\
+On a $f(x)=100$. Calculons $b_{n}$ :
+\[ 
+  \begin{array}{l c l}
+  b_{n} &=& \frac{2}{\pi}\int_{0}^{\pi}100sin(nx)dx\\
+  &=& \frac{200}{\pi}\int_{0}^{\pi}sin(nx)dx\\
+  &=& -\frac{200}{n\pi}\left[cos(nx)\right]_{0}^{\pi}\\
+  &=& -\frac{200}{n\pi}\left[cos(nx)\right]_{0}^{\pi}\\
+  &=& \frac{200}{n\pi}(1-(-1)^{n})\\
+  &=& \left\{
+  \begin{array}{c c l}
+  \frac{400}{\pi(2p-1)} &,& n=2p-1\\
+  0 &,& n=2p\text{ , avec }p\,\in\,\pmb{\mathbb{N}}\\
+  \end{array}
+\right.
+  \end{array}
+\]
+On a donc :
+\begin{equation}
+u(x,t) = \frac{400}{\pi}\sum_{p=1}^{\infty}\frac{e^{-(2p-1)^{2}t}}{2p-1}sin((2p-1)x)
+\end{equation}
+\section{Cas de la barre radioactive}
 
 %Compl\'ement au TP
 \chapter{Compl\'ements}
@@ -575,7 +730,7 @@ La g\'en\'eralisation de notre fonction (non abord\'e ici) montre que la bosse d
 %Test de texte
 Comme le disait Jean de la Fontaine dans sa fable :
 \begin{quote}
-Rien de sert de courir, il faut partir Ã  point.
+Rien de sert de courir, il faut partir \`a point.
 \end{quote}
 
 
