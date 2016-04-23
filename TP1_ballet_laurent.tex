@@ -66,6 +66,39 @@
 
 %Exercice 1
 \chapter{S\'erie de Fourier}
+	\section{Historique}
+		\subsection{Biographie}
+Jean-Baptiste Fourier (qu'on connait aussi sous le nom de Joseph Fourier) est n\'e le 21 mars 1768 \`a Auxerre et mort le 16 mai 1830 à Paris. 
+
+En 1794, il est de la premi\`ere promotion de l'\'Ecole Normale Sup\'erieure, o\`u ses professeurs ont pour nom Lagrange, Laplace et Monge. \'El\`eve le plus brillant, il profite de cet excellent entourage pour s'investir beaucoup dans la recherche math\'ematique. En 1797, il remplace Lagrange \`a la chaire d'analyse et de m\'ecanique de l'\'Ecole Polytechnique, bien qu'il n'ait pas encore \`a son actif de d\'ecouverte majeure.
+
+En 1798, il rejoint les exp\'editions napol\'eoniennes en \'Egypte, o\`u de nombreux chercheurs fran\c cais m\`enent d'ambitieuses recherches. Quand Fourier regagne la France en 1801, Napol\'eon n'a pas oubli\'e ses excellents \'etats de service, et le nomme pr\'efet de l'Is\`ere. Il fut un excellent pr\'efet, qui mena \`a bien plusieurs projets d'importance, dont la construction d'une route menant de Lyon à Turin. 
+
+C'est \`a Grenoble que Fourier r\'ealise l'essentiel de ses travaux les plus importants. Son obsession est le probl\`eme de la chaleur, c'est-\`a-dire l'\'etude de l'\'evolution de la temp\'erature d'un corps au cours du temps. De 1802 \`a 1807, il trouve l'\'equation de la propagation de la chaleur dans les corps solides, puis trouve une m\'ethode pour la r\'esoudre, ce qui est maintenant l'analyse de Fourier.
+
+En 1812 Fourier est prim\'e par l'Institut pour son m\'emoire 
+
+En 1817, il est \'elu \`a l'Acad\'emie des sciences r\'ehabilit\'ee. 
+
+En 1822, il devient secr\'etaire de la section math\'ematique. A ce poste, il aidera beaucoup de jeunes math\'ematiciens prometteurs, dont Dirichlet, Sturm ou Ostrogradsky. 
+		
+		\subsection{Vulgarisation}
+		
+		L analyse de Fourier consiste en l'\'etude des vibrations \'el\'ementaires des signaux. Supposons que l'on souhaite analyser un signal quelconque, une quantit\'e qui varie \`a mesure que le temps passe : par exemple, le son est fait de l\'eg\`eres variations de pression atmosph\'erique. Au lieu de s'int\'eresser directement aux variations complexes de ce signal, Joseph Fourier eut l'id\'ee de le d\'ecomposer en une combinaison de signaux \'el\'ementaires, dont chacun varie de manière tr\`es simple et r\'ep\'etitive : les sinuso\"ides (et leurs fr\`eres jumeaux, les cosinuso\"ides). Chaque sinuso\"ide est caract\'eris\'ee par l'amplitude et la fr\'equence de ses variations. Dans la décomposition de Fourier, les amplitudes nous renseignent sur l'importance relative des fr\'equences correspondantes dans le signal \'etudi\'e.
+		
+Ainsi les sons qui nous entourent sont faits de la superposition d'une multitude de fr\'equences. La vibration \`a $440$ battements par seconde est un $la$, qui sera perçu avec d'autant plus de puissance que son amplitude est forte. \`A $880$ battements par seconde, on entendra un $la$ de l'octave au-dessus. Si l'on multiplie la fr\'equence par $3$, on passera à la quinte, c'est-\`a-dire au mi, et ainsi de suite. Mais en pratique les sons ne sont jamais purs, ils sont toujours faits de la concomitance de tr\`es nombreuses fr\'equences qui en d\'eterminent le timbre.
+Et l'analyse de Fourier sert à tout : \`a analyser les sons et \`a les graver sur un CD, mais aussi \`a analyser les images et \`a les transmettre par Internet, ou \`a analyser les variations du niveau de la mer et \`a pr\'edire les mar\'ees...
+Son «grand poème mathématique» (comme disait Lord Kelvin), enseign\'e dans tous les pays du monde, est utilis\'e chaque jour par des milliards d'humains qui ne s'en rendent même pas compte. \\
+
+\begin{center}
+\includegraphics[scale=0.25]{fourier.jpg}\\
+\caption{\textit{Joseph Fourier}}
+\end{center}
+
+
+
+	
+	\section{\'Etude de fonctions}
 	\begin{enumerate}
 		\item $f$ est $2\pi$ p\'eriodique, impaire et vaut $f(x)=1, x \in [0,\pi]$\\
 		\begin{enumerate}
@@ -352,8 +385,11 @@
     \right.\]
 	La fonction $f$ est continue par morceaux et d\'erivable par morceaux, donc r\'eguli\`ere par morceaux.
 	\end{enumerate}
+	
 %Exercice 3
 \chapter{Ph\'enom\`ene de Gibbs}
+\section{Historique}
+
 \section{D\'emonstration}
 Soit f la fonction 2$\pi$-p\'eriodique et impaire telle que $f(x) = 1$ sur $[0; \pi]$.\\
 
@@ -487,13 +523,15 @@ On effectue le changement de variable suivant : $v = 2pu$, ce qui donne :
 Apr\`es transformation on obtient :
 \[m_{1,p} = \frac{2}{\pi}\int_{0}^{\pi}\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}} dv\]
 Par ailleurs on sait que :\\
-\[ 
-\left\{
+\begin{equation}
+\left\{ \,
   \begin{aligned}
   \lim\limits_{p \rightarrow +\infty} \frac{v}{2p} \rightarrow 0\\
   \lim\limits_{h \rightarrow 0} \frac{sin h}{h} = 1\\
   \end{aligned}
-\right.\]
+\right
+\label{indice1}
+\end{equation}
 \newpage
 
 On cherche donc la limite suivante :\\
@@ -501,7 +539,7 @@ On cherche donc la limite suivante :\\
 
 On fait rentrer la limite \`a l'int\'erieur de l'int\'egrale car $f$ est $C^{1}$ :\\
 \[\frac{2}{\pi} \lim\limits_{p \rightarrow +\infty} \int_{0}^{\pi}\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}}dv = \frac{2}{\pi} \int_{0}^{\pi} \lim\limits_{p \rightarrow +\infty} \bigg[\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}}\bigg]dv\]
- D'apr\`es les points \ref{}\ref{} on a le r\'esultat suivant :
+ D'apr\`es le point \eqref{indice1}\ on a le r\'esultat suivant :
  \[\frac{2}{\pi} \int_{0}^{\pi} \lim\limits_{p \rightarrow +\infty} \bigg[\frac{sin v}{v}\frac{1}{\frac{sin(\frac{v}{2p})}{\frac{v}{2p}}}\bigg]dv = \frac{2}{\pi} \int_{0}^{\pi}\frac{sin v}{v}dv\]
 
 		\subsubsection{Conclusion}
