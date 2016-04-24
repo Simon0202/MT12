@@ -5,13 +5,13 @@
 
 %Paquets
 \usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
+\usepackage[applemac]{inputenc}
+\usepackage{xspace}
 \usepackage[frenchb]{babel}
-
 \usepackage{textcomp}
-
 \usepackage{lmodern}
-
+\usepackage{setspace}
+\onehalfspacing
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -21,50 +21,62 @@
 \usepackage{here}
 \usepackage[left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
 \usepackage{listings}
+%Pour inclure du code
 \lstset{numbers=left, numberstyle=\tiny, stepnumber=5, numbersep=5pt, language=Scilab, basicstyle=\small,frame=leftline,captionpos=b,linewidth=175mm,breaklines=true, commentstyle=\color{green},stringstyle=\color{red},identifierstyle=\ttfamily,keywordstyle=\color{blue}}
 
 
-\renewcommand{\baselinestretch}{1.5}
-\makeatletter
-\def\@makechapterhead#1{%
-  \vspace*{25\p@}%
-  {\parindent \z@ \raggedright \normalfont
-    \interlinepenalty\@M
-    \ifnum \c@secnumdepth >\m@ne
-        \Huge\bfseries \thechapter\quad
-    \fi
-    \Huge \bfseries #1\par\nobreak
-    \vskip 20\p@
-  }}
-
-\def\@makeschapterhead#1{%
-  \vspace*{20\p@}%
-  {\parindent \z@ \raggedright
-    \normalfont
-    \interlinepenalty\@M
-    \Huge \bfseries  #1\par\nobreak
-    \vskip 20\p@
-  }}
-\makeatother
 
 %D\'ebut du rapport
 \begin{document}
 
 %Page de garde
-\title{Rapport \no1 MT12}
-\author{Alexandre BALLET et Simon LAURENT}
-\date{Printemps 2016}
-   
-  %  \begin{minipage}{0.4\textwidth}
-     % \begin{flushleft} \large
-        %\emph{Enseignant :} M. Dajlil Kateb\\
-        %\emph{Etablissement : } Universit\'e de Technologie de CompiÂ\`egne
-      %\end{flushright}
-    %\end{minipage}
-\maketitle
+%\title{Rapport TP \no1 MT12}
+%\author{Alexandre BALLET et Simon LAURENT}
+%\date{Printemps 2016}
+
+\thispagestyle{empty}
+
+\includegraphics[scale=0.06]{logo_utc.png}
+
+{\large
+
+\vspace*{1cm}
+
+\begin{center}
+
+{\bf Rapport de MT12 : Techniques math\'ematiques de l'ing\'enieur \\ UNIVERSIT\'E DE TECHNOLOGIE DE COMPI\`EGNE}
+
+\vspace*{1 cm}
+ \\ 
+\vspace*{1cm}
+
+Printemps 2016
+
+\vspace*{1cm}
+ \\
+\vspace*{1cm}
+{\Large {\bf Alexandre BALLET et Simon LAURENT}}
+\vspace*{2cm}
+\\
+\vspace*{2 cm}
+\end{center}
+
+\flushleft{Sujet du rapport:\ \\
+{\Large {\bf S\'eries de Fourier}}}
+\\
+\vspace*{1 cm}
+\flushleft{D\'epartement des \'etudiants :\ \\
+{\Large {\bf  G\'enie Informatique}}}\\
+\\
+\vspace*{1 cm}
+\flushleft{Professeur :\ \\
+{\Large {\bf M. Djalil KATEB}}}\\
+}
+
 
 %Table des mati\`eres
 \tableofcontents
+
 
 %Exercice 1
 \chapter{S\'erie de Fourier}
@@ -82,7 +94,7 @@ En 1812 Fourier est prim\'e par l'Institut pour son m\'emoire
 
 En 1817, il est \'elu \`a l'Acad\'emie des sciences r\'ehabilit\'ee. 
 
-En 1822, il devient secr\'etaire de la section math\'ematique. A ce poste, il aidera beaucoup de jeunes math\'ematiciens prometteurs, dont Dirichlet, Sturm ou Ostrogradsky. 
+En 1822, il devient secr\'etaire de la section math\'ematique. A ce poste, il aidera beaucoup de jeunes math\'ematiciens prometteurs, dont Dirichlet, Sturm ou Ostrogradsky. \newpage
 		
 		\subsection{Vulgarisation}
 		
@@ -98,7 +110,7 @@ Son "grand po\`eme math\'ematique" (comme disait Lord Kelvin), enseign\'e dans t
 \includegraphics[scale=0.25]{fourier.jpg}\\
 \caption{\textit{Joseph Fourier}}
 \end{figure*}
-
+\newpage
 
 
 	
@@ -297,13 +309,13 @@ Son "grand po\`eme math\'ematique" (comme disait Lord Kelvin), enseign\'e dans t
 	La fonction f est d\'efinie sur l'intervalle ($-\pi;\pi$). Elle est compos\'ee d'une fonction sinus, ce qui la rend impaire. Elle n'admet aucune valeur interdite et on a $f(0^+)=f(0^-)=\sqrt{0}=0$. Elle est donc continue.
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[scale=0.6]{ex2_fig1.png}
+		\includegraphics[scale=0.5]{ex2_fig1.png}
 		\caption{\label{figure1}Courbe de la fonction $f$.}
 		\end{figure}
-		\\
-	Sa d\'eriv\'ee est \[f'(x)=\frac{1}{3} cos x (sin\,x)^{-2/3}\] Elle admet une asymptote verticale en $0$ et n'est donc pas continue.
+	Sa d\'eriv\'ee est \[f'(x)=\frac{1}{3} cos x (sin\,x)^{-2/3}\] 
+	
+	Elle admet une asymptote verticale en $0$ et n'est donc pas continue. 
 	La fonction $f$ est continue mais non d\'erivable sur ($-\pi;\pi$).
-	% Faut-il ajouter le programme Scilab ? Que veux dire "Commenter" ?
 	\newpage
 % 2
 	\item \[f(x)=(sin\,x)^{4/3}\]
@@ -312,9 +324,9 @@ Son "grand po\`eme math\'ematique" (comme disait Lord Kelvin), enseign\'e dans t
 		\centering
 		\includegraphics[scale=0.6]{ex2_fig2.png}
 		\caption{\label{figure2}Courbe de la fonction $f$.}
-		\end{figure}
-		\\
-	Sa d\'eriv\'ee est \[f'(x)=\frac{4}{3} cos\,x (sin\,x)^{1/3}\] Elle n'admet pas d'asymptote et est donc continue.
+		\end{figure}\\
+		
+	Sa d\'eriv\'ee est $$f'(x)=\frac{4}{3} cos\,x (sin\,x)^{1/3}$$ Elle n'admet pas d'asymptote et est donc continue.
 	La fonction $f$ est continue et d\'erivable, donc r\'eguli\`ere.
 	\newpage
 % 3
@@ -401,7 +413,7 @@ En 1898, Albert Michelson d\'eveloppa un syst\`eme m\'ecanique capable de calcul
 
 Alors que Michelson soup\c connait un d\'efaut dans la fabrication de son engin, Josiah Willard Gibbs montra que le ph\'enom\`ene \'etait d'origine math\'ematique et se produisait dans des conditions tr\`es g\'en\'erales. En 1906, Maxime B\^ocher donna la premi\`ere interpr\'etation satisfaisante du ph\'enom\`ene auquel il donna le nom de ph\'enom\`ene de Gibbs.
 
-Le ph\'enom\`ene de Gibbs est, en quelque sorte, un\og d\'efaut d'approximation \fg  pour une fonction continue de classe $C^1$ par morceaux. 
+Le ph\'enom\`ene de Gibbs est, en quelque sorte, un\og d\'efaut d'approximation \fg  pour une fonction continue de classe $C^1$ par morceaux. \newpage
 
 \section{D\'emonstration}
 Soit f la fonction 2$\pi$-p\'eriodique et impaire telle que $f(x) = 1$ sur $[0; \pi]$.\\
@@ -436,22 +448,20 @@ S_{f(x)}&=&\frac{2}{\pi}\displaystyle\sum\limits_{n=0}^{\infty}\frac{1-cosn\pi}{
 		\includegraphics[scale=0.6]{ex3_figN2.png}
 		\caption{\label{ex3figN2}Courbe de la fonction $f$ pour n = 2.}
 		\end{figure}
-		\newpage
-
+		
 	\item Approximation pour n = 5
 		\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex3_figN5.png}
 		\caption{\label{ex3figN5}Courbe de la fonction $f$ pour n = 5.}
 		\end{figure}
-		
+		\newpage
 	\item Approximation pour n = 10
 		\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex3_figN10.png}
 		\caption{\label{ex3figN10}Courbe de la fonction $f$ pour n = 10.}
 		\end{figure}
-		\newpage
 
 	\item Approximation pour n = 20
 		\begin{figure}[h!]
@@ -704,10 +714,11 @@ a.x_label.text="Frequence (Hz)";
 a.x_label.font_size=4;
 a.y_label.text="Puissance";
 a.y_label.font_size=4;
-\end{lstlisting}
+\end{lstlisting}\\
 	\begin{center}
 		\includegraphics[scale=0.5]{GuitareFreq1.png}\\
 	\end{center}
+	\newpage
 \begin{lstlisting}	
 scf(2);
 clf();
@@ -722,11 +733,9 @@ a.y_label.text="Puissance"; 12 a.y_label.font_size=4;
 \end{lstlisting}
 	\begin{center}
 		\includegraphics[scale=0.5]{GuitareFreq2.png}\\
-	\end{center}
-	
-	
-\end{enumerate}\newpage
-
+	\end{center}	
+\end{enumerate}
+\newpage
 \section{La corde frapp\'ee (le piano)}
 \begin{enumerate}
 \item Procedure Scilab
@@ -755,6 +764,7 @@ t = 0:0.01:50
 paramfplot2d(u1,x,t)
 \end{lstlisting}
 
+
 \begin{figure}[h!]
    \begin{minipage}[b]{0.40\linewidth}
       \includegraphics[scale=0.3]{Piano1.png}\\
@@ -778,7 +788,8 @@ paramfplot2d(u1,x,t)
    \end{minipage}\hfill
 \end{figure}
 
-\item Harmoniques 
+\item Harmoniques
+
 \end{enumerate}
 
 %Exercice 5
@@ -801,7 +812,7 @@ u_{n}(x,t)=U_{n}(x)V_{n}(t)
 	\frac{\partial}{\partial t}(U_{n}(x)V_{n}(t))&=&\kappa  \frac{\partial^2}{\partial x^2}(U_{n}(x)V_{n}(t))\\
 	U_{n}(x)V'_{n}(t)&=&\kappa V_{n}(t)U''_{n}(x)\\
 	\frac{U''_{n}(x)}{U_{n}(x)}&=&\frac{V'_{t}(x)}{\kappa V_{n}(t)}=\lambda\text{, avec } \lambda\,\in\,\pmb{\mathbb{R}}\\
-\end{eqnarray*}
+\end{eqnarray*}\newpage
 D'o\`u on a,
 \[ 
 \left\{
@@ -851,7 +862,7 @@ et avec la condition $u(0) = u(L) = 0$ :
   a&=&0\\
   b&=&0\\
   \end{array}
-\right.\]
+\right.\]\newpage
 D'o\`u $U(x)=0 \text{ et } u(x,t)=0$, ce qui est \'egalement \`a rejeter.
 Pour la suite, nous avons alors $\lambda < 0$ et nous posons $\lambda = -\mu^{2}$.\\
 D'o\`u
@@ -900,6 +911,7 @@ On a alors
 u(x,t) = F(x)G(t)
 \end{equation}
 o\`u \[f(x)=\sum_{n=1}^{\infty} b_{n}sin(\frac{n\pi}{L}x)\]
+\newpage
 Calcul de $b_{n}$ :
 On a $u(x,0)=f(x)$, on remplace dans \eqref{*} :
 \begin{equation}
@@ -957,6 +969,7 @@ for i = 0:i_lim //boucle temporelle
     sleep(100) //pause de 0.1 seconde
 end //fin de la boucle temporelle
 \end{lstlisting}
+
 
 \begin{figure}[h!]
    \begin{minipage}[b]{0.40\linewidth}
@@ -1109,6 +1122,5 @@ Comme le disait Jean de la Fontaine dans sa fable :
 \begin{quote}
 Rien de sert de courir, il faut partir Ã  point.
 \end{quote}
-
 
 \end{document}
