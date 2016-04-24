@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.21)  24 APR 2016 20:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  24 APR 2016 20:35
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **TP1_ballet_laurent.tex
 (./TP1_ballet_laurent.tex
@@ -36,218 +37,12 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-)
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/applemac.def
+File: applemac.def 2015/03/17 v1.2c Input encoding file
 ))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2014/09/25 3.9l The Babel package
 
@@ -300,81 +95,7 @@ Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-))
+)
 LaTeX Info: Redefining \oldstylenums on input line 334.
 Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
 Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
@@ -473,6 +194,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -974,33 +698,33 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 (./TP1_ballet_laurent.aux)
 \openout1 = `TP1_ballet_laurent.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 51.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 30.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \degres on input line 51.
-LaTeX Info: Redefining \dots on input line 51.
-LaTeX Info: Redefining \up on input line 51.
+LaTeX Info: Redefining \degres on input line 30.
+LaTeX Info: Redefining \dots on input line 30.
+LaTeX Info: Redefining \up on input line 30.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1095,820 +819,868 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count157
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 64.
+<logo_utc.png, id=4, 2296.58pt x 1148.29pt>
+File: logo_utc.png Graphic file (type png)
+ <use logo_utc.png>
+Package pdftex.def Info: logo_utc.png used on input line 39.
+(pdftex.def)             Requested size: 137.78885pt x 68.89442pt.
+
+
+./TP1_ballet_laurent.tex:50: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50  \\
+        
+? r
+OK, entering \nonstopmode...
+
+./TP1_ballet_laurent.tex:56: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56  \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./TP1_ballet_laurent.tex:70: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \\
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo_
+utc.png>] (./TP1_ballet_laurent.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 64.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 64.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 64.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 64.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 64.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 64.
-LaTeX Font Info:    Try loading font information for U+msa on input line 64.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 64.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./TP1_ballet_laurent.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write4
 \openout4 = `TP1_ballet_laurent.toc'.
 
- [1
+ [2
 
 ]
 Chapitre 1.
-[2
+[3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
-<fourier.jpg, id=18, 501.875pt x 602.25pt>
+<fourier.jpg, id=20, 501.875pt x 602.25pt>
 File: fourier.jpg Graphic file (type jpg)
  <use fourier.jpg>
-Package pdftex.def Info: fourier.jpg used on input line 98.
+Package pdftex.def Info: fourier.jpg used on input line 110.
 (pdftex.def)             Requested size: 125.46843pt x 150.56212pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--120
+ [4 <./fourier.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--120
+Underfull \hbox (badness 10000) in paragraph at lines 121--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--120
+Underfull \hbox (badness 10000) in paragraph at lines 121--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--120
+Underfull \hbox (badness 10000) in paragraph at lines 121--132
 
  []
 
-[3] <ex1_fig1_0.png, id=25, 640.3925pt x 294.09875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--132
+
+ []
+
+<ex1_fig1_0.png, id=28, 640.3925pt x 294.09875pt>
 File: ex1_fig1_0.png Graphic file (type png)
  <use ex1_fig1_0.png>
-Package pdftex.def Info: ex1_fig1_0.png used on input line 123.
+Package pdftex.def Info: ex1_fig1_0.png used on input line 135.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--126
+Underfull \hbox (badness 10000) in paragraph at lines 132--138
 
  []
 
-[4 <./fourier.jpg> <./ex1_fig1_0.png>]
-<ex1_fig1_1.png, id=33, 640.3925pt x 294.09875pt>
+[5 <./ex1_fig1_0.png>] <ex1_fig1_1.png, id=34, 640.3925pt x 294.09875pt>
 File: ex1_fig1_1.png Graphic file (type png)
- <use ex1_fig1_1.png>
-Package pdftex.def Info: ex1_fig1_1.png used on input line 130.
+
+<use ex1_fig1_1.png>
+Package pdftex.def Info: ex1_fig1_1.png used on input line 142.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--133
+Underfull \hbox (badness 10000) in paragraph at lines 139--145
 
  []
 
-<ex1_fig1_2.png, id=34, 640.3925pt x 294.09875pt>
+<ex1_fig1_2.png, id=35, 640.3925pt x 294.09875pt>
 File: ex1_fig1_2.png Graphic file (type png)
  <use ex1_fig1_2.png>
-Package pdftex.def Info: ex1_fig1_2.png used on input line 137.
+Package pdftex.def Info: ex1_fig1_2.png used on input line 149.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--140
+Underfull \hbox (badness 10000) in paragraph at lines 146--152
 
  []
 
-[5 <./ex1_fig1_1.png> <./ex1_fig1_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--155
+[6 <./ex1_fig1_1.png> <./ex1_fig1_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--155
+Underfull \hbox (badness 10000) in paragraph at lines 158--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--155
+Underfull \hbox (badness 10000) in paragraph at lines 158--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--155
+Underfull \hbox (badness 10000) in paragraph at lines 158--167
 
  []
 
-<ex1_fig2_0.png, id=40, 640.3925pt x 294.09875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--167
+
+ []
+
+<ex1_fig2_0.png, id=41, 640.3925pt x 294.09875pt>
 File: ex1_fig2_0.png Graphic file (type png)
  <use ex1_fig2_0.png>
-Package pdftex.def Info: ex1_fig2_0.png used on input line 158.
+Package pdftex.def Info: ex1_fig2_0.png used on input line 170.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--161
+Underfull \hbox (badness 10000) in paragraph at lines 167--173
 
  []
 
-[6 <./ex1_fig2_0.png>] <ex1_fig2_1.png, id=46, 640.3925pt x 294.09875pt>
+[7 <./ex1_fig2_0.png>] <ex1_fig2_1.png, id=47, 640.3925pt x 294.09875pt>
 File: ex1_fig2_1.png Graphic file (type png)
 
 <use ex1_fig2_1.png>
-Package pdftex.def Info: ex1_fig2_1.png used on input line 165.
+Package pdftex.def Info: ex1_fig2_1.png used on input line 177.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--168
+Underfull \hbox (badness 10000) in paragraph at lines 174--180
 
  []
 
-<ex1_fig2_2.png, id=47, 640.3925pt x 294.09875pt>
+<ex1_fig2_2.png, id=48, 640.3925pt x 294.09875pt>
 File: ex1_fig2_2.png Graphic file (type png)
  <use ex1_fig2_2.png>
-Package pdftex.def Info: ex1_fig2_2.png used on input line 172.
+Package pdftex.def Info: ex1_fig2_2.png used on input line 184.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--175
+Underfull \hbox (badness 10000) in paragraph at lines 181--187
 
  []
 
-[7 <./ex1_fig2_1.png> <./ex1_fig2_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--191
+[8 <./ex1_fig2_1.png> <./ex1_fig2_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--191
+Underfull \hbox (badness 10000) in paragraph at lines 193--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--191
+Underfull \hbox (badness 10000) in paragraph at lines 193--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--191
+Underfull \hbox (badness 10000) in paragraph at lines 193--203
 
  []
 
-<ex1_fig3_0.png, id=53, 640.3925pt x 294.09875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--203
+
+ []
+
+<ex1_fig3_0.png, id=54, 640.3925pt x 294.09875pt>
 File: ex1_fig3_0.png Graphic file (type png)
  <use ex1_fig3_0.png>
-Package pdftex.def Info: ex1_fig3_0.png used on input line 194.
+Package pdftex.def Info: ex1_fig3_0.png used on input line 206.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--197
+Underfull \hbox (badness 10000) in paragraph at lines 203--209
 
  []
 
-[8 <./ex1_fig3_0.png>] <ex1_fig3_1.png, id=58, 640.3925pt x 294.09875pt>
+[9 <./ex1_fig3_0.png>] <ex1_fig3_1.png, id=59, 640.3925pt x 294.09875pt>
 File: ex1_fig3_1.png Graphic file (type png)
 
 <use ex1_fig3_1.png>
-Package pdftex.def Info: ex1_fig3_1.png used on input line 201.
+Package pdftex.def Info: ex1_fig3_1.png used on input line 213.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--204
+Underfull \hbox (badness 10000) in paragraph at lines 210--216
 
  []
 
-<ex1_fig3_2.png, id=59, 640.3925pt x 294.09875pt>
+<ex1_fig3_2.png, id=60, 640.3925pt x 294.09875pt>
 File: ex1_fig3_2.png Graphic file (type png)
  <use ex1_fig3_2.png>
-Package pdftex.def Info: ex1_fig3_2.png used on input line 208.
+Package pdftex.def Info: ex1_fig3_2.png used on input line 220.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--211
+Underfull \hbox (badness 10000) in paragraph at lines 217--223
 
  []
 
-[9 <./ex1_fig3_1.png> <./ex1_fig3_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--227
+[10 <./ex1_fig3_1.png> <./ex1_fig3_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--227
+Underfull \hbox (badness 10000) in paragraph at lines 229--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--227
+Underfull \hbox (badness 10000) in paragraph at lines 229--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--227
+Underfull \hbox (badness 10000) in paragraph at lines 229--239
 
  []
 
-<ex1_fig4_0.png, id=65, 640.3925pt x 294.09875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--239
+
+ []
+
+<ex1_fig4_0.png, id=66, 640.3925pt x 294.09875pt>
 File: ex1_fig4_0.png Graphic file (type png)
  <use ex1_fig4_0.png>
-Package pdftex.def Info: ex1_fig4_0.png used on input line 230.
+Package pdftex.def Info: ex1_fig4_0.png used on input line 242.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--233
+Underfull \hbox (badness 10000) in paragraph at lines 239--245
 
  []
 
-[10 <./ex1_fig4_0.png>] <ex1_fig4_1.png, id=71, 640.3925pt x 294.09875pt>
+[11 <./ex1_fig4_0.png>] <ex1_fig4_1.png, id=72, 640.3925pt x 294.09875pt>
 File: ex1_fig4_1.png Graphic file (type png)
 
 <use ex1_fig4_1.png>
-Package pdftex.def Info: ex1_fig4_1.png used on input line 237.
+Package pdftex.def Info: ex1_fig4_1.png used on input line 249.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--240
+Underfull \hbox (badness 10000) in paragraph at lines 246--252
 
  []
 
-<ex1_fig4_2.png, id=72, 640.3925pt x 294.09875pt>
+<ex1_fig4_2.png, id=73, 640.3925pt x 294.09875pt>
 File: ex1_fig4_2.png Graphic file (type png)
  <use ex1_fig4_2.png>
-Package pdftex.def Info: ex1_fig4_2.png used on input line 244.
+Package pdftex.def Info: ex1_fig4_2.png used on input line 256.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--247
+Underfull \hbox (badness 10000) in paragraph at lines 253--259
 
  []
 
-[11 <./ex1_fig4_1.png> <./ex1_fig4_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--262
+[12 <./ex1_fig4_1.png> <./ex1_fig4_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--262
+Underfull \hbox (badness 10000) in paragraph at lines 265--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--262
+Underfull \hbox (badness 10000) in paragraph at lines 265--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--262
+Underfull \hbox (badness 10000) in paragraph at lines 265--274
 
  []
 
-<ex1_fig5_0.png, id=78, 640.3925pt x 294.09875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--274
+
+ []
+
+<ex1_fig5_0.png, id=79, 640.3925pt x 294.09875pt>
 File: ex1_fig5_0.png Graphic file (type png)
  <use ex1_fig5_0.png>
-Package pdftex.def Info: ex1_fig5_0.png used on input line 265.
+Package pdftex.def Info: ex1_fig5_0.png used on input line 277.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--268
+Underfull \hbox (badness 10000) in paragraph at lines 274--280
 
  []
 
-[12 <./ex1_fig5_0.png>] <ex1_fig5_1.png, id=84, 640.3925pt x 294.09875pt>
+[13 <./ex1_fig5_0.png>] <ex1_fig5_1.png, id=85, 640.3925pt x 294.09875pt>
 File: ex1_fig5_1.png Graphic file (type png)
 
 <use ex1_fig5_1.png>
-Package pdftex.def Info: ex1_fig5_1.png used on input line 272.
+Package pdftex.def Info: ex1_fig5_1.png used on input line 284.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--275
+Underfull \hbox (badness 10000) in paragraph at lines 281--287
 
  []
 
-<ex1_fig5_2.png, id=85, 640.3925pt x 294.09875pt>
+<ex1_fig5_2.png, id=86, 640.3925pt x 294.09875pt>
 File: ex1_fig5_2.png Graphic file (type png)
  <use ex1_fig5_2.png>
-Package pdftex.def Info: ex1_fig5_2.png used on input line 279.
+Package pdftex.def Info: ex1_fig5_2.png used on input line 291.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--282
+Underfull \hbox (badness 10000) in paragraph at lines 288--294
 
  []
 
-[13 <./ex1_fig5_1.png> <./ex1_fig5_2.png>]
+[14 <./ex1_fig5_1.png> <./ex1_fig5_2.png>]
 Chapitre 2.
-<ex2_fig1.png, id=91, 612.2875pt x 461.725pt>
+<ex2_fig1.png, id=92, 612.2875pt x 461.725pt>
 File: ex2_fig1.png Graphic file (type png)
  <use ex2_fig1.png>
-Package pdftex.def Info: ex2_fig1.png used on input line 300.
-(pdftex.def)             Requested size: 367.37534pt x 277.03714pt.
- [14
+Package pdftex.def Info: ex2_fig1.png used on input line 312.
+(pdftex.def)             Requested size: 306.143pt x 230.86194pt.
+ [15
 
- <./ex2_fig1.png>] <ex2_fig2.png, id=98, 612.2875pt x 461.725pt>
+ <./ex2_fig1.png>] <ex2_fig2.png, id=99, 612.2875pt x 461.725pt>
 File: ex2_fig2.png Graphic file (type png)
  <use ex2_fig2.png>
-Package pdftex.def Info: ex2_fig2.png used on input line 313.
+Package pdftex.def Info: ex2_fig2.png used on input line 325.
 (pdftex.def)             Requested size: 367.37534pt x 277.03714pt.
 
-[15 <./ex2_fig2.png>] <ex2_fig3.png, id=104, 612.2875pt x 461.725pt>
+Underfull \hbox (badness 10000) in paragraph at lines 321--328
+
+ []
+
+[16 <./ex2_fig2.png>] <ex2_fig3.png, id=105, 612.2875pt x 461.725pt>
 File: ex2_fig3.png Graphic file (type png)
 
 <use ex2_fig3.png>
-Package pdftex.def Info: ex2_fig3.png used on input line 331.
+Package pdftex.def Info: ex2_fig3.png used on input line 343.
 (pdftex.def)             Requested size: 367.37534pt x 277.03714pt.
- [16 <./ex2_fig3.png>]
-<ex2_fig4.png, id=110, 612.2875pt x 461.725pt>
+ [17 <./ex2_fig3.png>]
+<ex2_fig4.png, id=111, 612.2875pt x 461.725pt>
 File: ex2_fig4.png Graphic file (type png)
  <use ex2_fig4.png>
-Package pdftex.def Info: ex2_fig4.png used on input line 355.
+Package pdftex.def Info: ex2_fig4.png used on input line 367.
 (pdftex.def)             Requested size: 367.37534pt x 277.03714pt.
- [17 <./ex2_fig4.png>] <ex2_fig5.png, id=115, 732.7375pt x 487.8225pt>
+ [18 <./ex2_fig4.png>] <ex2_fig5.png, id=116, 732.7375pt x 487.8225pt>
 File: ex2_fig5.png Graphic file (type png)
  <use ex2_fig5.png>
-Package pdftex.def Info: ex2_fig5.png used on input line 379.
+Package pdftex.def Info: ex2_fig5.png used on input line 391.
 (pdftex.def)             Requested size: 439.64589pt x 292.69576pt.
 
-[18 <./ex2_fig5.png>]
+[19 <./ex2_fig5.png>]
 Chapitre 3.
+[20
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+]
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
 
  []
 
-[19
-
-] <ex3_figN2.png, id=124, 640.3925pt x 294.09875pt>
+<ex3_figN2.png, id=125, 640.3925pt x 294.09875pt>
 File: ex3_figN2.png Graphic file (type png)
  <use ex3_figN2.png>
-Package pdftex.def Info: ex3_figN2.png used on input line 436.
+Package pdftex.def Info: ex3_figN2.png used on input line 448.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[20] <ex3_figN5.png, id=129, 640.3925pt x 294.09875pt>
+ [21]
+<ex3_figN5.png, id=130, 640.3925pt x 294.09875pt>
 File: ex3_figN5.png Graphic file (type png)
  <use ex3_figN5.png>
-Package pdftex.def Info: ex3_figN5.png used on input line 444.
+Package pdftex.def Info: ex3_figN5.png used on input line 455.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
-
-<ex3_figN10.png, id=130, 640.3925pt x 294.09875pt>
+ [22 <./ex3_figN2.png> <./ex3_figN5.png>]
+<ex3_figN10.png, id=136, 640.3925pt x 294.09875pt>
 File: ex3_figN10.png Graphic file (type png)
  <use ex3_figN10.png>
-Package pdftex.def Info: ex3_figN10.png used on input line 451.
+Package pdftex.def Info: ex3_figN10.png used on input line 462.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21 <./ex3_figN2.png> <./ex3_figN5.png>]
-<ex3_figN20.png, id=136, 640.3925pt x 294.09875pt>
+<ex3_figN20.png, id=137, 640.3925pt x 294.09875pt>
 File: ex3_figN20.png Graphic file (type png)
  <use ex3_figN20.png>
-Package pdftex.def Info: ex3_figN20.png used on input line 459.
+Package pdftex.def Info: ex3_figN20.png used on input line 469.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-<ex3_figN60.png, id=137, 640.3925pt x 294.09875pt>
+<ex3_figN60.png, id=138, 640.3925pt x 294.09875pt>
 File: ex3_figN60.png Graphic file (type png)
  <use ex3_figN60.png>
-Package pdftex.def Info: ex3_figN60.png used on input line 466.
+Package pdftex.def Info: ex3_figN60.png used on input line 476.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 463--469
+Underfull \hbox (badness 10000) in paragraph at lines 473--479
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22 <./ex3_figN10.png> <./ex3_figN20.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
-
- []
-
-
+[23 <./ex3_figN10.png> <./ex3_figN20.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 485--486
 
  []
 
-[23 <./ex3_figN60.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
+
+ []
+
+[24 <./ex3_figN60.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--499
+Underfull \hbox (badness 10000) in paragraph at lines 506--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 518--520
-
- []
-
-
-! Package pgf Error: No shape named M31 is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.524 \tkzTabLine{d,+,z,-,z,}
-                             
-? 
-
-! Package pgf Error: No shape named M32 is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.524 \tkzTabLine{d,+,z,-,z,}
-                             
-? 
-
-! Package pgf Error: No shape named M32 is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.524 \tkzTabLine{d,+,z,-,z,}
-                             
-? 
-
-! Package pgf Error: No shape named M31 is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.524 \tkzTabLine{d,+,z,-,z,}
-                             
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--539
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 549--550
+Underfull \hbox (badness 10000) in paragraph at lines 528--530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 552--553
+./TP1_ballet_laurent.tex:534: Package pgf Error: No shape named M31 is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 \tkzTabLine{d,+,z,-,z,}
+                             
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+./TP1_ballet_laurent.tex:534: Package pgf Error: No shape named M32 is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 \tkzTabLine{d,+,z,-,z,}
+                             
+(That was another \errmessage.)
+
+
+./TP1_ballet_laurent.tex:534: Package pgf Error: No shape named M32 is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 \tkzTabLine{d,+,z,-,z,}
+                             
+(That was another \errmessage.)
+
+
+./TP1_ballet_laurent.tex:534: Package pgf Error: No shape named M31 is known.
+
+See the pgf package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 \tkzTabLine{d,+,z,-,z,}
+                             
+(That was another \errmessage.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--549
 
  []
 
 [26]
-Chapitre 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 570.
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+
+ []
+
+[27]
+Chapitre 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--579
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 580.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 583.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 593.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 583.
- [27
+(Font)              <10.95> on input line 593.
+ [28
 
-] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 626--627
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 630--631
+] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 636--637
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--635
+Underfull \hbox (badness 10000) in paragraph at lines 640--641
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
+Underfull \hbox (badness 10000) in paragraph at lines 643--645
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--648
+Underfull \hbox (badness 10000) in paragraph at lines 647--648
 
  []
 
-[29] <Guitare1.png, id=172, 552.0625pt x 431.6125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 655--658
+
+ []
+
+[30] <Guitare1.png, id=173, 552.0625pt x 431.6125pt>
 File: Guitare1.png Graphic file (type png)
  <use Guitare1.png>
-Package pdftex.def Info: Guitare1.png used on input line 660.
+Package pdftex.def Info: Guitare1.png used on input line 670.
 (pdftex.def)             Requested size: 165.62003pt x 129.48474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--661
+Underfull \hbox (badness 10000) in paragraph at lines 670--671
 
  []
 
-<Guitare2.png, id=173, 549.05125pt x 414.54875pt>
+<Guitare2.png, id=174, 549.05125pt x 414.54875pt>
 File: Guitare2.png Graphic file (type png)
  <use Guitare2.png>
-Package pdftex.def Info: Guitare2.png used on input line 664.
+Package pdftex.def Info: Guitare2.png used on input line 674.
 (pdftex.def)             Requested size: 164.71664pt x 124.36557pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 664--665
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
 
  []
 
-<Guitare3.png, id=174, 542.025pt x 419.5675pt>
+<Guitare3.png, id=175, 542.025pt x 419.5675pt>
 File: Guitare3.png Graphic file (type png)
  <use Guitare3.png>
-Package pdftex.def Info: Guitare3.png used on input line 668.
+Package pdftex.def Info: Guitare3.png used on input line 678.
 (pdftex.def)             Requested size: 162.60875pt x 125.87122pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--669
+Underfull \hbox (badness 10000) in paragraph at lines 678--679
 
  []
 
-[30 <./Guitare1.png> <./Guitare2.png> <./Guitare3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 673--675
+[31 <./Guitare1.png> <./Guitare2.png> <./Guitare3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 683--685
 
  []
 
-<GuitareChronogramme.png, id=183, 707.64375pt x 409.53pt>
+<GuitareChronogramme.png, id=184, 707.64375pt x 409.53pt>
 File: GuitareChronogramme.png Graphic file (type png)
 
 <use GuitareChronogramme.png>
-Package pdftex.def Info: GuitareChronogramme.png used on input line 689.
+Package pdftex.def Info: GuitareChronogramme.png used on input line 699.
 (pdftex.def)             Requested size: 353.82101pt x 204.7645pt.
- [31 <./GuitareChronogramme.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 692--693
+ [32 <./GuitareChronogramme.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 702--703
 
  []
 
-<GuitareFreq1.png, id=188, 694.595pt x 398.48875pt>
+
+./TP1_ballet_laurent.tex:718: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.718 	\begin
+             {center}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<GuitareFreq1.png, id=189, 694.595pt x 398.48875pt>
 File: GuitareFreq1.png Graphic file (type png)
  <use GuitareFreq1.png>
-Package pdftex.def Info: GuitareFreq1.png used on input line 709.
+Package pdftex.def Info: GuitareFreq1.png used on input line 719.
 (pdftex.def)             Requested size: 347.29665pt x 199.24388pt.
 
-[32 <./GuitareFreq1.png>] <GuitareFreq2.png, id=193, 712.6625pt x 414.54875pt>
+[33 <./GuitareFreq1.png>] <GuitareFreq2.png, id=194, 712.6625pt x 414.54875pt>
 File: GuitareFreq2.png Graphic file (type png)
 
 <use GuitareFreq2.png>
-Package pdftex.def Info: GuitareFreq2.png used on input line 724.
+Package pdftex.def Info: GuitareFreq2.png used on input line 735.
 (pdftex.def)             Requested size: 356.33038pt x 207.27386pt.
- [33 <./GuitareFreq2.png>]
-<Piano1.png, id=198, 546.04pt x 409.53pt>
+ [34 <./GuitareFreq2.png>]
+<Piano1.png, id=199, 546.04pt x 409.53pt>
 File: Piano1.png Graphic file (type png)
  <use Piano1.png>
-Package pdftex.def Info: Piano1.png used on input line 760.
+Package pdftex.def Info: Piano1.png used on input line 770.
 (pdftex.def)             Requested size: 163.81326pt x 122.85994pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--761
+Underfull \hbox (badness 10000) in paragraph at lines 770--771
 
  []
 
-<Piano2.png, id=199, 537.00626pt x 399.4925pt>
+<Piano2.png, id=200, 537.00626pt x 399.4925pt>
 File: Piano2.png Graphic file (type png)
  <use Piano2.png>
-Package pdftex.def Info: Piano2.png used on input line 764.
+Package pdftex.def Info: Piano2.png used on input line 774.
 (pdftex.def)             Requested size: 161.10312pt x 119.84866pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--765
+Underfull \hbox (badness 10000) in paragraph at lines 774--775
 
  []
 
-<Piano3.png, id=200, 529.98pt x 392.46625pt>
+<Piano3.png, id=201, 529.98pt x 392.46625pt>
 File: Piano3.png Graphic file (type png)
  <use Piano3.png>
-Package pdftex.def Info: Piano3.png used on input line 768.
+Package pdftex.def Info: Piano3.png used on input line 778.
 (pdftex.def)             Requested size: 158.99521pt x 117.74077pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 768--769
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
 
  []
 
-<Piano4.png, id=201, 548.0475pt x 397.485pt>
+<Piano4.png, id=202, 548.0475pt x 397.485pt>
 File: Piano4.png Graphic file (type png)
  <use Piano4.png>
-Package pdftex.def Info: Piano4.png used on input line 772.
+Package pdftex.def Info: Piano4.png used on input line 782.
 (pdftex.def)             Requested size: 164.41551pt x 119.24641pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 772--773
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
 
  []
 
-<Piano5.png, id=202, 547.04375pt x 400.49625pt>
+<Piano5.png, id=203, 547.04375pt x 400.49625pt>
 File: Piano5.png Graphic file (type png)
  <use Piano5.png>
-Package pdftex.def Info: Piano5.png used on input line 776.
+Package pdftex.def Info: Piano5.png used on input line 786.
 (pdftex.def)             Requested size: 164.11438pt x 120.1498pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 776--777
+Underfull \hbox (badness 10000) in paragraph at lines 786--787
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34] [35 <./Piano1.png> <./Piano2.png> <./Piano3.png> <./Piano4.png> <./Piano5.
+[35] [36 <./Piano1.png> <./Piano2.png> <./Piano3.png> <./Piano4.png> <./Piano5.
 png>]
 Chapitre 5.
-[36
+[37
 
-] [37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 939--941
+] [38] [39] [40]
+Underfull \hbox (badness 10000) in paragraph at lines 951--953
 
  []
 
-[39] <ex5_fig1.png, id=227, 612.2875pt x 612.2875pt>
+[41] <ex5_fig1.png, id=231, 612.2875pt x 612.2875pt>
 File: ex5_fig1.png Graphic file (type png)
  <use ex5_fig1.png>
-Package pdftex.def Info: ex5_fig1.png used on input line 963.
+Package pdftex.def Info: ex5_fig1.png used on input line 976.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 963--964
+Underfull \hbox (badness 10000) in paragraph at lines 976--977
 
  []
 
-<ex5_fig3.png, id=228, 612.2875pt x 612.2875pt>
+<ex5_fig3.png, id=232, 612.2875pt x 612.2875pt>
 File: ex5_fig3.png Graphic file (type png)
  <use ex5_fig3.png>
-Package pdftex.def Info: ex5_fig3.png used on input line 967.
+Package pdftex.def Info: ex5_fig3.png used on input line 980.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 967--968
+Underfull \hbox (badness 10000) in paragraph at lines 980--981
 
  []
 
-<ex5_fig4.png, id=229, 612.2875pt x 612.2875pt>
+<ex5_fig4.png, id=233, 612.2875pt x 612.2875pt>
 File: ex5_fig4.png Graphic file (type png)
  <use ex5_fig4.png>
-Package pdftex.def Info: ex5_fig4.png used on input line 971.
+Package pdftex.def Info: ex5_fig4.png used on input line 984.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 971--972
+Underfull \hbox (badness 10000) in paragraph at lines 984--985
 
  []
 
-<ex5_fig5.png, id=230, 612.2875pt x 612.2875pt>
+<ex5_fig5.png, id=234, 612.2875pt x 612.2875pt>
 File: ex5_fig5.png Graphic file (type png)
  <use ex5_fig5.png>
-Package pdftex.def Info: ex5_fig5.png used on input line 975.
+Package pdftex.def Info: ex5_fig5.png used on input line 988.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 975--976
+Underfull \hbox (badness 10000) in paragraph at lines 988--989
 
  []
 
-<ex5_fig6.png, id=231, 612.2875pt x 612.2875pt>
+<ex5_fig6.png, id=235, 612.2875pt x 612.2875pt>
 File: ex5_fig6.png Graphic file (type png)
  <use ex5_fig6.png>
-Package pdftex.def Info: ex5_fig6.png used on input line 981.
+Package pdftex.def Info: ex5_fig6.png used on input line 994.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
- [40 <./ex5_fig1.png> <./ex5_fig3.png> <./ex5_fig4.png> <./ex5_fig5.png>] [41 <
-./ex5_fig6.png>] [42] [43] <ex5_fig7.png, id=251, 612.2875pt x 612.2875pt>
+ [42 <./ex5_fig1.png> <./ex5_fig3.png> <./ex5_fig4.png> <./ex5_fig5.png>] [43 <
+./ex5_fig6.png>] [44] <ex5_fig7.png, id=252, 612.2875pt x 612.2875pt>
 File: ex5_fig7.png Graphic file (type png)
-
-<use ex5_fig7.png>
-Package pdftex.def Info: ex5_fig7.png used on input line 1086.
+ <use ex5_fig7.png>
+Package pdftex.def Info: ex5_fig7.png used on input line 1099.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
 
  []
 
-<ex5_fig8.png, id=252, 612.2875pt x 612.2875pt>
+<ex5_fig8.png, id=253, 612.2875pt x 612.2875pt>
 File: ex5_fig8.png Graphic file (type png)
  <use ex5_fig8.png>
-Package pdftex.def Info: ex5_fig8.png used on input line 1090.
+Package pdftex.def Info: ex5_fig8.png used on input line 1103.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
 
  []
 
-<ex5_fig9.png, id=253, 612.2875pt x 612.2875pt>
+<ex5_fig9.png, id=254, 612.2875pt x 612.2875pt>
 File: ex5_fig9.png Graphic file (type png)
  <use ex5_fig9.png>
-Package pdftex.def Info: ex5_fig9.png used on input line 1094.
+Package pdftex.def Info: ex5_fig9.png used on input line 1107.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1095
+Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
 
  []
 
-<ex5_fig10.png, id=254, 612.2875pt x 612.2875pt>
+<ex5_fig10.png, id=255, 612.2875pt x 612.2875pt>
 File: ex5_fig10.png Graphic file (type png)
  <use ex5_fig10.png>
-Package pdftex.def Info: ex5_fig10.png used on input line 1098.
+Package pdftex.def Info: ex5_fig10.png used on input line 1111.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
+Underfull \hbox (badness 10000) in paragraph at lines 1111--1112
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[44] [45 <./ex5_fig7.png> <./ex5_fig8.png> <./ex5_fig9.png> <./ex5_fig10.png>]
-Chapitre 6.
-[46
-
-] (./TP1_ballet_laurent.aux) ) 
+[45] [46 <./ex5_fig7.png> <./ex5_fig8.png> <./ex5_fig9.png> <./ex5_fig10.png>]
+(./TP1_ballet_laurent.aux) ) 
 Here is how much of TeX's memory you used:
- 19465 strings out of 493089
- 351332 string characters out of 6134841
- 554227 words of memory out of 5000000
- 22509 multiletter control sequences out of 15000+600000
- 84143 words of font info for 75 fonts, out of 8000000 for 9000
+ 19268 strings out of 493089
+ 350495 string characters out of 6134841
+ 560041 words of memory out of 5000000
+ 22318 multiletter control sequences out of 15000+600000
+ 66080 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,16n,72p,880b,2895s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvi
-ps/lm/lm-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ts1.e
-nc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/l
-ocal/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texli
-ve/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2015/te
-xmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2015/texmf-dist/fonts
-/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lm
-ex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/public/lm/lmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
-m/lmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/public/lm/lmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/symbols/msbm10.pfb>
-Output written on TP1_ballet_laurent.pdf (47 pages, 1316749 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips
+/lm/lm-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
+}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/loc
+al/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive
+/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2015/texm
+f-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmex
+10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/lm/lmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/l
+mr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msbm10.pfb>
+Output written on TP1_ballet_laurent.pdf (46 pages, 1444540 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
+ 331 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
