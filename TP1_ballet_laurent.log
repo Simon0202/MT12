@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.21)  23 APR 2016 20:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.21)  24 APR 2016 20:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -943,50 +943,78 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen173
 \Gm@dimlist=\toks38
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count143
+\lst@gtempboxa=\box41
+\lst@token=\toks39
+\lst@length=\count144
+\lst@currlwidth=\dimen174
+\lst@column=\count145
+\lst@pos=\count146
+\lst@lostspace=\dimen175
+\lst@width=\dimen176
+\lst@newlines=\count147
+\lst@lineno=\count148
+\lst@maxwidth=\dimen177
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count149
+\lst@skipnumbers=\count150
+\lst@framebox=\box42
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
 (./TP1_ballet_laurent.aux)
 \openout1 = `TP1_ballet_laurent.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 50.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 51.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \degres on input line 50.
-LaTeX Info: Redefining \dots on input line 50.
-LaTeX Info: Redefining \up on input line 50.
+LaTeX Info: Redefining \degres on input line 51.
+LaTeX Info: Redefining \dots on input line 51.
+LaTeX Info: Redefining \up on input line 51.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count143
-\scratchdimen=\dimen174
-\scratchbox=\box41
-\nofMPsegments=\count144
-\nofMParguments=\count145
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count146
-\MPscratchDim=\dimen175
-\MPnumerator=\count147
-\makeMPintoPDFobject=\count148
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count151
+\scratchdimen=\dimen178
+\scratchbox=\box43
+\nofMPsegments=\count152
+\nofMParguments=\count153
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count154
+\MPscratchDim=\dimen179
+\MPnumerator=\count155
+\makeMPintoPDFobject=\count156
+\everyMPtoPDFconversion=\toks41
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1066,39 +1094,40 @@ ABD: EveryShipout initializing macros
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 63.
+\c@lstlisting=\count157
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 64.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 63.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 64.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 63.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 64.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 63.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 64.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 63.
+(Font)              <14.4> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 63.
+(Font)              <10> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 63.
-LaTeX Font Info:    Try loading font information for U+msa on input line 63.
+(Font)              <7> on input line 64.
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 63.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1123,126 +1152,103 @@ Chapitre 1.
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
 <fourier.jpg, id=18, 501.875pt x 602.25pt>
 File: fourier.jpg Graphic file (type jpg)
  <use fourier.jpg>
-Package pdftex.def Info: fourier.jpg used on input line 96.
+Package pdftex.def Info: fourier.jpg used on input line 98.
 (pdftex.def)             Requested size: 125.46843pt x 150.56212pt.
 
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97 \caption
-             {\textit{Joseph Fourier}}
-? 
-! Undefined control sequence.
-\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
-                                                  \@captype }
-l.97 \caption
-             {\textit{Joseph Fourier}}
-? 
-! Undefined control sequence.
-\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
-                                                  }
-l.97 \caption
-             {\textit{Joseph Fourier}}
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-
- []
-
-[3 <./fourier.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 107--118
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--118
+Underfull \hbox (badness 10000) in paragraph at lines 109--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--118
+Underfull \hbox (badness 10000) in paragraph at lines 109--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--118
+Underfull \hbox (badness 10000) in paragraph at lines 109--120
 
  []
 
-<ex1_fig1_0.png, id=25, 640.3925pt x 294.09875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--120
+
+ []
+
+[3] <ex1_fig1_0.png, id=25, 640.3925pt x 294.09875pt>
 File: ex1_fig1_0.png Graphic file (type png)
  <use ex1_fig1_0.png>
-Package pdftex.def Info: ex1_fig1_0.png used on input line 121.
+Package pdftex.def Info: ex1_fig1_0.png used on input line 123.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--124
+Underfull \hbox (badness 10000) in paragraph at lines 120--126
 
  []
 
-[4 <./ex1_fig1_0.png>] <ex1_fig1_1.png, id=33, 640.3925pt x 294.09875pt>
+[4 <./fourier.jpg> <./ex1_fig1_0.png>]
+<ex1_fig1_1.png, id=33, 640.3925pt x 294.09875pt>
 File: ex1_fig1_1.png Graphic file (type png)
-
-<use ex1_fig1_1.png>
-Package pdftex.def Info: ex1_fig1_1.png used on input line 128.
+ <use ex1_fig1_1.png>
+Package pdftex.def Info: ex1_fig1_1.png used on input line 130.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--131
+Underfull \hbox (badness 10000) in paragraph at lines 127--133
 
  []
 
 <ex1_fig1_2.png, id=34, 640.3925pt x 294.09875pt>
 File: ex1_fig1_2.png Graphic file (type png)
  <use ex1_fig1_2.png>
-Package pdftex.def Info: ex1_fig1_2.png used on input line 135.
+Package pdftex.def Info: ex1_fig1_2.png used on input line 137.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--138
+Underfull \hbox (badness 10000) in paragraph at lines 134--140
 
  []
 
 [5 <./ex1_fig1_1.png> <./ex1_fig1_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--153
+Underfull \hbox (badness 10000) in paragraph at lines 146--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--153
+Underfull \hbox (badness 10000) in paragraph at lines 146--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--153
+Underfull \hbox (badness 10000) in paragraph at lines 146--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--153
+Underfull \hbox (badness 10000) in paragraph at lines 146--155
 
  []
 
 <ex1_fig2_0.png, id=40, 640.3925pt x 294.09875pt>
 File: ex1_fig2_0.png Graphic file (type png)
  <use ex1_fig2_0.png>
-Package pdftex.def Info: ex1_fig2_0.png used on input line 156.
+Package pdftex.def Info: ex1_fig2_0.png used on input line 158.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--159
+Underfull \hbox (badness 10000) in paragraph at lines 155--161
 
  []
 
@@ -1250,55 +1256,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--159
 File: ex1_fig2_1.png Graphic file (type png)
 
 <use ex1_fig2_1.png>
-Package pdftex.def Info: ex1_fig2_1.png used on input line 163.
+Package pdftex.def Info: ex1_fig2_1.png used on input line 165.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--166
+Underfull \hbox (badness 10000) in paragraph at lines 162--168
 
  []
 
 <ex1_fig2_2.png, id=47, 640.3925pt x 294.09875pt>
 File: ex1_fig2_2.png Graphic file (type png)
  <use ex1_fig2_2.png>
-Package pdftex.def Info: ex1_fig2_2.png used on input line 170.
+Package pdftex.def Info: ex1_fig2_2.png used on input line 172.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--173
+Underfull \hbox (badness 10000) in paragraph at lines 169--175
 
  []
 
 [7 <./ex1_fig2_1.png> <./ex1_fig2_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--189
+Underfull \hbox (badness 10000) in paragraph at lines 181--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--189
+Underfull \hbox (badness 10000) in paragraph at lines 181--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--189
+Underfull \hbox (badness 10000) in paragraph at lines 181--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--189
+Underfull \hbox (badness 10000) in paragraph at lines 181--191
 
  []
 
 <ex1_fig3_0.png, id=53, 640.3925pt x 294.09875pt>
 File: ex1_fig3_0.png Graphic file (type png)
  <use ex1_fig3_0.png>
-Package pdftex.def Info: ex1_fig3_0.png used on input line 192.
+Package pdftex.def Info: ex1_fig3_0.png used on input line 194.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--195
+Underfull \hbox (badness 10000) in paragraph at lines 191--197
 
  []
 
@@ -1306,55 +1312,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--195
 File: ex1_fig3_1.png Graphic file (type png)
 
 <use ex1_fig3_1.png>
-Package pdftex.def Info: ex1_fig3_1.png used on input line 199.
+Package pdftex.def Info: ex1_fig3_1.png used on input line 201.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--202
+Underfull \hbox (badness 10000) in paragraph at lines 198--204
 
  []
 
 <ex1_fig3_2.png, id=59, 640.3925pt x 294.09875pt>
 File: ex1_fig3_2.png Graphic file (type png)
  <use ex1_fig3_2.png>
-Package pdftex.def Info: ex1_fig3_2.png used on input line 206.
+Package pdftex.def Info: ex1_fig3_2.png used on input line 208.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--209
+Underfull \hbox (badness 10000) in paragraph at lines 205--211
 
  []
 
 [9 <./ex1_fig3_1.png> <./ex1_fig3_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--225
+Underfull \hbox (badness 10000) in paragraph at lines 217--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--225
+Underfull \hbox (badness 10000) in paragraph at lines 217--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--225
+Underfull \hbox (badness 10000) in paragraph at lines 217--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--225
+Underfull \hbox (badness 10000) in paragraph at lines 217--227
 
  []
 
 <ex1_fig4_0.png, id=65, 640.3925pt x 294.09875pt>
 File: ex1_fig4_0.png Graphic file (type png)
  <use ex1_fig4_0.png>
-Package pdftex.def Info: ex1_fig4_0.png used on input line 228.
+Package pdftex.def Info: ex1_fig4_0.png used on input line 230.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--231
+Underfull \hbox (badness 10000) in paragraph at lines 227--233
 
  []
 
@@ -1362,55 +1368,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--231
 File: ex1_fig4_1.png Graphic file (type png)
 
 <use ex1_fig4_1.png>
-Package pdftex.def Info: ex1_fig4_1.png used on input line 235.
+Package pdftex.def Info: ex1_fig4_1.png used on input line 237.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--238
+Underfull \hbox (badness 10000) in paragraph at lines 234--240
 
  []
 
 <ex1_fig4_2.png, id=72, 640.3925pt x 294.09875pt>
 File: ex1_fig4_2.png Graphic file (type png)
  <use ex1_fig4_2.png>
-Package pdftex.def Info: ex1_fig4_2.png used on input line 242.
+Package pdftex.def Info: ex1_fig4_2.png used on input line 244.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--245
+Underfull \hbox (badness 10000) in paragraph at lines 241--247
 
  []
 
 [11 <./ex1_fig4_1.png> <./ex1_fig4_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--260
+Underfull \hbox (badness 10000) in paragraph at lines 253--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--260
+Underfull \hbox (badness 10000) in paragraph at lines 253--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--260
+Underfull \hbox (badness 10000) in paragraph at lines 253--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--260
+Underfull \hbox (badness 10000) in paragraph at lines 253--262
 
  []
 
 <ex1_fig5_0.png, id=78, 640.3925pt x 294.09875pt>
 File: ex1_fig5_0.png Graphic file (type png)
  <use ex1_fig5_0.png>
-Package pdftex.def Info: ex1_fig5_0.png used on input line 263.
+Package pdftex.def Info: ex1_fig5_0.png used on input line 265.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--266
+Underfull \hbox (badness 10000) in paragraph at lines 262--268
 
  []
 
@@ -1418,20 +1424,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--266
 File: ex1_fig5_1.png Graphic file (type png)
 
 <use ex1_fig5_1.png>
-Package pdftex.def Info: ex1_fig5_1.png used on input line 270.
+Package pdftex.def Info: ex1_fig5_1.png used on input line 272.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--273
+Underfull \hbox (badness 10000) in paragraph at lines 269--275
 
  []
 
 <ex1_fig5_2.png, id=85, 640.3925pt x 294.09875pt>
 File: ex1_fig5_2.png Graphic file (type png)
  <use ex1_fig5_2.png>
-Package pdftex.def Info: ex1_fig5_2.png used on input line 277.
+Package pdftex.def Info: ex1_fig5_2.png used on input line 279.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--280
+Underfull \hbox (badness 10000) in paragraph at lines 276--282
 
  []
 
@@ -1440,38 +1446,38 @@ Chapitre 2.
 <ex2_fig1.png, id=91, 612.2875pt x 461.725pt>
 File: ex2_fig1.png Graphic file (type png)
  <use ex2_fig1.png>
-Package pdftex.def Info: ex2_fig1.png used on input line 298.
+Package pdftex.def Info: ex2_fig1.png used on input line 300.
 (pdftex.def)             Requested size: 367.37534pt x 277.03714pt.
  [14
 
  <./ex2_fig1.png>] <ex2_fig2.png, id=98, 612.2875pt x 461.725pt>
 File: ex2_fig2.png Graphic file (type png)
  <use ex2_fig2.png>
-Package pdftex.def Info: ex2_fig2.png used on input line 311.
+Package pdftex.def Info: ex2_fig2.png used on input line 313.
 (pdftex.def)             Requested size: 367.37534pt x 277.03714pt.
 
 [15 <./ex2_fig2.png>] <ex2_fig3.png, id=104, 612.2875pt x 461.725pt>
 File: ex2_fig3.png Graphic file (type png)
 
 <use ex2_fig3.png>
-Package pdftex.def Info: ex2_fig3.png used on input line 329.
+Package pdftex.def Info: ex2_fig3.png used on input line 331.
 (pdftex.def)             Requested size: 367.37534pt x 277.03714pt.
  [16 <./ex2_fig3.png>]
 <ex2_fig4.png, id=110, 612.2875pt x 461.725pt>
 File: ex2_fig4.png Graphic file (type png)
  <use ex2_fig4.png>
-Package pdftex.def Info: ex2_fig4.png used on input line 353.
+Package pdftex.def Info: ex2_fig4.png used on input line 355.
 (pdftex.def)             Requested size: 367.37534pt x 277.03714pt.
  [17 <./ex2_fig4.png>] <ex2_fig5.png, id=115, 732.7375pt x 487.8225pt>
 File: ex2_fig5.png Graphic file (type png)
  <use ex2_fig5.png>
-Package pdftex.def Info: ex2_fig5.png used on input line 377.
+Package pdftex.def Info: ex2_fig5.png used on input line 379.
 (pdftex.def)             Requested size: 439.64589pt x 292.69576pt.
 
 [18 <./ex2_fig5.png>]
 Chapitre 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
 
  []
 
@@ -1480,7 +1486,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--406
 ] <ex3_figN2.png, id=124, 640.3925pt x 294.09875pt>
 File: ex3_figN2.png Graphic file (type png)
  <use ex3_figN2.png>
-Package pdftex.def Info: ex3_figN2.png used on input line 434.
+Package pdftex.def Info: ex3_figN2.png used on input line 436.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
 
@@ -1489,13 +1495,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [20] <ex3_figN5.png, id=129, 640.3925pt x 294.09875pt>
 File: ex3_figN5.png Graphic file (type png)
  <use ex3_figN5.png>
-Package pdftex.def Info: ex3_figN5.png used on input line 442.
+Package pdftex.def Info: ex3_figN5.png used on input line 444.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
 <ex3_figN10.png, id=130, 640.3925pt x 294.09875pt>
 File: ex3_figN10.png Graphic file (type png)
  <use ex3_figN10.png>
-Package pdftex.def Info: ex3_figN10.png used on input line 449.
+Package pdftex.def Info: ex3_figN10.png used on input line 451.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
 
@@ -1505,16 +1511,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <ex3_figN20.png, id=136, 640.3925pt x 294.09875pt>
 File: ex3_figN20.png Graphic file (type png)
  <use ex3_figN20.png>
-Package pdftex.def Info: ex3_figN20.png used on input line 457.
+Package pdftex.def Info: ex3_figN20.png used on input line 459.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
 <ex3_figN60.png, id=137, 640.3925pt x 294.09875pt>
 File: ex3_figN60.png Graphic file (type png)
  <use ex3_figN60.png>
-Package pdftex.def Info: ex3_figN60.png used on input line 464.
+Package pdftex.def Info: ex3_figN60.png used on input line 466.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--467
+Underfull \hbox (badness 10000) in paragraph at lines 463--469
 
  []
 
@@ -1522,32 +1528,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 461--467
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [22 <./ex3_figN10.png> <./ex3_figN20.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
 
  []
 
 [23 <./ex3_figN60.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--497
+Underfull \hbox (badness 10000) in paragraph at lines 496--499
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
 
  []
 
-[24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 517--519
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 518--520
 
  []
 
@@ -1558,7 +1564,7 @@ See the pgf package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.523 \tkzTabLine{d,+,z,-,z,}
+l.524 \tkzTabLine{d,+,z,-,z,}
                              
 ? 
 
@@ -1568,7 +1574,7 @@ See the pgf package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.523 \tkzTabLine{d,+,z,-,z,}
+l.524 \tkzTabLine{d,+,z,-,z,}
                              
 ? 
 
@@ -1578,7 +1584,7 @@ See the pgf package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.523 \tkzTabLine{d,+,z,-,z,}
+l.524 \tkzTabLine{d,+,z,-,z,}
                              
 ? 
 
@@ -1588,78 +1594,321 @@ See the pgf package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.523 \tkzTabLine{d,+,z,-,z,}
+l.524 \tkzTabLine{d,+,z,-,z,}
                              
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--526
+Underfull \hbox (badness 10000) in paragraph at lines 537--539
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--537
+Underfull \hbox (badness 10000) in paragraph at lines 552--553
 
  []
 
-! Missing delimiter (. inserted).
-<to be read again> 
-                   \gdef 
-l.544 \label
-            {indice1}
-? 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 548--549
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--552
-
- []
-
-[27]
 Chapitre 4.
-[28
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 570.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 583.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 583.
+ [27
+
+] [28]
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--631
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 645--648
+
+ []
+
+[29] <Guitare1.png, id=172, 552.0625pt x 431.6125pt>
+File: Guitare1.png Graphic file (type png)
+ <use Guitare1.png>
+Package pdftex.def Info: Guitare1.png used on input line 660.
+(pdftex.def)             Requested size: 165.62003pt x 129.48474pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 660--661
+
+ []
+
+<Guitare2.png, id=173, 549.05125pt x 414.54875pt>
+File: Guitare2.png Graphic file (type png)
+ <use Guitare2.png>
+Package pdftex.def Info: Guitare2.png used on input line 664.
+(pdftex.def)             Requested size: 164.71664pt x 124.36557pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--665
+
+ []
+
+<Guitare3.png, id=174, 542.025pt x 419.5675pt>
+File: Guitare3.png Graphic file (type png)
+ <use Guitare3.png>
+Package pdftex.def Info: Guitare3.png used on input line 668.
+(pdftex.def)             Requested size: 162.60875pt x 125.87122pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 668--669
+
+ []
+
+[30 <./Guitare1.png> <./Guitare2.png> <./Guitare3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 673--675
+
+ []
+
+<GuitareChronogramme.png, id=183, 707.64375pt x 409.53pt>
+File: GuitareChronogramme.png Graphic file (type png)
+
+<use GuitareChronogramme.png>
+Package pdftex.def Info: GuitareChronogramme.png used on input line 689.
+(pdftex.def)             Requested size: 353.82101pt x 204.7645pt.
+ [31 <./GuitareChronogramme.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 692--693
+
+ []
+
+<GuitareFreq1.png, id=188, 694.595pt x 398.48875pt>
+File: GuitareFreq1.png Graphic file (type png)
+ <use GuitareFreq1.png>
+Package pdftex.def Info: GuitareFreq1.png used on input line 709.
+(pdftex.def)             Requested size: 347.29665pt x 199.24388pt.
+
+[32 <./GuitareFreq1.png>] <GuitareFreq2.png, id=193, 712.6625pt x 414.54875pt>
+File: GuitareFreq2.png Graphic file (type png)
+
+<use GuitareFreq2.png>
+Package pdftex.def Info: GuitareFreq2.png used on input line 724.
+(pdftex.def)             Requested size: 356.33038pt x 207.27386pt.
+ [33 <./GuitareFreq2.png>]
+<Piano1.png, id=198, 546.04pt x 409.53pt>
+File: Piano1.png Graphic file (type png)
+ <use Piano1.png>
+Package pdftex.def Info: Piano1.png used on input line 760.
+(pdftex.def)             Requested size: 163.81326pt x 122.85994pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
+
+ []
+
+<Piano2.png, id=199, 537.00626pt x 399.4925pt>
+File: Piano2.png Graphic file (type png)
+ <use Piano2.png>
+Package pdftex.def Info: Piano2.png used on input line 764.
+(pdftex.def)             Requested size: 161.10312pt x 119.84866pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 764--765
+
+ []
+
+<Piano3.png, id=200, 529.98pt x 392.46625pt>
+File: Piano3.png Graphic file (type png)
+ <use Piano3.png>
+Package pdftex.def Info: Piano3.png used on input line 768.
+(pdftex.def)             Requested size: 158.99521pt x 117.74077pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 768--769
+
+ []
+
+<Piano4.png, id=201, 548.0475pt x 397.485pt>
+File: Piano4.png Graphic file (type png)
+ <use Piano4.png>
+Package pdftex.def Info: Piano4.png used on input line 772.
+(pdftex.def)             Requested size: 164.41551pt x 119.24641pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--773
+
+ []
+
+<Piano5.png, id=202, 547.04375pt x 400.49625pt>
+File: Piano5.png Graphic file (type png)
+ <use Piano5.png>
+Package pdftex.def Info: Piano5.png used on input line 776.
+(pdftex.def)             Requested size: 164.11438pt x 120.1498pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34] [35 <./Piano1.png> <./Piano2.png> <./Piano3.png> <./Piano4.png> <./Piano5.
+png>]
 Chapitre 5.
-[29
+[36
 
-] [30] [31] [32]
+] [37] [38]
+Underfull \hbox (badness 10000) in paragraph at lines 939--941
+
+ []
+
+[39] <ex5_fig1.png, id=227, 612.2875pt x 612.2875pt>
+File: ex5_fig1.png Graphic file (type png)
+ <use ex5_fig1.png>
+Package pdftex.def Info: ex5_fig1.png used on input line 963.
+(pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 963--964
+
+ []
+
+<ex5_fig3.png, id=228, 612.2875pt x 612.2875pt>
+File: ex5_fig3.png Graphic file (type png)
+ <use ex5_fig3.png>
+Package pdftex.def Info: ex5_fig3.png used on input line 967.
+(pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 967--968
+
+ []
+
+<ex5_fig4.png, id=229, 612.2875pt x 612.2875pt>
+File: ex5_fig4.png Graphic file (type png)
+ <use ex5_fig4.png>
+Package pdftex.def Info: ex5_fig4.png used on input line 971.
+(pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 971--972
+
+ []
+
+<ex5_fig5.png, id=230, 612.2875pt x 612.2875pt>
+File: ex5_fig5.png Graphic file (type png)
+ <use ex5_fig5.png>
+Package pdftex.def Info: ex5_fig5.png used on input line 975.
+(pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 975--976
+
+ []
+
+<ex5_fig6.png, id=231, 612.2875pt x 612.2875pt>
+File: ex5_fig6.png Graphic file (type png)
+ <use ex5_fig6.png>
+Package pdftex.def Info: ex5_fig6.png used on input line 981.
+(pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
+ [40 <./ex5_fig1.png> <./ex5_fig3.png> <./ex5_fig4.png> <./ex5_fig5.png>] [41 <
+./ex5_fig6.png>] [42] [43] <ex5_fig7.png, id=251, 612.2875pt x 612.2875pt>
+File: ex5_fig7.png Graphic file (type png)
+
+<use ex5_fig7.png>
+Package pdftex.def Info: ex5_fig7.png used on input line 1086.
+(pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
+
+ []
+
+<ex5_fig8.png, id=252, 612.2875pt x 612.2875pt>
+File: ex5_fig8.png Graphic file (type png)
+ <use ex5_fig8.png>
+Package pdftex.def Info: ex5_fig8.png used on input line 1090.
+(pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
+
+ []
+
+<ex5_fig9.png, id=253, 612.2875pt x 612.2875pt>
+File: ex5_fig9.png Graphic file (type png)
+ <use ex5_fig9.png>
+Package pdftex.def Info: ex5_fig9.png used on input line 1094.
+(pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1095
+
+ []
+
+<ex5_fig10.png, id=254, 612.2875pt x 612.2875pt>
+File: ex5_fig10.png Graphic file (type png)
+ <use ex5_fig10.png>
+Package pdftex.def Info: ex5_fig10.png used on input line 1098.
+(pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[44] [45 <./ex5_fig7.png> <./ex5_fig8.png> <./ex5_fig9.png> <./ex5_fig10.png>]
 Chapitre 6.
-[33
+[46
 
 ] (./TP1_ballet_laurent.aux) ) 
 Here is how much of TeX's memory you used:
- 16393 strings out of 493089
- 311944 string characters out of 6134841
- 368692 words of memory out of 5000000
- 19488 multiletter control sequences out of 15000+600000
- 72082 words of font info for 61 fonts, out of 8000000 for 9000
+ 19465 strings out of 493089
+ 351332 string characters out of 6134841
+ 554227 words of memory out of 5000000
+ 22509 multiletter control sequences out of 15000+600000
+ 84143 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,72p,881b,824s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,16n,72p,880b,2895s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvi
-ps/lm/lm-mathit.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-m
-athsy.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/te
-xlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
-/public/lm/lmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm
-/lmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi6.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/public/lm/lmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
-m/lmri12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on TP1_ballet_laurent.pdf (34 pages, 517050 bytes).
+ps/lm/lm-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ts1.e
+nc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/l
+ocal/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texli
+ve/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2015/te
+xmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lm
+ex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/lm/lmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
+m/lmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/lm/lmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb>
+Output written on TP1_ballet_laurent.pdf (47 pages, 1316749 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
+ 336 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 
