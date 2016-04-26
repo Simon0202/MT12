@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  26 APR 2016 23:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.21)  27 APR 2016 00:07
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **TP1_ballet_laurent.tex
 (./TP1_ballet_laurent.tex
@@ -824,48 +823,11 @@ File: logo_utc.png Graphic file (type png)
  <use logo_utc.png>
 Package pdftex.def Info: logo_utc.png used on input line 39.
 (pdftex.def)             Requested size: 137.78885pt x 68.89442pt.
-
-
-./TP1_ballet_laurent.tex:50: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50  \\
-        
-? r
-OK, entering \nonstopmode...
-
-./TP1_ballet_laurent.tex:56: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56  \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./TP1_ballet_laurent.tex:70: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 \\
-       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1
+ [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo_
-utc.png>] [2] (./TP1_ballet_laurent.toc
+utc.png>]
+[2] (./TP1_ballet_laurent.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -901,13 +863,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [3
+
+])
 \tf@toc=\write4
 \openout4 = `TP1_ballet_laurent.toc'.
 
- [3
-
-] [4]
+ [4]
 Chapitre 1.
 [5
 
@@ -919,116 +881,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--109
 <fourier.jpg, id=26, 501.875pt x 602.25pt>
 File: fourier.jpg Graphic file (type jpg)
  <use fourier.jpg>
-Package pdftex.def Info: fourier.jpg used on input line 111.
+Package pdftex.def Info: fourier.jpg used on input line 112.
 (pdftex.def)             Requested size: 125.46843pt x 150.56212pt.
-
-
-./TP1_ballet_laurent.tex:112: LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 \caption
-              {\textit{Joseph Fourier}}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./TP1_ballet_laurent.tex:112: Undefined control sequence.
-\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
-                                                  \@captype }
-l.112 \caption
-              {\textit{Joseph Fourier}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./TP1_ballet_laurent.tex:112: Undefined control sequence.
-\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
-                                                  }
-l.112 \caption
-              {\textit{Joseph Fourier}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[6 <./fourier.jpg>] <lordKelvin.png, id=33, 331.2375pt x 414.79968pt>
+ [6 <./fourier.jpg>] <lordKelvin.png, id=34, 331.2375pt x 414.79968pt>
 File: lordKelvin.png Graphic file (type png)
-
-<use lordKelvin.png>
-Package pdftex.def Info: lordKelvin.png used on input line 136.
+ <use lordKelvin.png>
+Package pdftex.def Info: lordKelvin.png used on input line 138.
 (pdftex.def)             Requested size: 99.37201pt x 124.44086pt.
 
-
-./TP1_ballet_laurent.tex:137: LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.137 \caption
-              {\textit{Lord Kelvin}}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./TP1_ballet_laurent.tex:137: Undefined control sequence.
-\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
-                                                  \@captype }
-l.137 \caption
-              {\textit{Lord Kelvin}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./TP1_ballet_laurent.tex:137: Undefined control sequence.
-\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
-                                                  }
-l.137 \caption
-              {\textit{Lord Kelvin}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 [7 <./lordKelvin.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--158
+Underfull \hbox (badness 10000) in paragraph at lines 149--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--158
+Underfull \hbox (badness 10000) in paragraph at lines 149--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--158
+Underfull \hbox (badness 10000) in paragraph at lines 149--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--158
+Underfull \hbox (badness 10000) in paragraph at lines 149--160
 
  []
 
-<ex1_fig1_0.png, id=38, 640.3925pt x 294.09875pt>
+<ex1_fig1_0.png, id=39, 640.3925pt x 294.09875pt>
 File: ex1_fig1_0.png Graphic file (type png)
  <use ex1_fig1_0.png>
-Package pdftex.def Info: ex1_fig1_0.png used on input line 161.
+Package pdftex.def Info: ex1_fig1_0.png used on input line 163.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--164
+Underfull \hbox (badness 10000) in paragraph at lines 160--166
 
  []
 
@@ -1036,50 +928,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--164
 File: ex1_fig1_1.png Graphic file (type png)
 
 <use ex1_fig1_1.png>
-Package pdftex.def Info: ex1_fig1_1.png used on input line 168.
+Package pdftex.def Info: ex1_fig1_1.png used on input line 170.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--171
+Underfull \hbox (badness 10000) in paragraph at lines 167--173
 
  []
 
 <ex1_fig1_2.png, id=46, 640.3925pt x 294.09875pt>
 File: ex1_fig1_2.png Graphic file (type png)
  <use ex1_fig1_2.png>
-Package pdftex.def Info: ex1_fig1_2.png used on input line 175.
+Package pdftex.def Info: ex1_fig1_2.png used on input line 177.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
  [9 <./ex1_fig1_1.png> <./ex1_fig1_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--194
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--194
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--194
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--194
+Underfull \hbox (badness 10000) in paragraph at lines 187--196
 
  []
 
 <ex1_fig2_0.png, id=52, 640.3925pt x 294.09875pt>
 File: ex1_fig2_0.png Graphic file (type png)
  <use ex1_fig2_0.png>
-Package pdftex.def Info: ex1_fig2_0.png used on input line 197.
+Package pdftex.def Info: ex1_fig2_0.png used on input line 199.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--200
+Underfull \hbox (badness 10000) in paragraph at lines 196--202
 
  []
 
@@ -1087,50 +979,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--200
 File: ex1_fig2_1.png Graphic file (type png)
 
 <use ex1_fig2_1.png>
-Package pdftex.def Info: ex1_fig2_1.png used on input line 204.
+Package pdftex.def Info: ex1_fig2_1.png used on input line 206.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--207
+Underfull \hbox (badness 10000) in paragraph at lines 203--209
 
  []
 
 <ex1_fig2_2.png, id=58, 640.3925pt x 294.09875pt>
 File: ex1_fig2_2.png Graphic file (type png)
  <use ex1_fig2_2.png>
-Package pdftex.def Info: ex1_fig2_2.png used on input line 211.
+Package pdftex.def Info: ex1_fig2_2.png used on input line 213.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
  [11 <./ex1_fig2_1.png> <./ex1_fig2_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--231
+Underfull \hbox (badness 10000) in paragraph at lines 223--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--231
+Underfull \hbox (badness 10000) in paragraph at lines 223--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--231
+Underfull \hbox (badness 10000) in paragraph at lines 223--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--231
+Underfull \hbox (badness 10000) in paragraph at lines 223--233
 
  []
 
 <ex1_fig3_0.png, id=64, 640.3925pt x 294.09875pt>
 File: ex1_fig3_0.png Graphic file (type png)
  <use ex1_fig3_0.png>
-Package pdftex.def Info: ex1_fig3_0.png used on input line 234.
+Package pdftex.def Info: ex1_fig3_0.png used on input line 236.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--237
+Underfull \hbox (badness 10000) in paragraph at lines 233--239
 
  []
 
@@ -1138,50 +1030,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--237
 File: ex1_fig3_1.png Graphic file (type png)
 
 <use ex1_fig3_1.png>
-Package pdftex.def Info: ex1_fig3_1.png used on input line 241.
+Package pdftex.def Info: ex1_fig3_1.png used on input line 243.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--244
+Underfull \hbox (badness 10000) in paragraph at lines 240--246
 
  []
 
 <ex1_fig3_2.png, id=70, 640.3925pt x 294.09875pt>
 File: ex1_fig3_2.png Graphic file (type png)
  <use ex1_fig3_2.png>
-Package pdftex.def Info: ex1_fig3_2.png used on input line 248.
+Package pdftex.def Info: ex1_fig3_2.png used on input line 250.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
  [13 <./ex1_fig3_1.png> <./ex1_fig3_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--269
+Underfull \hbox (badness 10000) in paragraph at lines 261--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--269
+Underfull \hbox (badness 10000) in paragraph at lines 261--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--269
+Underfull \hbox (badness 10000) in paragraph at lines 261--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--269
+Underfull \hbox (badness 10000) in paragraph at lines 261--271
 
  []
 
 <ex1_fig4_0.png, id=77, 640.3925pt x 294.09875pt>
 File: ex1_fig4_0.png Graphic file (type png)
  <use ex1_fig4_0.png>
-Package pdftex.def Info: ex1_fig4_0.png used on input line 272.
+Package pdftex.def Info: ex1_fig4_0.png used on input line 274.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--275
+Underfull \hbox (badness 10000) in paragraph at lines 271--277
 
  []
 
@@ -1189,50 +1081,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--275
 File: ex1_fig4_1.png Graphic file (type png)
 
 <use ex1_fig4_1.png>
-Package pdftex.def Info: ex1_fig4_1.png used on input line 279.
+Package pdftex.def Info: ex1_fig4_1.png used on input line 281.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--282
+Underfull \hbox (badness 10000) in paragraph at lines 278--284
 
  []
 
 <ex1_fig4_2.png, id=84, 640.3925pt x 294.09875pt>
 File: ex1_fig4_2.png Graphic file (type png)
  <use ex1_fig4_2.png>
-Package pdftex.def Info: ex1_fig4_2.png used on input line 286.
+Package pdftex.def Info: ex1_fig4_2.png used on input line 288.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
  [15 <./ex1_fig4_1.png> <./ex1_fig4_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--305
+Underfull \hbox (badness 10000) in paragraph at lines 298--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--305
+Underfull \hbox (badness 10000) in paragraph at lines 298--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--305
+Underfull \hbox (badness 10000) in paragraph at lines 298--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--305
+Underfull \hbox (badness 10000) in paragraph at lines 298--307
 
  []
 
 <ex1_fig5_0.png, id=90, 640.3925pt x 294.09875pt>
 File: ex1_fig5_0.png Graphic file (type png)
  <use ex1_fig5_0.png>
-Package pdftex.def Info: ex1_fig5_0.png used on input line 308.
+Package pdftex.def Info: ex1_fig5_0.png used on input line 310.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--311
+Underfull \hbox (badness 10000) in paragraph at lines 307--313
 
  []
 
@@ -1240,164 +1132,123 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--311
 File: ex1_fig5_1.png Graphic file (type png)
 
 <use ex1_fig5_1.png>
-Package pdftex.def Info: ex1_fig5_1.png used on input line 315.
+Package pdftex.def Info: ex1_fig5_1.png used on input line 317.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--318
+Underfull \hbox (badness 10000) in paragraph at lines 314--320
 
  []
 
 <ex1_fig5_2.png, id=96, 640.3925pt x 294.09875pt>
 File: ex1_fig5_2.png Graphic file (type png)
  <use ex1_fig5_2.png>
-Package pdftex.def Info: ex1_fig5_2.png used on input line 322.
+Package pdftex.def Info: ex1_fig5_2.png used on input line 324.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
  [17 <./ex1_fig5_1.png> <./ex1_fig5_2.png>]
 Chapitre 2.
 <ex2_fig1.png, id=102, 612.2875pt x 461.725pt>
 File: ex2_fig1.png Graphic file (type png)
  <use ex2_fig1.png>
-Package pdftex.def Info: ex2_fig1.png used on input line 344.
+Package pdftex.def Info: ex2_fig1.png used on input line 346.
 (pdftex.def)             Requested size: 306.143pt x 230.86194pt.
  [18
 
  <./ex2_fig1.png>] <ex2_fig2.png, id=109, 612.2875pt x 461.725pt>
 File: ex2_fig2.png Graphic file (type png)
  <use ex2_fig2.png>
-Package pdftex.def Info: ex2_fig2.png used on input line 357.
+Package pdftex.def Info: ex2_fig2.png used on input line 359.
 (pdftex.def)             Requested size: 367.37534pt x 277.03714pt.
 
 [19 <./ex2_fig2.png>] <ex2_fig3.png, id=116, 612.2875pt x 461.725pt>
 File: ex2_fig3.png Graphic file (type png)
 
 <use ex2_fig3.png>
-Package pdftex.def Info: ex2_fig3.png used on input line 375.
+Package pdftex.def Info: ex2_fig3.png used on input line 377.
 (pdftex.def)             Requested size: 367.37534pt x 277.03714pt.
 
-./TP1_ballet_laurent.tex:376: Argument of \@tempf has an extra }.
+! Argument of \@tempf has an extra }.
 <inserted text> 
                 \par 
-l.376 ...si\quad x \le 0\\ \end{aligned}\right.$.}
+l.378 ...si\quad x \le 0\\ \end{aligned}\right.$.}
                                                   
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
+? 
 Runaway argument?
 \@captype {\def \@currenvir {aligned}\edef \@currenvline {\on@line }\csname \ET
 C.
-./TP1_ballet_laurent.tex:376: Paragraph ended before \@tempf was complete.
+! Paragraph ended before \@tempf was complete.
 <to be read again> 
                    \par 
-l.376 ...si\quad x \le 0\\ \end{aligned}\right.$.}
+l.378 ...si\quad x \le 0\\ \end{aligned}\right.$.}
                                                   
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+? 
 [20 <./ex2_fig3.png>] <ex2_fig4.png, id=122, 612.2875pt x 461.725pt>
 File: ex2_fig4.png Graphic file (type png)
 
 <use ex2_fig4.png>
-Package pdftex.def Info: ex2_fig4.png used on input line 399.
+Package pdftex.def Info: ex2_fig4.png used on input line 402.
 (pdftex.def)             Requested size: 367.37534pt x 277.03714pt.
 
-./TP1_ballet_laurent.tex:407: Argument of \@tempf has an extra }.
+! Argument of \@tempf has an extra }.
 <inserted text> 
                 \par 
-l.407 .}
-        
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
+l.409     \right.\]}
+                    
+? 
 Runaway argument?
 \@captype {\def \@currenvir {aligned}\edef \@currenvline {\on@line }\csname \ET
 C.
-./TP1_ballet_laurent.tex:407: Paragraph ended before \@tempf was complete.
+! Paragraph ended before \@tempf was complete.
 <to be read again> 
                    \par 
-l.407 .}
-        
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./TP1_ballet_laurent.tex:407: Missing $ inserted.
+l.409     \right.\]}
+                    
+? 
+! Missing $ inserted.
 <inserted text> 
                 $
-l.407 .}
-        
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./TP1_ballet_laurent.tex:407: Missing $ inserted.
+l.409     \right.\]}
+                    
+? 
+! Missing $ inserted.
 <inserted text> 
                 $
-l.407 .}
-        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+l.409     \right.\]}
+                    
+? 
 [21 <./ex2_fig4.png>] <ex2_fig5.png, id=127, 732.7375pt x 487.8225pt>
 File: ex2_fig5.png Graphic file (type png)
 
 <use ex2_fig5.png>
-Package pdftex.def Info: ex2_fig5.png used on input line 430.
+Package pdftex.def Info: ex2_fig5.png used on input line 432.
 (pdftex.def)             Requested size: 439.64589pt x 292.69576pt.
 
-./TP1_ballet_laurent.tex:438: Argument of \@tempf has an extra }.
+! Argument of \@tempf has an extra }.
 <inserted text> 
                 \par 
-l.438 .}
+l.440 .}
         
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
+? 
 Runaway argument?
 \@captype {\def \@currenvir {aligned}\edef \@currenvline {\on@line }\csname \ET
 C.
-./TP1_ballet_laurent.tex:438: Paragraph ended before \@tempf was complete.
+! Paragraph ended before \@tempf was complete.
 <to be read again> 
                    \par 
-l.438 .}
+l.440 .}
         
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./TP1_ballet_laurent.tex:438: Missing $ inserted.
+? 
+! Missing $ inserted.
 <inserted text> 
                 $
-l.438 .}
+l.440 .}
         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./TP1_ballet_laurent.tex:438: Missing $ inserted.
+? 
+! Missing $ inserted.
 <inserted text> 
                 $
-l.438 .}
+l.440 .}
         
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 [22 <./ex2_fig5.png>]
 Chapitre 3.
 [23
@@ -1405,724 +1256,532 @@ Chapitre 3.
 ] <michelson.png, id=135, 331.2375pt x 465.23813pt>
 File: michelson.png Graphic file (type png)
  <use michelson.png>
-Package pdftex.def Info: michelson.png used on input line 477.
+Package pdftex.def Info: michelson.png used on input line 480.
 (pdftex.def)             Requested size: 82.80916pt x 116.30923pt.
 
-
-./TP1_ballet_laurent.tex:478: LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.478 \caption
-              {\textit{Albert Michelson}}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./TP1_ballet_laurent.tex:478: Undefined control sequence.
-\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
-                                                  \@captype }
-l.478 \caption
-              {\textit{Albert Michelson}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./TP1_ballet_laurent.tex:478: Undefined control sequence.
-\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
-                                                  }
-l.478 \caption
-              {\textit{Albert Michelson}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 [24 <./michelson.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
 
  []
 
 <gibbs.png, id=139, 125.268pt x 166.9437pt>
 File: gibbs.png Graphic file (type png)
  <use gibbs.png>
-Package pdftex.def Info: gibbs.png used on input line 496.
+Package pdftex.def Info: gibbs.png used on input line 500.
 (pdftex.def)             Requested size: 87.687pt x 116.85977pt.
-
-
-./TP1_ballet_laurent.tex:497: LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.497 \caption
-              {\textit{Josiah Willard Gibbs}}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./TP1_ballet_laurent.tex:497: Undefined control sequence.
-\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
-                                                  \@captype }
-l.497 \caption
-              {\textit{Josiah Willard Gibbs}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./TP1_ballet_laurent.tex:497: Undefined control sequence.
-\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
-                                                  }
-l.497 \caption
-              {\textit{Josiah Willard Gibbs}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[25 <./gibbs.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
+ [25 <./gibbs.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
 
  []
 
 <maxime.png, id=144, 90.3375pt x 109.40875pt>
 File: maxime.png Graphic file (type png)
  <use maxime.png>
-Package pdftex.def Info: maxime.png used on input line 514.
+Package pdftex.def Info: maxime.png used on input line 519.
 (pdftex.def)             Requested size: 90.33727pt x 109.40846pt.
-
-
-./TP1_ballet_laurent.tex:515: LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.515 \caption
-              {\textit{Maxime B\^ocher}}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./TP1_ballet_laurent.tex:515: Undefined control sequence.
-\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
-                                                  \@captype }
-l.515 \caption
-              {\textit{Maxime B\^ocher}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./TP1_ballet_laurent.tex:515: Undefined control sequence.
-\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
-                                                  }
-l.515 \caption
-              {\textit{Maxime B\^ocher}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[26 <./maxime.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 533--534
+ [26]
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
 
  []
 
 <olivier.png, id=148, 108.405pt x 139.11975pt>
 File: olivier.png Graphic file (type png)
  <use olivier.png>
-Package pdftex.def Info: olivier.png used on input line 536.
+Package pdftex.def Info: olivier.png used on input line 542.
 (pdftex.def)             Requested size: 75.88297pt x 97.38315pt.
-
-
-./TP1_ballet_laurent.tex:537: LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.537 \caption
-              {\textit{Oliver Heaviside}}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./TP1_ballet_laurent.tex:537: Undefined control sequence.
-\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
-                                                  \@captype }
-l.537 \caption
-              {\textit{Oliver Heaviside}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./TP1_ballet_laurent.tex:537: Undefined control sequence.
-\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
-                                                  }
-l.537 \caption
-              {\textit{Oliver Heaviside}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[27 <./olivier.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 543--544
+ [27 <./maxime.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
 
  []
 
-<ex3_figN2.png, id=152, 640.3925pt x 294.09875pt>
+[28 <./olivier.png>] <ex3_figN2.png, id=155, 640.3925pt x 294.09875pt>
 File: ex3_figN2.png Graphic file (type png)
- <use ex3_figN2.png>
-Package pdftex.def Info: ex3_figN2.png used on input line 572.
+
+<use ex3_figN2.png>
+Package pdftex.def Info: ex3_figN2.png used on input line 578.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
- [28]
-<ex3_figN5.png, id=157, 640.3925pt x 294.09875pt>
+ <ex3_figN5.png, id=156, 640.3925pt x 294.09875pt>
 File: ex3_figN5.png Graphic file (type png)
- <use ex3_figN5.png>
-Package pdftex.def Info: ex3_figN5.png used on input line 579.
+
+<use ex3_figN5.png>
+Package pdftex.def Info: ex3_figN5.png used on input line 585.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
- [29 <./ex3_figN2.png> <./ex3_figN5.png>]
-<ex3_figN10.png, id=163, 640.3925pt x 294.09875pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29 <./ex3_figN2.png>] <ex3_figN10.png, id=162, 640.3925pt x 294.09875pt>
 File: ex3_figN10.png Graphic file (type png)
- <use ex3_figN10.png>
-Package pdftex.def Info: ex3_figN10.png used on input line 586.
-(pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-<ex3_figN20.png, id=164, 640.3925pt x 294.09875pt>
+<use ex3_figN10.png>
+Package pdftex.def Info: ex3_figN10.png used on input line 592.
+(pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
+ <ex3_figN20.png, id=163, 640.3925pt x 294.09875pt>
 File: ex3_figN20.png Graphic file (type png)
- <use ex3_figN20.png>
-Package pdftex.def Info: ex3_figN20.png used on input line 593.
+
+<use ex3_figN20.png>
+Package pdftex.def Info: ex3_figN20.png used on input line 599.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-<ex3_figN60.png, id=165, 640.3925pt x 294.09875pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<ex3_figN60.png, id=164, 640.3925pt x 294.09875pt>
 File: ex3_figN60.png Graphic file (type png)
  <use ex3_figN60.png>
-Package pdftex.def Info: ex3_figN60.png used on input line 600.
+Package pdftex.def Info: ex3_figN60.png used on input line 606.
 (pdftex.def)             Requested size: 384.23846pt x 176.4606pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--603
+Underfull \hbox (badness 10000) in paragraph at lines 603--609
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30 <./ex3_figN10.png> <./ex3_figN20.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 609--610
+[30 <./ex3_figN5.png> <./ex3_figN10.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
+
+ []
+
+[31 <./ex3_figN20.png> <./ex3_figN60.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 625--626
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--620
-
- []
-
-[31 <./ex3_figN60.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 622--623
+Underfull \hbox (badness 10000) in paragraph at lines 628--629
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--633
+Underfull \hbox (badness 10000) in paragraph at lines 636--639
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--634
+Underfull \hbox (badness 10000) in paragraph at lines 639--640
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 652--654
+Underfull \hbox (badness 10000) in paragraph at lines 658--660
 
  []
 
 
-./TP1_ballet_laurent.tex:658: Package pgf Error: No shape named M31 is known.
+! Package pgf Error: No shape named M31 is known.
 
 See the pgf package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.658 \tkzTabLine{d,+,z,-,z,}
+l.664 \tkzTabLine{d,+,z,-,z,}
                              
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
+? 
 
-
-./TP1_ballet_laurent.tex:658: Package pgf Error: No shape named M32 is known.
+! Package pgf Error: No shape named M32 is known.
 
 See the pgf package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.658 \tkzTabLine{d,+,z,-,z,}
+l.664 \tkzTabLine{d,+,z,-,z,}
                              
-(That was another \errmessage.)
+? 
 
-
-./TP1_ballet_laurent.tex:658: Package pgf Error: No shape named M32 is known.
+! Package pgf Error: No shape named M32 is known.
 
 See the pgf package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.658 \tkzTabLine{d,+,z,-,z,}
+l.664 \tkzTabLine{d,+,z,-,z,}
                              
-(That was another \errmessage.)
+? 
 
-
-./TP1_ballet_laurent.tex:658: Package pgf Error: No shape named M31 is known.
+! Package pgf Error: No shape named M31 is known.
 
 See the pgf package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.658 \tkzTabLine{d,+,z,-,z,}
+l.664 \tkzTabLine{d,+,z,-,z,}
                              
-(That was another \errmessage.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 671--673
-
- []
-
+? 
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 683--684
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 686--687
+Underfull \hbox (badness 10000) in paragraph at lines 677--679
 
  []
 
 [34]
-Chapitre 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 702--703
+Underfull \hbox (badness 10000) in paragraph at lines 689--690
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 704.
+
+Underfull \hbox (badness 10000) in paragraph at lines 692--693
+
+ []
+
+[35]
+Chapitre 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--709
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 710.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 717.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 723.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 717.
- [35
+(Font)              <10.95> on input line 723.
+ [36
 
-] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 760--761
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 764--765
+] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 766--767
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 767--769
+Underfull \hbox (badness 10000) in paragraph at lines 770--771
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 771--772
+Underfull \hbox (badness 10000) in paragraph at lines 773--775
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 779--782
+Underfull \hbox (badness 10000) in paragraph at lines 777--778
 
  []
 
-[37] <Guitare1.png, id=201, 552.0625pt x 431.6125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 785--788
+
+ []
+
+[38] <Guitare1.png, id=204, 552.0625pt x 431.6125pt>
 File: Guitare1.png Graphic file (type png)
  <use Guitare1.png>
-Package pdftex.def Info: Guitare1.png used on input line 794.
+Package pdftex.def Info: Guitare1.png used on input line 800.
 (pdftex.def)             Requested size: 165.62003pt x 129.48474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--795
+Underfull \hbox (badness 10000) in paragraph at lines 800--801
 
  []
 
-<Guitare2.png, id=202, 549.05125pt x 414.54875pt>
+<Guitare2.png, id=205, 549.05125pt x 414.54875pt>
 File: Guitare2.png Graphic file (type png)
  <use Guitare2.png>
-Package pdftex.def Info: Guitare2.png used on input line 798.
+Package pdftex.def Info: Guitare2.png used on input line 804.
 (pdftex.def)             Requested size: 164.71664pt x 124.36557pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 798--799
+Underfull \hbox (badness 10000) in paragraph at lines 804--805
 
  []
 
-<Guitare3.png, id=203, 542.025pt x 419.5675pt>
+<Guitare3.png, id=206, 542.025pt x 419.5675pt>
 File: Guitare3.png Graphic file (type png)
  <use Guitare3.png>
-Package pdftex.def Info: Guitare3.png used on input line 802.
+Package pdftex.def Info: Guitare3.png used on input line 808.
 (pdftex.def)             Requested size: 162.60875pt x 125.87122pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 802--803
+Underfull \hbox (badness 10000) in paragraph at lines 808--809
 
  []
 
-[38 <./Guitare1.png> <./Guitare2.png> <./Guitare3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 807--809
+[39 <./Guitare1.png> <./Guitare2.png> <./Guitare3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 813--815
 
  []
 
-<GuitareChronogramme.png, id=211, 707.64375pt x 409.53pt>
+<GuitareChronogramme.png, id=214, 707.64375pt x 409.53pt>
 File: GuitareChronogramme.png Graphic file (type png)
 
 <use GuitareChronogramme.png>
-Package pdftex.def Info: GuitareChronogramme.png used on input line 823.
+Package pdftex.def Info: GuitareChronogramme.png used on input line 829.
 (pdftex.def)             Requested size: 353.82101pt x 204.7645pt.
- [39 <./GuitareChronogramme.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 826--827
+ [40 <./GuitareChronogramme.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 832--833
 
  []
 
-
-./TP1_ballet_laurent.tex:842: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.842 	\begin
-             {center}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<GuitareFreq1.png, id=216, 694.595pt x 398.48875pt>
+<GuitareFreq1.png, id=219, 694.595pt x 398.48875pt>
 File: GuitareFreq1.png Graphic file (type png)
  <use GuitareFreq1.png>
-Package pdftex.def Info: GuitareFreq1.png used on input line 843.
+Package pdftex.def Info: GuitareFreq1.png used on input line 849.
 (pdftex.def)             Requested size: 347.29665pt x 199.24388pt.
 
-[40 <./GuitareFreq1.png>] <GuitareFreq2.png, id=221, 712.6625pt x 414.54875pt>
+[41 <./GuitareFreq1.png>] <GuitareFreq2.png, id=224, 712.6625pt x 414.54875pt>
 File: GuitareFreq2.png Graphic file (type png)
 
 <use GuitareFreq2.png>
-Package pdftex.def Info: GuitareFreq2.png used on input line 859.
+Package pdftex.def Info: GuitareFreq2.png used on input line 865.
 (pdftex.def)             Requested size: 356.33038pt x 207.27386pt.
- [41 <./GuitareFreq2.png>] [42]
-<Piano1.png, id=229, 546.04pt x 409.53pt>
+ [42 <./GuitareFreq2.png>] [43]
+<Piano1.png, id=233, 546.04pt x 409.53pt>
 File: Piano1.png Graphic file (type png)
  <use Piano1.png>
-Package pdftex.def Info: Piano1.png used on input line 896.
+Package pdftex.def Info: Piano1.png used on input line 902.
 (pdftex.def)             Requested size: 163.81326pt x 122.85994pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 896--897
+Underfull \hbox (badness 10000) in paragraph at lines 902--903
 
  []
 
-<Piano2.png, id=230, 537.00626pt x 399.4925pt>
+<Piano2.png, id=234, 537.00626pt x 399.4925pt>
 File: Piano2.png Graphic file (type png)
  <use Piano2.png>
-Package pdftex.def Info: Piano2.png used on input line 900.
+Package pdftex.def Info: Piano2.png used on input line 906.
 (pdftex.def)             Requested size: 161.10312pt x 119.84866pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--901
+Underfull \hbox (badness 10000) in paragraph at lines 906--907
 
  []
 
-<Piano3.png, id=231, 529.98pt x 392.46625pt>
+<Piano3.png, id=235, 529.98pt x 392.46625pt>
 File: Piano3.png Graphic file (type png)
  <use Piano3.png>
-Package pdftex.def Info: Piano3.png used on input line 904.
+Package pdftex.def Info: Piano3.png used on input line 910.
 (pdftex.def)             Requested size: 158.99521pt x 117.74077pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 904--905
+Underfull \hbox (badness 10000) in paragraph at lines 910--911
 
  []
 
-<Piano4.png, id=232, 548.0475pt x 397.485pt>
+<Piano4.png, id=236, 548.0475pt x 397.485pt>
 File: Piano4.png Graphic file (type png)
  <use Piano4.png>
-Package pdftex.def Info: Piano4.png used on input line 908.
+Package pdftex.def Info: Piano4.png used on input line 914.
 (pdftex.def)             Requested size: 164.41551pt x 119.24641pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 908--909
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
 
  []
 
-<Piano5.png, id=233, 547.04375pt x 400.49625pt>
+<Piano5.png, id=237, 547.04375pt x 400.49625pt>
 File: Piano5.png Graphic file (type png)
  <use Piano5.png>
-Package pdftex.def Info: Piano5.png used on input line 912.
+Package pdftex.def Info: Piano5.png used on input line 918.
 (pdftex.def)             Requested size: 164.11438pt x 120.1498pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 912--913
+Underfull \hbox (badness 10000) in paragraph at lines 918--919
 
  []
 
-[43 <./Piano1.png> <./Piano2.png> <./Piano3.png> <./Piano4.png> <./Piano5.png>]
-[44]
+[44 <./Piano1.png> <./Piano2.png> <./Piano3.png> <./Piano4.png> <./Piano5.png>]
+[45]
 Chapitre 5.
-[45
+[46
 
-] [46] [47] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 1082--1084
+] [47] [48] [49]
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1090
 
  []
 
-[49] <ex5_fig1.png, id=262, 612.2875pt x 612.2875pt>
+[50] <ex5_fig1.png, id=266, 612.2875pt x 612.2875pt>
 File: ex5_fig1.png Graphic file (type png)
  <use ex5_fig1.png>
-Package pdftex.def Info: ex5_fig1.png used on input line 1107.
+Package pdftex.def Info: ex5_fig1.png used on input line 1113.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
+Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
 
  []
 
-<ex5_fig3.png, id=263, 612.2875pt x 612.2875pt>
+<ex5_fig3.png, id=267, 612.2875pt x 612.2875pt>
 File: ex5_fig3.png Graphic file (type png)
  <use ex5_fig3.png>
-Package pdftex.def Info: ex5_fig3.png used on input line 1111.
+Package pdftex.def Info: ex5_fig3.png used on input line 1117.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1111--1112
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1118
 
  []
 
-<ex5_fig4.png, id=264, 612.2875pt x 612.2875pt>
+<ex5_fig4.png, id=268, 612.2875pt x 612.2875pt>
 File: ex5_fig4.png Graphic file (type png)
  <use ex5_fig4.png>
-Package pdftex.def Info: ex5_fig4.png used on input line 1115.
+Package pdftex.def Info: ex5_fig4.png used on input line 1121.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1115--1116
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
 
  []
 
-<ex5_fig5.png, id=265, 612.2875pt x 612.2875pt>
+<ex5_fig5.png, id=269, 612.2875pt x 612.2875pt>
 File: ex5_fig5.png Graphic file (type png)
  <use ex5_fig5.png>
-Package pdftex.def Info: ex5_fig5.png used on input line 1119.
+Package pdftex.def Info: ex5_fig5.png used on input line 1125.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1119--1120
+Underfull \hbox (badness 10000) in paragraph at lines 1125--1126
 
  []
 
-<ex5_fig6.png, id=266, 612.2875pt x 612.2875pt>
+<ex5_fig6.png, id=270, 612.2875pt x 612.2875pt>
 File: ex5_fig6.png Graphic file (type png)
  <use ex5_fig6.png>
-Package pdftex.def Info: ex5_fig6.png used on input line 1125.
+Package pdftex.def Info: ex5_fig6.png used on input line 1131.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
- [50 <./ex5_fig1.png> <./ex5_fig3.png> <./ex5_fig4.png> <./ex5_fig5.png>] [51 <
-./ex5_fig6.png>] [52] <ex5_fig7.png, id=283, 612.2875pt x 612.2875pt>
+ [51 <./ex5_fig1.png> <./ex5_fig3.png> <./ex5_fig4.png> <./ex5_fig5.png>] [52 <
+./ex5_fig6.png>] [53] <ex5_fig7.png, id=286, 612.2875pt x 612.2875pt>
 File: ex5_fig7.png Graphic file (type png)
  <use ex5_fig7.png>
-Package pdftex.def Info: ex5_fig7.png used on input line 1230.
+Package pdftex.def Info: ex5_fig7.png used on input line 1236.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
 
  []
 
-<ex5_fig8.png, id=284, 612.2875pt x 612.2875pt>
+<ex5_fig8.png, id=287, 612.2875pt x 612.2875pt>
 File: ex5_fig8.png Graphic file (type png)
  <use ex5_fig8.png>
-Package pdftex.def Info: ex5_fig8.png used on input line 1234.
+Package pdftex.def Info: ex5_fig8.png used on input line 1240.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1234--1235
+Underfull \hbox (badness 10000) in paragraph at lines 1240--1241
 
  []
 
-<ex5_fig9.png, id=285, 612.2875pt x 612.2875pt>
+<ex5_fig9.png, id=288, 612.2875pt x 612.2875pt>
 File: ex5_fig9.png Graphic file (type png)
  <use ex5_fig9.png>
-Package pdftex.def Info: ex5_fig9.png used on input line 1238.
+Package pdftex.def Info: ex5_fig9.png used on input line 1244.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1239
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1245
 
  []
 
-<ex5_fig10.png, id=286, 612.2875pt x 612.2875pt>
+<ex5_fig10.png, id=289, 612.2875pt x 612.2875pt>
 File: ex5_fig10.png Graphic file (type png)
  <use ex5_fig10.png>
-Package pdftex.def Info: ex5_fig10.png used on input line 1242.
+Package pdftex.def Info: ex5_fig10.png used on input line 1248.
 (pdftex.def)             Requested size: 183.68767pt x 183.68767pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1242--1243
+Underfull \hbox (badness 10000) in paragraph at lines 1248--1249
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[53] [54 <./ex5_fig7.png> <./ex5_fig8.png> <./ex5_fig9.png> <./ex5_fig10.png>]
+[54] [55 <./ex5_fig7.png> <./ex5_fig8.png> <./ex5_fig9.png> <./ex5_fig10.png>]
 (./TP1_ballet_laurent.lof
 Runaway argument?
 {\numberline {2.3}{\ignorespaces Courbe de la fonction $f(x)=\left \{\ETC.
-./TP1_ballet_laurent.lof:21: Paragraph ended before \@dottedtocline was complet
-e.
+! Paragraph ended before \@dottedtocline was complete.
 <to be read again> 
                    \par 
-l.21 ...rbe de la fonction $f(x)=\left \{\def \par
+l.23 ...rbe de la fonction $f(x)=\left \{\def \par
                                                    }}{20}
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./TP1_ballet_laurent.lof:21: Extra }, or forgotten \endgroup.
-l.21 ...e de la fonction $f(x)=\left \{\def \par }
+? 
+! Extra }, or forgotten \endgroup.
+l.23 ...e de la fonction $f(x)=\left \{\def \par }
                                                   }{20}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./TP1_ballet_laurent.lof:21: Extra }, or forgotten \endgroup.
-l.21 ... de la fonction $f(x)=\left \{\def \par }}
+? 
+! Extra }, or forgotten \endgroup.
+l.23 ... de la fonction $f(x)=\left \{\def \par }}
                                                   {20}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
+? 
 Runaway argument?
 {\numberline {2.4}{\ignorespaces Courbe de la fonction \[f(x)= \left \ETC.
-./TP1_ballet_laurent.lof:22: Paragraph ended before \@dottedtocline was complet
-e.
+! Paragraph ended before \@dottedtocline was complete.
 <to be read again> 
                    \par 
-l.22 ... de la fonction \[f(x)= \left \{ \def \par
+l.24 ... de la fonction \[f(x)= \left \{ \def \par
                                                    }}{21}
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./TP1_ballet_laurent.lof:22: Extra }, or forgotten \endgroup.
-l.22 ...e la fonction \[f(x)= \left \{ \def \par }
+? 
+! Extra }, or forgotten \endgroup.
+l.24 ...e la fonction \[f(x)= \left \{ \def \par }
                                                   }{21}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./TP1_ballet_laurent.lof:22: Extra }, or forgotten \endgroup.
-l.22 ... la fonction \[f(x)= \left \{ \def \par }}
+? 
+! Extra }, or forgotten \endgroup.
+l.24 ... la fonction \[f(x)= \left \{ \def \par }}
                                                   {21}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
+? 
 Runaway argument?
 {\numberline {2.5}{\ignorespaces Courbe de la fonction \[f(x)= \left \ETC.
-./TP1_ballet_laurent.lof:23: Paragraph ended before \@dottedtocline was complet
-e.
+! Paragraph ended before \@dottedtocline was complete.
 <to be read again> 
                    \par 
-l.23 ... de la fonction \[f(x)= \left \{ \def \par
+l.25 ... de la fonction \[f(x)= \left \{ \def \par
                                                    }}{22}
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./TP1_ballet_laurent.lof:23: Extra }, or forgotten \endgroup.
-l.23 ...e la fonction \[f(x)= \left \{ \def \par }
+? 
+! Extra }, or forgotten \endgroup.
+l.25 ...e la fonction \[f(x)= \left \{ \def \par }
                                                   }{22}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./TP1_ballet_laurent.lof:23: Extra }, or forgotten \endgroup.
-l.23 ... la fonction \[f(x)= \left \{ \def \par }}
+? 
+! Extra }, or forgotten \endgroup.
+l.25 ... la fonction \[f(x)= \left \{ \def \par }}
                                                   {22}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+? 
 
-
-./TP1_ballet_laurent.lof:24: LaTeX Error: Something's wrong--perhaps a missing 
-\item.
+! LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \addvspace {10\p@ }
+l.26 \addvspace {10\p@ }
                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[55
+? 
+[56
 
 ])
 \tf@lof=\write5
 \openout5 = `TP1_ballet_laurent.lof'.
 
- [56] (./TP1_ballet_laurent.aux) ) 
+ [57] (./TP1_ballet_laurent.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 19297 strings out of 493089
- 350932 string characters out of 6134841
- 560041 words of memory out of 5000000
- 22339 multiletter control sequences out of 15000+600000
+ 19296 strings out of 493089
+ 350925 string characters out of 6134841
+ 560039 words of memory out of 5000000
+ 22338 multiletter control sequences out of 15000+600000
  66080 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,16n,72p,881b,2895s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc
-/dvips/lm/lm-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-t
-s1.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/u
-sr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/t
-exlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/201
-5/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
-/public/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
-m/lmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi12.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts
-/type1/public/lm/lmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/lm/lmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on TP1_ballet_laurent.pdf (56 pages, 1632701 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2015/
+texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2015/texmf-dist
+/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc
+/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/
+lm-rm.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/lm/lmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr1
+2.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lm
+tt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbol
+s/msbm10.pfb>
+Output written on TP1_ballet_laurent.pdf (57 pages, 1633985 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
+ 371 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
