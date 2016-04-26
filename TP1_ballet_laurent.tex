@@ -79,8 +79,6 @@ Printemps 2016
 %Table des mati\`eres
 \tableofcontents
 
-%Table des figures
-\listoffigures
 
 %Exercice 1
 \chapter{S\'erie de Fourier}
@@ -358,8 +356,8 @@ Il est également l'inventeur d'un mécanisme simple et bon marché de production d
 		\centering
 		\includegraphics[scale=0.6]{ex2_fig2.png}
 		\caption{\label{figure2}Courbe de la fonction $f(x)=(sin\,x)^{4/3}$.}
-		\end{figure}\\
-		
+		\end{figure}
+		\\
 	Sa d\'eriv\'ee est $$f'(x)=\frac{4}{3} cos\,x (sin\,x)^{1/3}$$ Elle n'admet pas d'asymptote et est donc continue.
 	La fonction $f$ est continue et d\'erivable, donc r\'eguli\`ere.
 	\newpage
@@ -375,14 +373,7 @@ Il est également l'inventeur d'un mécanisme simple et bon marché de production d
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex2_fig3.png}
-		\caption{\label{figure3}Courbe de la fonction \[f(x)=
-  \left\{
-      \begin{aligned}
-        cos\,x\quad , si\quad x > 0\\
-        -cos\,x\quad ,si\quad x \le 0\\
-      \end{aligned}
-    \right.\]
-.}
+		\caption{\label{figure3}Courbe de la fonction $f(x)=\left\{\begin{aligned}cos\,x\quad , si\quad x > 0\\-cos\,x\quad ,si\quad x \le 0\\ \end{aligned}\right.$.}
 		\end{figure}
 		\\
 	Elle est d\'erivable par morceaux et sa d\'eriv\'ee est \[f'(x)=
@@ -869,7 +860,8 @@ a.y_label.text="Puissance"; 12 a.y_label.font_size=4;
 	\end{center}	
 \end{enumerate}
 \newpage
-\section{La corde frapp\'ee (le piano)}
+
+\section{La corde frapp\'ee (le piano)} %Le piano
 \begin{enumerate}
 \item Procedure Scilab
 
@@ -895,8 +887,9 @@ endfunction
 x = 0:0.1:_L
 t = 0:0.01:50
 paramfplot2d(u1,x,t)
-\end{lstlisting}
+\end{lstlisting} \newpage
 
+\item Harmoniques
 
 \begin{figure}[h!]
    \begin{minipage}[b]{0.40\linewidth}
@@ -920,10 +913,15 @@ paramfplot2d(u1,x,t)
 	  \caption{Courbe  de la fonction $u(x,t)$ au temps relatif n\degres5}
    \end{minipage}\hfill
 \end{figure}
-
-\item Harmoniques
-
 \end{enumerate}
+
+\newpage
+\section{Conclusion}
+Après comparaison des harmoniques de la guitare et du piano, on remarque que ceux du piano ont des amplitudes nettement supérieur à celles de la guitare. 
+Premièrement, le fonctionnement du piano. En effet le marteau vient attaquer la corde au niveau de l'extrémité, ce qui induit une propagation des ondes à amplitude croissante sur toute la longueur de la corde. On dispose donc d'une longueur $L$ pour faire vibrer la corde. Alors que sur une guitare, on attaque généralement la corde sur une fraction de l'ordre du nombre de frettes (24) - la distance de la dernière frette supérieure aux mécanismes. Ce qui revient à jouer sur 24 frettes sur une longueur de $4L/5$. Ce qui donne dans le meilleur des cas une distance de $4L/5$ et dans le pire des cas une distance de $L/5$. Ainsi la distance pour le développement des harmoniques sera plus riche dans le cas du piano.
+Deuxièmement, une corde de guitare pour un $la$ à 440 Hertz mesure 65 cm or celle d'un piano mesure 3 m. Donc ce facteur de dimension 4.6 à également un impact sur la richesse en harmonique du piano par rapport à la guitare.
+Finalement le timbre (richesse en harmonique) dépend de la hauteur et de la durée du son, et il est, généralement, lié aux vibrations du spectre au cours du temps, pendant la note.
+
 
 %Exercice 5
 \chapter{Equation de la chaleur}
@@ -1245,4 +1243,8 @@ Nous repr\'esentons la propagation de la chaleur dans la barre radioactive en pr
 	  \caption{Courbe  de la fonction $u(x,t)$ au temps $t=4$}
    \end{minipage}
 \end{figure}
+
+%Table des figures
+\listoffigures
+
 \end{document}

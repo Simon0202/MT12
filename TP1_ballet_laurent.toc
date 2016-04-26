@@ -1,30 +1,31 @@
 \select@language {french}
-\contentsline {chapter}{\numberline {1}S\'erie de Fourier}{6}
-\contentsline {section}{\numberline {1.1}Historique}{6}
-\contentsline {subsection}{\numberline {1.1.1}Biographie}{6}
-\contentsline {subsection}{\numberline {1.1.2}Vulgarisation}{7}
-\contentsline {section}{\numberline {1.2}\'Etude de fonctions}{9}
-\contentsline {chapter}{\numberline {2}\'Etude de fonctions}{19}
-\contentsline {chapter}{\numberline {3}Ph\'enom\`ene de Gibbs}{24}
-\contentsline {section}{\numberline {3.1}Historique}{24}
-\contentsline {section}{\numberline {3.2}Biographies}{25}
-\contentsline {subsection}{\numberline {3.2.1}Henry Wilbraham}{25}
-\contentsline {subsection}{\numberline {3.2.2}Albert Michelson}{25}
-\contentsline {subsection}{\numberline {3.2.3}Josiah Willard Gibbs}{25}
-\contentsline {subsection}{\numberline {3.2.4}Maxime B\^ocher}{27}
-\contentsline {subsection}{\numberline {3.2.5}Oliver Heaviside}{28}
-\contentsline {section}{\numberline {3.3}D\'emonstration}{29}
-\contentsline {section}{\numberline {3.4}Approximations de Fourier}{30}
-\contentsline {section}{\numberline {3.5}Explication du ph\'enom\`ene}{32}
-\contentsline {subsection}{\numberline {3.5.1}Contexte}{32}
-\contentsline {subsection}{\numberline {3.5.2}Analyse Math\'ematique}{32}
-\contentsline {subsubsection}{Application du Th\'eor\`eme de Dirichlet}{32}
-\contentsline {subsubsection}{Comportement au voisinage d'un point de discontinuit\'e}{33}
-\contentsline {subsubsection}{Valeur et amplitude de la bosse de Gibbs}{34}
-\contentsline {subsubsection}{Conclusion}{35}
-\contentsline {chapter}{\numberline {4}Application des s\'erie de Fourier}{36}
-\contentsline {section}{\numberline {4.1}La corde pinc\'ee (la guitare)}{36}
-\contentsline {section}{\numberline {4.2}La corde frapp\'ee (le piano)}{43}
+\contentsline {chapter}{\numberline {1}S\'erie de Fourier}{5}
+\contentsline {section}{\numberline {1.1}Historique}{5}
+\contentsline {subsection}{\numberline {1.1.1}Biographie}{5}
+\contentsline {subsection}{\numberline {1.1.2}Vulgarisation}{6}
+\contentsline {section}{\numberline {1.2}\'Etude de fonctions}{8}
+\contentsline {chapter}{\numberline {2}\'Etude de fonctions}{18}
+\contentsline {chapter}{\numberline {3}Ph\'enom\`ene de Gibbs}{23}
+\contentsline {section}{\numberline {3.1}Historique}{23}
+\contentsline {section}{\numberline {3.2}Biographies}{24}
+\contentsline {subsection}{\numberline {3.2.1}Henry Wilbraham}{24}
+\contentsline {subsection}{\numberline {3.2.2}Albert Michelson}{24}
+\contentsline {subsection}{\numberline {3.2.3}Josiah Willard Gibbs}{24}
+\contentsline {subsection}{\numberline {3.2.4}Maxime B\^ocher}{26}
+\contentsline {subsection}{\numberline {3.2.5}Oliver Heaviside}{27}
+\contentsline {section}{\numberline {3.3}D\'emonstration}{28}
+\contentsline {section}{\numberline {3.4}Approximations de Fourier}{29}
+\contentsline {section}{\numberline {3.5}Explication du ph\'enom\`ene}{31}
+\contentsline {subsection}{\numberline {3.5.1}Contexte}{31}
+\contentsline {subsection}{\numberline {3.5.2}Analyse Math\'ematique}{31}
+\contentsline {subsubsection}{Application du Th\'eor\`eme de Dirichlet}{31}
+\contentsline {subsubsection}{Comportement au voisinage d'un point de discontinuit\'e}{32}
+\contentsline {subsubsection}{Valeur et amplitude de la bosse de Gibbs}{33}
+\contentsline {subsubsection}{Conclusion}{34}
+\contentsline {chapter}{\numberline {4}Application des s\'erie de Fourier}{35}
+\contentsline {section}{\numberline {4.1}La corde pinc\'ee (la guitare)}{35}
+\contentsline {section}{\numberline {4.2}La corde frapp\'ee (le piano)}{42}
+\contentsline {section}{\numberline {4.3}Conclusion}{44}
 \contentsline {chapter}{\numberline {5}Equation de la chaleur}{45}
 \contentsline {section}{\numberline {5.1}Calcul de la s\'erie de Fourier}{45}
 \contentsline {section}{\numberline {5.2}Impl\'ementation de la propagation de la chaleur}{49}
