@@ -12,15 +12,15 @@
 \contentsline {subsection}{\numberline {3.2.2}Albert Michelson}{24}
 \contentsline {subsection}{\numberline {3.2.3}Josiah Willard Gibbs}{24}
 \contentsline {subsection}{\numberline {3.2.4}Maxime B\^ocher}{26}
-\contentsline {subsection}{\numberline {3.2.5}Oliver Heaviside}{26}
+\contentsline {subsection}{\numberline {3.2.5}Oliver Heaviside}{27}
 \contentsline {section}{\numberline {3.3}D\'emonstration}{28}
 \contentsline {section}{\numberline {3.4}Approximations de Fourier}{29}
-\contentsline {section}{\numberline {3.5}Explication du ph\'enom\`ene}{31}
-\contentsline {subsection}{\numberline {3.5.1}Contexte}{31}
+\contentsline {section}{\numberline {3.5}Explication du ph\'enom\`ene}{32}
+\contentsline {subsection}{\numberline {3.5.1}Contexte}{32}
 \contentsline {subsection}{\numberline {3.5.2}Analyse Math\'ematique}{32}
 \contentsline {subsubsection}{Application du Th\'eor\`eme de Dirichlet}{32}
 \contentsline {subsubsection}{Comportement au voisinage d'un point de discontinuit\'e}{32}
-\contentsline {subsubsection}{Valeur et amplitude de la bosse de Gibbs}{33}
+\contentsline {subsubsection}{Valeur et amplitude de la bosse de Gibbs}{34}
 \contentsline {subsubsection}{Conclusion}{35}
 \contentsline {chapter}{\numberline {4}Application des s\'erie de Fourier}{36}
 \contentsline {section}{\numberline {4.1}La corde pinc\'ee (la guitare)}{36}
@@ -30,4 +30,4 @@
 \contentsline {section}{\numberline {5.1}Calcul de la s\'erie de Fourier}{46}
 \contentsline {section}{\numberline {5.2}Impl\'ementation de la propagation de la chaleur}{50}
 \contentsline {section}{\numberline {5.3}Cas de la barre radioactive}{52}
-\contentsline {section}{\numberline {5.4}Conclusion}{54}
+\contentsline {section}{\numberline {5.4}Conclusion}{55}

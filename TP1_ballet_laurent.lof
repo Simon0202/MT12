@@ -1,22 +1,20 @@
 \select@language {french}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces \textit {Joseph Fourier}}}{6}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces \textit {Lord Kelvin}}}{7}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Courbe de la fonction $f(x)=1, x \in [0,\pi ]$.}}{8}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Dix premi\`eres approximations de $f(x)=1, x \in [0,\pi ]$.}}{9}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Richesse du signal $f(x)=1, x \in [0,\pi ]$.}}{9}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Courbe de la fonction impaire $f(x)=x, x \in [0,\pi ]$.}}{10}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Dix premi\`eres approximations de la fonction impaire $f(x)=x, x \in [0,\pi ]$.}}{11}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Richesse du signal de la fonction impaire $f(x)=x, x \in [0,\pi ]$.}}{11}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Courbe de la fonction paire $f(x)=x, x \in [0,\pi ]$.}}{12}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Courbe de la fonction paire $f(x)=x, x \in [0,\pi ]$.}}{13}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Richesse du signal de la fonction paire $f(x)=x, x \in [0,\pi ]$.}}{13}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Courbe de la fonction $f(x)=x^{2}, x \in [0,\pi ]$.}}{14}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Dix premi\`eres approximations de la fonction $f(x)=x^{2}, x \in [0,\pi ]$.}}{15}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Richesse du signal $f(x)=x^{2}, x \in [0,\pi ]$.}}{15}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Courbe de la fonction $f(x)=x(\pi + |x|), x \in [-\pi ,\pi ]$ .}}{16}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Dix premi\`eres approximations de la fonction $f(x)=x(\pi + |x|), x \in [-\pi ,\pi ]$ .}}{17}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Richesse du signal $f(x)=x(\pi + |x|), x \in [-\pi ,\pi ]$ .}}{17}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Courbe de la fonction $f(x)=1, x \in [0,\pi ]$.}}{8}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Dix premi\`eres approximations de $f(x)=1, x \in [0,\pi ]$.}}{9}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Richesse du signal $f(x)=1, x \in [0,\pi ]$.}}{9}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Courbe de la fonction impaire $f(x)=x, x \in [0,\pi ]$.}}{10}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Dix premi\`eres approximations de la fonction impaire $f(x)=x, x \in [0,\pi ]$.}}{11}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Richesse du signal de la fonction impaire $f(x)=x, x \in [0,\pi ]$.}}{11}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Courbe de la fonction paire $f(x)=x, x \in [0,\pi ]$.}}{12}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Courbe de la fonction paire $f(x)=x, x \in [0,\pi ]$.}}{13}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Richesse du signal de la fonction paire $f(x)=x, x \in [0,\pi ]$.}}{13}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Courbe de la fonction $f(x)=x^{2}, x \in [0,\pi ]$.}}{14}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Dix premi\`eres approximations de la fonction $f(x)=x^{2}, x \in [0,\pi ]$.}}{15}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Richesse du signal $f(x)=x^{2}, x \in [0,\pi ]$.}}{15}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Courbe de la fonction $f(x)=x(\pi + |x|), x \in [-\pi ,\pi ]$ .}}{16}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Dix premi\`eres approximations de la fonction $f(x)=x(\pi + |x|), x \in [-\pi ,\pi ]$ .}}{17}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Richesse du signal $f(x)=x(\pi + |x|), x \in [-\pi ,\pi ]$ .}}{17}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Courbe de la fonction $f(x)=(sin\tmspace +\thinmuskip {.1667em}x)^{1/3}$.}}{18}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Courbe de la fonction $f(x)=(sin\tmspace +\thinmuskip {.1667em}x)^{4/3}$.}}{19}
@@ -24,15 +22,11 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Courbe de la fonction \[f(x)= \left \{ \def \par }}{21}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Courbe de la fonction \[f(x)= \left \{ \def \par }}{22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Albert Michelson}}}{24}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Josiah Willard Gibbs}}}{25}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Maxime B\^ocher}}}{27}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Oliver Heaviside}}}{28}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Courbe de la fonction $f$ pour n = 2.}}{29}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Courbe de la fonction $f$ pour n = 5.}}{30}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Courbe de la fonction $f$ pour n = 10.}}{30}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Courbe de la fonction $f$ pour n = 20.}}{31}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Courbe de la fonction $f$ pour n = 60.}}{31}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Courbe de la fonction impaire $f(x)=1$, x $\in [0,\pi ]$ pour n = 2.}}{29}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Courbe de la fonction impaire $f(x)=1$, x $\in [0,\pi ]$ pour n = 5.}}{29}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Courbe de la fonction impaire $f(x)=1$, x $\in [0,\pi ]$ pour n = 10.}}{30}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Courbe de la fonction impaire $f(x)=1$, x $\in [0,\pi ]$ pour n = 20.}}{30}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Courbe de la fonction impaire $f(x)=1$, x $\in [0,\pi ]$ pour n = 60.}}{31}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Courbe de la fonction $u(x,t)$ au temps relatif n\degres 1}}{39}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Courbe de la fonction $u(x,t)$ au temps relatif n\degres 2}}{39}

@@ -12,6 +12,7 @@
 \usepackage{lmodern}
 \usepackage{setspace}
 \onehalfspacing
+\usepackage[section]{placeins}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -107,11 +108,10 @@ Ainsi les sons qui nous entourent sont faits de la superposition d'une multitude
 Et l'analyse de Fourier sert \`a tout : \`a analyser les sons et \`a les graver sur un CD, mais aussi \`a analyser les images et \`a les transmettre par Internet, ou \`a analyser les variations du niveau de la mer et \`a pr\'edire les mar\'ees...
 Son "grand po\`eme math\'ematique" (comme disait Lord Kelvin), enseign\'e dans tous les pays du monde, est utilis\'e chaque jour par des milliards d'humains qui ne s'en rendent m\^eme pas compte. \\
 
-\begin{figure}
-\centering
+\begin{center}
 \includegraphics[scale=0.25]{fourier.jpg}\\
 \caption{\textit{Joseph Fourier}}
-\end{figure}
+\end{center}
 \newpage
 
 \begin{center}*\end{center}
@@ -133,11 +133,10 @@ Il est également l'inventeur d'un mécanisme simple et bon marché de production d
 \item \textit{lauréat de la Royal Medal en 1856, de la médaille Copley en 1883,}
 \item \textit{membre de la Royal Society of Edinburgh (FRSE).}
 \end{itemize}
-\begin{figure}
-\centering
+\begin{center}
 \includegraphics[scale=0.3]{lordKelvin.png}\\
 \caption{\textit{Lord Kelvin}}
-\end{figure}
+\end{center}
 
 \begin{center}*\end{center}
 \newpage
@@ -475,11 +474,10 @@ Il n'existe aucun photo à ce jour de Mr Henry Wilbraham.
 Albert Abraham Michelson (19 Décembre 1852 - 9 Mai 1931) était un physicien américain connu pour ses travaux sur les mesures de la vitesse de la lumière. Il fut le premier américain à recevoir un prix nobel en science (physique) en 1907. 
 En 1898, Albert Michelson développa un système mécanique capable de calculer et sommer la série de Fourier d'un signal donné en entrée. Il observa alors un effet d'amplification des discontinuités, qui persistait malgré l'augmentation du nombre de coefficients calculés. Ce fut la première visualisation du phénomène de Gibbs.
 
-\begin{figure}
-\centering
+\begin{center}
 \includegraphics[scale=0.25]{michelson.png}\\
 \caption{\textit{Albert Michelson}}
-\end{figure}
+\end{center}
 
 \subsection{Josiah Willard Gibbs}
 Physicien américain (New Haven, Connecticut, 1839-New Haven, Connecticut, 1903).
@@ -495,11 +493,10 @@ En mathématique de 1880 à 1884 et parallèlement à Oliver Heaviside, il développe
 
 Gibbs applique ses méthodes vectorielles aussi à la détermination des orbites des planètes et des comètes. Il propose en plus la notion des triades mutuellement réciproques des vecteurs, notion d'une grande importance éventuelle dans la cristallographie. Dans un autre domaine mathématique, il redécouvre le phénomène de Gibbs dans la théorie des séries de Fourier.\\
 
-\begin{figure}
-\centering
+\begin{center}
 \includegraphics[scale=0.7]{gibbs.png}\\
 \caption{\textit{Josiah Willard Gibbs}}
-\end{figure}
+\end{center}
 
 \subsection{Maxime B\^ocher}
 Maxime Bôcher (28 août 1867 – 12 septembre 1918) est un mathématicien américain, auteur de plus de 100 articles sur les équations différentielles, les séries et l’algèbre. Il est également l'auteur de manuels comme sa Trigonométrie et sa Géométrie analytique. Le théorème de Bôcher, l’équation de Bôcher et le Bôcher Memorial Prize rappellent son œuvre.
@@ -514,11 +511,11 @@ Il repartit aux États-Unis avec sa famille et fut recruté comme maître de confér
 
 Le théorème de Bôcher énonce que les racines simples de la derivée  $r'(z)$  d'une fonction rationnelle non-constante  $r(z)$ , qui ne sont pas des racines multiples de  $r(z)$ , sont les positions d'équilibre dans le potentiel newtonien créé par des particules de masse positive, situées aux zéros de  $r(z)$  et des particules de masse négative, placées aux pôles de $r(z)$, de masses numériquement égales à leurs multiplicités respectives.\\
 
-\begin{figure}
+\begin{center}
 \centering
 \includegraphics[scale=1]{maxime.png}\\
 \caption{\textit{Maxime B\^ocher}}
-\end{figure}
+\end{center}
 
 \subsection{Oliver Heaviside}
 Oliver Heaviside (18 mai 1850 - 3 février 1925) est un physicien britannique autodidacte. Il a formulé à nouveau et simplifié les équations de Maxwell sous leur forme actuelle utilisée en calcul vectoriel.
@@ -537,11 +534,11 @@ Des années plus tard son comportement devint très excentrique.
 
 En 1922, il fut le premier récipiendaire de la médaille Faraday. Le Prix Michael Faraday est un prix remis par la Royal Society of London pour « l'excellence dans la vulgarisation scientifique auprès du public britannique.\\
 
-\begin{figure}
+\begin{center}
 \centering
 \includegraphics[scale=0.7]{olivier.png}\\
 \caption{\textit{Oliver Heaviside}}
-\end{figure}
+\end{center}
 
  \newpage
 
@@ -576,35 +573,35 @@ S_{f(x)}&=&\frac{2}{\pi}\displaystyle\sum\limits_{n=0}^{\infty}\frac{1-cosn\pi}{
 		\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex3_figN2.png}
-		\caption{\label{ex3figN2}Courbe de la fonction $f$ pour n = 2.}
+		\caption{\label{ex3figN2}Courbe de la fonction impaire $f(x)=1$, x $\in[0,\pi]$ pour n = 2.}
 		\end{figure}
 		
 	\item Approximation pour n = 5
 		\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex3_figN5.png}
-		\caption{\label{ex3figN5}Courbe de la fonction $f$ pour n = 5.}
+		\caption{\label{ex3figN5}Courbe de la fonction impaire $f(x)=1$, x $\in[0,\pi]$ pour n = 5.}
 		\end{figure}
 		\newpage
 	\item Approximation pour n = 10
 		\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex3_figN10.png}
-		\caption{\label{ex3figN10}Courbe de la fonction $f$ pour n = 10.}
+		\caption{\label{ex3figN10}Courbe de la fonction impaire $f(x)=1$, x $\in[0,\pi]$ pour n = 10.}
 		\end{figure}
 
 	\item Approximation pour n = 20
 		\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex3_figN20.png}
-		\caption{\label{ex3figN20}Courbe de la fonction $f$ pour n = 20.}
+		\caption{\label{ex3figN20}Courbe de la fonction impaire $f(x)=1$, x $\in[0,\pi]$ pour n = 20.}
 		\end{figure}
-		
+		\newpage
 	\item Approximation pour n = 60
 		\begin{figure}[h!]
 		\centering
 		\includegraphics[scale=0.6]{ex3_figN60.png}
-		\caption{\label{ex3figN60}Courbe de la fonction $f$ pour n = 60.}
+		\caption{\label{ex3figN60}Courbe de la fonction impaire $f(x)=1$, x $\in[0,\pi]$ pour n = 60.}
 		\end{figure}\\
 
 On remarque donc qu'au voisinage d'une discontinuit\'e une bosse apparait. Or quand $n$ augmente cette derni\`ere subsiste de part et d'autre d'une discontinuit\'e. Pla\c cons nous alors \`a droite du point de discontinuit\'e $0$ par exemple. On note que lorsque $n$ augmente, le point en lequel il y a un pic s'approche de $0$, mais la hauteur reste constante. Nous allons essayer d'expliquer ce ph\'enom\`ene dans la partie suivante.
@@ -829,7 +826,7 @@ a.title.font_size=4; a.x_label.text="Temps (s)"; a.x_label.font_size=4; a.y_labe
 		\includegraphics[scale=0.5]{GuitareChronogramme.png}\\
 		\end{center}\newpage
 		
-	L'\'etude \`a proprement parler du son consiste \`a en faire l'analyse fr\'equentielle, dont la premi\`ere \'etape est d'obtenir le spectre du signal sonore. Pour ce faire, nous r\'cup\'erons le module de la transform\'ee de Fourier du signal. Le spectre est repr\'esent\'e dans le domaine des fr\'equences et c'est une combinaison de fonctions de Dirac. Nous observons tr\`es clairement une sym\'etrie, qui est une des propri\'et\'es de la transform\'ee de Fourier. L'observation plus pr\'ecise de ce spectre (en zoomant notamment sur sa partie "int\'eressante") permet de d\'eterminer les diff\'erentes harmoniques et la fr\'equence fondamentale.\\	
+	L'\'etude \`a proprement parler du son consiste \`a en faire l'analyse fr\'equentielle, dont la premi\`ere \'etape est d'obtenir le spectre du signal sonore. Pour ce faire, nous r\'ecup\'erons le module de la transform\'ee de Fourier du signal. Le spectre est repr\'esent\'e dans le domaine des fr\'equences et c'est une combinaison de fonctions de Dirac. Nous observons tr\`es clairement une sym\'etrie, qui est une des propri\'et\'es de la transform\'ee de Fourier. L'observation plus pr\'ecise de ce spectre permet de d\'eterminer les diff\'erentes harmoniques et la fr\'equence fondamentale.\\	
 \begin{lstlisting}	
 [tfd,spectre,tfd_r,tfd_i] = analyse(son); 
 scf(1);
@@ -926,7 +923,9 @@ paramfplot2d(u1,x,t)
 Après comparaison des harmoniques de la guitare et du piano, on remarque que ceux du piano ont des amplitudes nettement supérieur à celles de la guitare. 
 Premièrement, le fonctionnement du piano. En effet le marteau vient attaquer la corde au niveau de l'extrémité, ce qui induit une propagation des ondes à amplitude croissante sur toute la longueur de la corde. On dispose donc d'une longueur $L$ pour faire vibrer la corde. Alors que sur une guitare, on attaque généralement la corde sur une fraction de l'ordre du nombre de frettes (24) - la distance de la dernière frette supérieure aux mécanismes. Ce qui revient à jouer sur 24 frettes sur une longueur de $4L/5$. Ce qui donne dans le meilleur des cas une distance de $4L/5$ et dans le pire des cas une distance de $L/5$. Ainsi la distance pour le développement des harmoniques sera plus riche dans le cas du piano.
 Deuxièmement, une corde de guitare pour un $la$ à 440 Hertz mesure 65 cm or celle d'un piano mesure 3 m. Donc ce facteur de dimension 4.6 à également un impact sur la richesse en harmonique du piano par rapport à la guitare.
-Finalement le timbre (richesse en harmonique) dépend de la hauteur et de la durée du son, et il est, généralement, lié aux vibrations du spectre au cours du temps, pendant la note.
+Finalement le timbre (richesse en harmonique) dépend de la hauteur et de la durée du son, et il est, généralement, lié aux vibrations du spectre au cours du temps, pendant la note. 
+
+De plus un facteur non négligeable est la température dans laquelle l'onde va se propager. Pour comprendre ce phénomène, nous allons étudier l'équation de la chaleur.
 
 
 %Exercice 5
@@ -1251,7 +1250,10 @@ Nous repr\'esentons la propagation de la chaleur dans la barre radioactive en pr
 \end{figure}
 
 \section{Conclusion}
-D'apr\`es l'\'etude que nous avons men\'ee sur la propagation de la chaleur au sein d'une barre simple, puis radioactive, nous pouvons conclure quant \`e ce ph\'eenom\`ene. La chaleur s'\'evacue par les extr\^emit\'es et d'une vitesse anti-proportionnelle au temps \'ecoul\'e. En effet, la chaleur au sein de la barre diminue de plus en plus lentement avant de se stabiliser \`a 0.
+D'apr\`es l'\'etude que nous avons men\'ee sur la propagation de la chaleur au sein d'une barre simple, puis radioactive, nous pouvons conclure quant \`a ce ph\'enom\`ene que la chaleur s'\'evacue par les extr\^emit\'es et d'une vitesse anti-proportionnelle au temps \'ecoul\'e. En effet, la chaleur au sein de la barre diminue de plus en plus lentement avant de se stabiliser \`a 0.
+Ce mode propre décroît de façon auto-similaire et exponentiellement au cours du temps proportionnellement au carré de sa longueur d'onde \bgroup\color{black}$ \frac{L}{n\pi}$\egroup.
+Cela montre qu'une fluctuation de température est d'autant plus amortie au cours du temps que sa longueur d'onde \bgroup\color{black}$ \frac{L}{n\pi}$\egroup \ est courte. C'est un phénomène caractéristique des processus de diffusion. 
+A mesure que la chaleur se propage de la région chaude vers la région froide, les températures s’égalisent peu à peu.  Bientôt, la distribution de la chaleur est presque sinusoidale : le graphique représentant la valeur de la température en fonction de la position à une forme en S, analogue aux fonctions sinus ou cosinus. Ensuite, la sinusoide s’applatit graduellement jusqu’à ce que tous les points soient à la même tempéraure
 %Table des figures
 \listoffigures
 
